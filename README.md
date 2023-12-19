@@ -2,9 +2,9 @@
 
 ![poster_english](https://github.com/Noctambulist-007/Waqt/assets/137734510/8e66d87c-7081-4770-932f-f6dc7a59af07)
 
-# Download [Google Play Store](https://play.google.com/store/apps/details?id=com.heapiphy101.waqt) 
+# Download From [Google Play Store](https://play.google.com/store/apps/details?id=com.heapiphy101.waqt) 
 
-# Trailer [Youtube](https://www.youtube.com/watch?v=yZdXUzZoqIk) 
+# Watch Trailer On [Youtube](https://www.youtube.com/watch?v=yZdXUzZoqIk) 
 
 Waqt is a modern, elegant, and free auto silent prayer time app for Android. This app comes with comprehensive Islamic prayer times and automatic features to enhance your prayer experience. 
 
