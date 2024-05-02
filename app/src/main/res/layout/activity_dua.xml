@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DuaActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linerLayout" />
+
+    <LinearLayout
+        android:id="@+id/layoutBottomBackground"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/background_bottom_round_dua"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:background="@drawable/background_bottom_round_dua"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:onClick="onBackButtonClick"
+                android:src="@drawable/ic_back_arrow_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center"
+                android:text="@string/dua"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieBirds"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/birds" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/ivDuaMosqueBg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mosque" />
+        </RelativeLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerDuaHadith"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="80dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:weightSum="4"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutBottomBackground">
+
+        <!-- Outer CardView with corner radius -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/adhan"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/elegant_white"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:id="@+id/adhanLinerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dua_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <ImageView
+                    android:id="@+id/ivDuaAdhan"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_adhan" />
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/adhan" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ablution"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/elegant_white"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:id="@+id/ablutionLinerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dua_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <ImageView
+                    android:id="@+id/ivDuaAblution"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_ablution" />
+
+                <!-- TextView -->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/ablution" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mosque"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/elegant_white"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:id="@+id/mosqueLinerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dua_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <ImageView
+                    android:id="@+id/ivDuaMosque"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_mosque" />
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/mosque" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/salah"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/elegant_white"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:id="@+id/salahLinerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dua_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <ImageView
+                    android:id="@+id/ivDuaSalah"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_salah" />
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/salah" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

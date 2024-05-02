@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_top_round"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AdhanFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/fragment_adhan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- First CardView -->
+        <LinearLayout
+            android:id="@+id/adhan01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:background="@drawable/click_effect"
+            app:cardElevation="4dp"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/adhan_n_1"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/hearing_the_adhan" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- Second CardView -->
+        <LinearLayout
+            android:id="@+id/adhan02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/adhan_n_2"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/after_the_adhan"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/adhan03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:background="@drawable/click_effect"
+            app:cardElevation="4dp"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/adhan_n_3"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/between_adhan_amp_iqamah" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

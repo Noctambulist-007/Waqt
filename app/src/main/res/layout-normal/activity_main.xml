@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shurooq"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/ivFindLocation"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:contentDescription="iv FindLocation"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/ic_location"
+                    app:layout_constraintEnd_toStartOf="@+id/ivInfo"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/ivInfo"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:contentDescription="iv Info"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/ic_more"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvWaqt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:gravity="bottom"
+                    android:text="@string/waqt"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvFindLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_my_location"
+                    android:drawablePadding="2dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:gravity="bottom"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvWaqt" />
+
+                <ImageView
+                    android:id="@+id/ivDua"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/radius_background_only_right_side"
+                    app:layout_constraintBottom_toTopOf="@+id/tvNormalTime"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/ic_dua"/>
+
+                <ImageView
+                    android:id="@+id/ivQuran"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/radius_background_only_left_side"
+                    app:layout_constraintBottom_toTopOf="@+id/tvNormalTime"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/ic_quran"/>
+
+                <TextView
+                    android:id="@+id/tvQuran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quran_"
+                    android:fontFamily="@font/kalpurush"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toTopOf="@id/ivQuran"
+                    app:layout_constraintEnd_toEndOf="@+id/ivQuran"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="@string/dua_"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toTopOf="@id/ivDua"
+                    app:layout_constraintEnd_toEndOf="@+id/ivDua"
+                    app:layout_constraintStart_toStartOf="@+id/ivDua" />
+
+                <TextView
+                    android:id="@+id/tvNormalTime"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/loading"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="85dp"
+                    android:layout_centerVertical="true"
+                    android:src="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvNextSalahTime"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvNowSalah" />
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="85dp"
+                    android:layout_centerVertical="true"
+                    android:src="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvNextSalahTime"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvNowSalah" />
+
+                <TextView
+                    android:id="@+id/tvNowTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/waqt_now"
+                    android:textColor="#D1D1D1"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvFindLocation" />
+
+                <TextView
+                    android:id="@+id/tvNextTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/waqt_next"
+                    android:textColor="#D1D1D1"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvFindLocation" />
+
+                <TextView
+                    android:id="@+id/tvNowSalah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="Loading..."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNowTime" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottieActive"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvNowSalahTime"
+                    app:layout_constraintStart_toEndOf="@+id/tvNowSalah"
+                    app:layout_constraintTop_toTopOf="@+id/tvNowTime"
+                    app:lottie_rawRes="@raw/active" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottieInActive"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvNextSalahTime"
+                    app:layout_constraintEnd_toStartOf="@+id/tvNextSalah"
+                    app:layout_constraintTop_toTopOf="@+id/tvNextTime"
+                    app:lottie_rawRes="@raw/inactive" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/loadingManualAnimation"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:visibility="gone"
+                    app:lottie_rawRes="@raw/loading_manual"  />
+
+                <TextView
+                    android:id="@+id/tvNextSalah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="Loading..."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNowTime" />
+
+                <TextView
+                    android:id="@+id/tvNowSalahTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="00:00 AM"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="@+id/tvNowSalah"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNowSalah" />
+
+                <TextView
+                    android:id="@+id/tvNextSalahTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="00:00 AM"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="@+id/tvNextSalah"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNextSalah" />
+
+                <ImageView
+                    android:id="@+id/ivCloud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_cloud"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNextSalahEndTime" />
+
+                <ImageView
+                    android:id="@+id/ivCloud2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_cloud"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNextSalahEndTime" />
+
+                <ImageView
+                    android:id="@+id/ivCloud3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_cloud"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNextSalahEndTime" />
+
+                <TextView
+                    android:id="@+id/tvNowSalahEndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00 AM"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/kalpurush"
+                    app:layout_constraintStart_toStartOf="@+id/tvNowSalahTime"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNowSalahTime" />
+
+                <TextView
+                    android:id="@+id/tvNextSalahEndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00 AM"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/kalpurush"
+                    app:layout_constraintEnd_toEndOf="@+id/tvNextSalahTime"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNextSalahTime" />
+
+                <ImageView
+                    android:id="@+id/ivTopSheet"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:contentDescription="iv TopSheet"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/ic_all_prayer_times"
+                    app:layout_constraintEnd_toStartOf="@+id/ivFindLocation"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/ivQiblaCompass"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:contentDescription="iv QiblaCompass"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/ic_qibla_compass"
+                    app:layout_constraintEnd_toStartOf="@+id/ivTopSheet"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/gradient_background_normal"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+                app:layout_constraintBottom_toBottomOf="@+id/fragment_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:progress="100"
+                    android:max="100"
+                    android:progressTint="@color/white"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar">
+
+                    <ScrollView
+                        android:id="@+id/scrollView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayoutSchedule"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:id="@+id/cardView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                app:cardCornerRadius="10dp"
+                                app:cardBackgroundColor="@color/layout_jumuah_ash"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                android:gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackground">
+
+                                <LinearLayout
+                                    android:id="@+id/fajarLinerLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="5">
+
+                                        <TextView
+                                            android:id="@+id/fajar"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:drawableLeft="@drawable/ic_fajar"
+                                            android:fontFamily="@font/hind_siliguri_regular"
+                                            android:gravity="center"
+                                            android:text="@string/fajr"
+                                            android:textColor="#FFFFFF"
+                                            android:textSize="12sp" />
+
+                                        <LinearLayout
+                                            android:id="@+id/fajarStart"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/fajarStartTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/start"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/fajarEnd"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/fajarEndTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/end"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+                                        <com.github.angads25.toggle.widget.LabeledSwitch
+                                            android:layout_gravity="center"
+                                            android:id="@+id/switchFajar"
+                                            android:layout_width="40dp"
+                                            android:layout_height="25dp"
+                                            android:layout_weight="1"
+                                            android:checked="false"
+                                            app:colorBorder="@color/black"
+                                            app:colorOn="@color/black"
+                                            android:trackTint="@color/white"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cardView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_below="@+id/cardView1"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                app:cardBackgroundColor="@color/layout_jumuah_ash"
+                                app:cardCornerRadius="10dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:gravity="center"
+                                android:foreground="?attr/selectableItemBackground"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/cardView1">
+
+                                <LinearLayout
+                                    android:id="@+id/juharLinerLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="5">
+
+                                        <TextView
+                                            android:id="@+id/juhar"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:drawableLeft="@drawable/ic_juhar"
+                                            android:fontFamily="@font/hind_siliguri_regular"
+                                            android:gravity="center"
+                                            android:text="@string/dhuhr"
+                                            android:textColor="#FFFFFF"
+                                            android:textSize="12sp" />
+
+                                        <LinearLayout
+                                            android:id="@+id/juharStart"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/juharStartTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/start"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/juharEnd"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/juharEndTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/end"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+                                        <com.github.angads25.toggle.widget.LabeledSwitch
+                                            android:layout_gravity="center"
+                                            android:id="@+id/switchJuhar"
+                                            android:layout_width="40dp"
+                                            android:layout_height="25dp"
+                                            android:layout_weight="1"
+                                            android:checked="false"
+                                            app:colorBorder="@color/black"
+                                            app:colorOn="@color/black"
+                                            android:trackTint="@color/white" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cardView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_below="@+id/cardView2"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                app:cardBackgroundColor="@color/layout_jumuah_ash"
+                                app:cardCornerRadius="10dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:gravity="center"
+                                android:foreground="?attr/selectableItemBackground"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/cardView2">
+
+                                <LinearLayout
+                                    android:id="@+id/asarLinerLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="5">
+
+                                        <TextView
+                                            android:id="@+id/asar"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:drawableLeft="@drawable/ic_asar"
+                                            android:fontFamily="@font/hind_siliguri_regular"
+                                            android:gravity="center"
+                                            android:text="@string/asr"
+                                            android:textColor="#FFFFFF"
+                                            android:textSize="12sp" />
+
+                                        <LinearLayout
+                                            android:id="@+id/asarStart"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/asarStartTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/start"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+                                        </LinearLayout>
+
+
+                                        <LinearLayout
+                                            android:id="@+id/asarEnd"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/asarEndTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/end"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+                                        <com.github.angads25.toggle.widget.LabeledSwitch
+                                            android:layout_gravity="center"
+                                            android:id="@+id/switchAsar"
+                                            android:layout_width="40dp"
+                                            android:layout_height="25dp"
+                                            android:layout_weight="1"
+                                            android:checked="false"
+                                            app:colorBorder="@color/black"
+                                            app:colorOn="@color/black"
+                                            android:trackTint="@color/white"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cardView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_below="@+id/cardView3"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                app:cardBackgroundColor="@color/layout_jumuah_ash"
+                                app:cardCornerRadius="10dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:gravity="center"
+                                android:foreground="?attr/selectableItemBackground"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/cardView3">
+
+                                <LinearLayout
+                                    android:id="@+id/magribLinerLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="5">
+
+                                        <TextView
+                                            android:id="@+id/magrib"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:drawableLeft="@drawable/ic_magrib"
+                                            android:fontFamily="@font/hind_siliguri_regular"
+                                            android:gravity="center"
+                                            android:text="@string/maghrib"
+                                            android:textColor="#FFFFFF"
+                                            android:textSize="12sp" />
+
+                                        <LinearLayout
+                                            android:id="@+id/magribStart"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/magribStartTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/start"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/magribEnd"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/magribEndTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/end"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+
+                                        <com.github.angads25.toggle.widget.LabeledSwitch
+                                            android:layout_gravity="center"
+                                            android:id="@+id/switchMagrib"
+                                            android:layout_width="40dp"
+                                            android:layout_height="25dp"
+                                            android:layout_weight="1"
+                                            android:checked="false"
+                                            app:colorBorder="@color/black"
+                                            app:colorOn="@color/black"
+                                            android:trackTint="@color/white"/>
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cardView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_below="@+id/cardView4"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                app:cardBackgroundColor="@color/layout_jumuah_ash"
+                                app:cardCornerRadius="10dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:gravity="center"
+                                android:foreground="?attr/selectableItemBackground"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/cardView4">
+
+                                <LinearLayout
+                                    android:id="@+id/ishaLinerLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="5">
+
+                                        <TextView
+                                            android:id="@+id/isha"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:drawableLeft="@drawable/ic_isha"
+                                            android:fontFamily="@font/hind_siliguri_regular"
+                                            android:gravity="center"
+                                            android:text="@string/isha"
+                                            android:textColor="#FFFFFF"
+                                            android:textSize="12sp" />
+
+                                        <LinearLayout
+                                            android:id="@+id/ishaStart"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/ishaStartTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/start"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/ishaEnd"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/ishaEndTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/kalpurush"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/hind_siliguri_regular"
+                                                android:text="@string/end"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+                                        <com.github.angads25.toggle.widget.LabeledSwitch
+                                            android:layout_gravity="center"
+                                            android:id="@+id/switchIsha"
+                                            android:layout_width="40dp"
+                                            android:layout_height="25dp"
+                                            android:layout_weight="1"
+                                            android:checked="false"
+                                            app:colorBorder="@color/black"
+                                            app:colorOn="@color/black"
+                                            android:trackTint="@color/white" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!--<androidx.cardview.widget.CardView
+                                android:id="@+id/cardView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/cardView5"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="5dp"
+                                app:cardBackgroundColor="@color/layout_jumuah_ash"
+                                app:cardCornerRadius="10dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackground"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/cardView5">
+
+                                <LinearLayout
+                                    android:id="@+id/jumuahLinerLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="5">
+
+                                        <TextView
+                                            android:id="@+id/jumuah"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:drawableLeft="@drawable/ic_juhar"
+                                            android:fontFamily="@font/sf_pro_display"
+                                            android:gravity="center"
+                                            android:text="Jumuah"
+                                            android:textColor="#FFFFFF"
+                                            android:textSize="10sp" />
+
+                                        <LinearLayout
+                                            android:id="@+id/jumuahStart"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/jumuahStartTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/sf_pro_display"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/sf_pro_display"
+                                                android:text="Start"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/jumuahEnd"
+                                            android:layout_width="60dp"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:clickable="true"
+                                            android:focusable="true"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/jumuahEndTime"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/sf_pro_display"
+                                                android:text="00:00 AM"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/sf_pro_display"
+                                                android:text="End"
+                                                android:textColor="#FFFFFF"
+                                                android:textSize="12sp" />
+
+                                        </LinearLayout>
+
+
+                                        <Switch
+                                            android:id="@+id/switchJumuah"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:checked="false"
+                                            android:trackTint="@color/white" />
+
+                                        <ImageView
+                                            android:id="@+id/jumuahUnmute"
+                                            android:layout_width="20dp"
+                                            android:layout_height="20dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_weight="1"
+                                            android:src="@drawable/unmute" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>-->
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </ScrollView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tvCheckConnection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_connection"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:gravity="center"
+                android:visibility="gone"
+                android:background="@color/black"
+                android:textColor="@color/white"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

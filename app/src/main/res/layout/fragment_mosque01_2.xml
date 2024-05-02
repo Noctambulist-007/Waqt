@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dua_background"
+    tools:context=".fragments.mosque.Mosque01_2Fragment">
+
+    <LinearLayout
+        android:id="@+id/topBarMosque01_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:background="@drawable/background_bottom_round"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButtonMosque01_2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:src="@drawable/ic_back_arrow_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/titleTextViewMosque01_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center"
+                android:text="@string/mosque_1_2"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subtitleTextViewMosque01_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:gravity="center"
+                android:text="@string/going_to_the_mosque"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/forwordButtonMosque01_2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_forward_arrow_black" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarMosque01_2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topBarMosque01_2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/noorehuda_regular"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="اَللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا، وَفِي لِسَانِي نُورًا، وَفِي سَمْعِي نُورًا، وَفِي بَصَرِي نُورًا، وَمِنْ فَوْقِي نُورًا، وَمِنْ تَحْتِي نُورًا، وَعَنْ يَمِينِي نُورًا، وَعَنْ شِمَالِي نُورًا، وَمِنْ أَمَامِي نُورًا، وَمِنْ خَلْفِي نُورًا، وَاجْعَلْ فِي نَفْسِي نُورًا، وَأَعْظِمْ لِي نُورًا، وَعَظِّمْ لِي نُورًا، وَاجْعَلْ لِي نُورًا، وَاجْعَلْنِي نُورًا، اَللَّهُمَّ أَعْطِنِي نُورًا، وَاجْعَلْ فِي عَصَبِي نُورًا، وَفِي لَحْمِي نُورًا، وَفِي دَمِي نُورا، وَفِي شَعْرِي نُورًا، وَفِي بَشَرِي نُورًا"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/transliteration_allaahummaj_al_fee_qalbee_nooran_wa_fee_lisaaanee_nooran_wa_fee_sam_ee_nooran_wa_fee_basaree_nooran_wa_min_fawqee_nooran_wa_min_tahtee_nooran_wa_an_yameenee_nooran_wa_an_shimaalee_nooran_wa_min_amaamee_nooran_wa_min_khalfee_nooran_waj_al_fee_nafsee_nooran_wa_a_dhim_lee_nooran_wa_adhdhim_lee_nooran_waj_al_lee_nooran_waj_alnee_nooran_allaahumma_a_tinee_nooran_waj_al_fee_asabee_nooran_wafee_lahmee_nooran_wafee_damee_nooran_wa_fee_sha_ree_nooran_wa_fee_basharee_nooran"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/translation_o_allah_place_light_in_my_heart_and_on_my_tongue_light_and_in_my_ears_light_and_in_my_sight_light_and_above_me_light_and_below_me_light_and_to_my_right_light_and_to_my_left_light_and_before_me_light_and_behind_me_light_place_in_my_soul_light_magnify_for_me_light_and_amplify_for_me_light_make_for_me_light_and_make_me_a_light_o_allah_grant_me_light_and_place_light_in_my_nerves_and_in_my_body_light_and_in_my_blood_light_and_in_my_hair_light_and_in_my_skin_light"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="\n\n" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/premium_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:padding="4dp"
+                android:text="@string/bukhari_6316"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

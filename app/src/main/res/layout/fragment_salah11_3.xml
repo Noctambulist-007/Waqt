@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dua_background"
+    tools:context=".fragments.salah.Salah11_3Fragment">
+
+
+    <LinearLayout
+        android:id="@+id/topBarSalah11_3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/background_bottom_round"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButtonSalah11_3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:src="@drawable/ic_back_arrow_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/titleTextViewSalah11_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center"
+                android:text="@string/salah_11_3"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subtitleTextViewSalah11_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:gravity="center"
+                android:text="@string/after_salam"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/forwordButtonSalah11_3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_forward_arrow_black" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarSalah11_3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topBarSalah11_3">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/after_every_prescribed_salat_ayatul_kursi_should_be_recited"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/noorehuda_regular"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="اَللّٰهُ لَآ إِلٰهَ إِلَّا هُوَ الْحَىُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى السَّمٰوٰتِ وَمَا فِى الْأَرْضِ ۗ مَنْ ذَا الَّذِى يَشْفَعُ عِنْدَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ الْعَلِىُّ الْعَظِيمُ"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/transliteration_allahu_laa_ilaaha_illaa_huwal_hayyul_qayyoom_laa_ta_khudhuhu_sinatun_wa_laa_nawm_lahu_maa_fis_samaawaati_wa_maa_fil_ardhi_man_dhal_ladhee_yashfa_u_indahu_illaa_bi_idhnihi_ya_lamu_maa_bayna_aydeehim_wa_maa_khalfahum_wa_laa_yuheetoona_bishay_im_min_ilmihi_illaa_bimaa_shaa_a_wasi_a_kursiyyuhus_samaawaati_wal_ardh_wa_laa_ya_ooduhu_hifdhuhumaa_wa_huwal_aliyyul_adheem"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/translation_allah_there_is_none_worthy_of_worship_but_he_the_ever_living_the_one_who_sustains_and_protects_all_that_exists_neither_slumber_nor_sleep_overtakes_him_to_him_belongs_whatever_is_in_the_heavens_and_whatever_is_on_the_earth_who_is_he_that_can_intercede_with_him_except_with_his_permission_he_knows_what_happens_to_them_in_this_world_and_what_will_happen_to_them_in_the_hereafter_and_they_will_never_compass_anything_of_his_knowledge_except_that_which_he_wills_his_throne_extends_over_the_heavens_and_the_earth_and_he_feels_no_fatigue_in_guarding_and_preserving_them_and_he_is_the_most_high_the_most_great"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/the_prophet_said_whoever_recites_ayatul_kursi_immediately_after_each_prescribed_prayer_there_will_be_nothing_standing_between_him_and_his_entering_paradise_except_death_1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="\n\n" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/premium_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:padding="4dp"
+                android:text="@string/_1_silsila_sahiha_972"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:padding="4dp"
+                android:text="@string/_2_bukhari_844"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

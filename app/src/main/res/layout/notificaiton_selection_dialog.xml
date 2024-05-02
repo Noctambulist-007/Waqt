@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_margin="16dp"
+app:cardCornerRadius="16dp"
+app:cardElevation="5dp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/notificaiton"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvNotification">
+
+        <RadioGroup
+            android:id="@+id/radioGroupNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioNotificationOn"
+                android:buttonTint="@drawable/radio_button_selector"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ON" />
+
+
+            <RadioButton
+                android:id="@+id/radioNotificationOff"
+                android:buttonTint="@drawable/radio_button_selector"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/OFF" />
+        </RadioGroup>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dua_background"
+    tools:context=".fragments.salah.Salah12Fragment">
+
+
+    <LinearLayout
+        android:id="@+id/topBarSalah12"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/background_bottom_round"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButtonSalah12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+            android:padding="8dp"
+            android:src="@drawable/ic_back_arrow_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/titleTextViewSalah12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center"
+                android:text="@string/salah_12"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subtitleTextViewSalah12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:gravity="center"
+                android:text="@string/after_fajr_amp_maghrib"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarSalah12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topBarSalah12">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/noorehuda_regular"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/transliteration_laa_ilaaha_ill_allahu_wa_hdahu_laa_shareeka_lahu_lahul_mulku_wa_lahul_hamdu_yu_hyee_wa_yumeetu_wa_huwa_alaa_kulli_shay_in_qadeer"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/translation_none_has_the_right_to_be_worshipped_except_allah_who_is_alone_and_does_not_have_any_partner_to_him_belongs_all_sovereignty_and_praise_he_gives_life_and_causes_death_and_he_is_omnipotent_over_all_things_1"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/say_the_dua_7_times"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/noorehuda_regular"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="اَللَّهُمَّ أَجِرْنِيْ مِنَ النَّارِ"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/transliteration_allaahumma_ajirni_minan_naar"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/translation_o_allah_protect_me_from_hell"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="@string/harith_ibn_muslim_ra_said_the_messenger_of_allah_said_to_me_when_you_finish_the_maghrib_prayer_say_o_allah_protect_me_from_hell_seven_times_for_if_you_say_that_and_die_that_night_allah_will_protect_you_from_jahannam_and_when_you_finish_the_fajr_prayer_say_it_in_a_similar_way_for_if_you_die_that_day_allah_will_protect_you_from_jahannam_most_of_the_muhaddithin_have_considered_this_hadith_to_be_acceptable_2"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="\n\n" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/premium_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:padding="4dp"
+                android:text="@string/_1_hasan_albani_tirmidhi_3534"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:padding="4dp"
+                android:text="@string/_2_hasan_ibn_hajar_al_futuhaatur_rabbaniyyah_3_69"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

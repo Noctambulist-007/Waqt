@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TopSheetDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowAnimationStyle">@style/TopSheetDialogAnimation</item>
+    </style>
+
+    <style name="TopSheetDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_top</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="TimePickerDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_top</item>
+    </style>
+
+    <style name="Widget.Waqt.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.Waqt.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your app bar overlay style here -->
+        <item name="android:background">@color/dua_background</item>
+    </style>
+
+
+</resources>

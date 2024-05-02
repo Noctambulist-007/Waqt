@@ -1,0 +1,47 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/ivForbidden"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:fontFamily="@font/hind_siliguri_regular"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/forbidden_time"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvForbiddenTimeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/kalpurush"
+            android:padding="10dp"
+
+            android:text="@string/there_are_three_times_when_it_is_generally_forbidden_to_perform_salat_in_islam_these_times_are_known_as_makruh_tahrimi_and_it_is_discouraged_to_offer_prayers_during_these_periods_the_three_forbidden_times_are_n_n1_the_time_of_sunrise_fajr_nthis_is_the_time_period_between_the_pre_dawn_prayer_fajr_and_sunrise_researchers_found_that_it_takes_12_15_minutes_to_disappear_the_yellow_light_after_sunrise_n_n2_the_time_of_zawaal_dhuhr_nthis_is_the_time_when_the_sun_is_at_its_highest_point_in_the_sky_around_midday_it_starts_right_after_the_sun_has_crossed_the_zenith_point_until_it_starts_declining_in_arabic_the_time_is_called_zawaal_according_to_islamic_scholars_6_minutes_before_the_dhuhr_midday_prayer_haram_time_to_pray_salat_n_n3_the_time_of_sunset_maghrib_nwhile_the_sun_starts_to_take_a_yellowish_color_before_sunset_the_time_is_forbidden_for_any_salat_research_finds_that_it_usually_takes_15_minutes_before_maghrib_so_this_15_minutes_is_the_haram_time_for_prayer_n_nhowever_if_anyone_misses_asr_prayer_in_case_he_she_starts_praying_before_sunset_and_the_prayer_continues_while_sunset_the_prayer_will_be_granted"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivForbidden" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

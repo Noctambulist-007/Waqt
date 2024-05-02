@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_background"
+    android:backgroundTint="#000000"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/viewBar"
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAboutApp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_info"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:text="@string/about_app_info"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/viewBar" />
+
+    <TextView
+        android:id="@+id/tvTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_tutorial"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:text="@string/tutorial"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvAboutApp" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_language"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:text="@string/language"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvNotification" />
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_notification"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:text="@string/notificaiton"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvTutorial" />
+
+    <TextView
+        android:id="@+id/tvForbiddenTime"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_forbidden_clock"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:text="@string/forbidden_time"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvLanguage" />
+
+    <TextView
+        android:id="@+id/tvGiveFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_feedback"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:text="@string/give_feedback"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvForbiddenTime" />
+
+    <TextView
+        android:id="@+id/tvAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_about_us"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="20dp"
+        android:text="@string/about_us_info"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGiveFeedback" />
+
+    <TextView
+        android:id="@+id/tvSadaqah"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/donate"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:focusable="true"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/sadaqah_info"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvAboutUs" />
+
+
+    <TextView
+        android:id="@+id/tvConnectWith"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableLeft="@drawable/ic_follow"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/white"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/hind_siliguri_regular"
+        android:paddingLeft="20dp"
+        android:text="@string/connect"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvSadaqah" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingTop="24dp"
+    app:layoutDescription="@xml/activity_splash_screen_scene"
+    tools:context=".activities.SplashScreen">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_waqt"
+        app:layout_constraintBottom_toTopOf="@+id/titleTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.0"
+        android:fontFamily="@font/kalpurush"
+        android:text="@string/waqt"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageView" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/copyrightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.0"
+        android:text="@string/from_nheapiphy"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="8sp"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

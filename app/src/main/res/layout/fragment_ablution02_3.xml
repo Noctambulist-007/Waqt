@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dua_background"
+    tools:context=".fragments.ablution.Ablution02_3Fragment">
+
+    <LinearLayout
+        android:id="@+id/topBarAblution02_3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/background_bottom_round"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButtonAblution02_3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:src="@drawable/ic_back_arrow_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/titleTextViewAblution02_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:text="@string/ablution_2_3"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/subtitleTextViewAblution02_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:text="@string/starting_ablution"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/forwordButtonAblution02_3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_forward_arrow_black" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarAblution02_3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topBarAblution02_3">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/noorehuda_regular"
+                android:justificationMode="inter_word"
+                android:padding="4dp"
+                android:text="سُبْحَانَكَ اَللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلاَّ أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوْبُ إِلَيْكَ"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:text="@string/transliteration_subhaanaka_allaahumma_wa_bihamdika_ash_hadu_an_laa_ilaaha_illaa_anta_astaghfiruka_wa_atoobu_ilayk" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:text="@string/translation_glory_is_to_you_o_allah_and_praise_i_bear_witness_that_there_is_none_worthy_of_worship_but_you_i_seek_your_forgiveness_and_turn_to_you_in_repentance" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:background="@drawable/radius_background"
+                android:text="@string/abu_sayed_ra_said_rasulullah_said_if_someone_says_this_dua_after_ablution_it_will_be_written_in_a_letter_and_sealed_under_the_throne_that_seal_will_not_be_broken_before_the_resurrection_1" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="\n\n" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/premium_black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="10sp"
+                android:text="@string/an_nasa_i_amalul_yawm_wal_laylah_p_173_see_also_al_albani_irwa_ul_ghalil_1_135_and_2_94" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

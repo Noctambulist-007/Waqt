@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dua_background"
+    tools:context=".fragments.adhan.Adhan01Fragment">
+
+    <LinearLayout
+        android:id="@+id/topBarAdhan01"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/background_bottom_round"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButtonAdhan01"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_back_arrow_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/titleTextViewAdhan01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:text="@string/adhan_1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/subtitleTextViewAdhan01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:text="@string/hearing_the_adhan"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/forwordButtonAdhan01"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_forward_arrow_black" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarAdhan01">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarAdhan01">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/kalpurush"
+            android:background="@drawable/radius_background"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:text="@string/one_repeats_just_as_the_muadhdhin_says_except_when_he_says" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:textSize="38sp"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/noorehuda_regular"
+            android:textColor="@color/black"
+            android:text="حَيَّ عَلَى الصَّلاَةِ وَحَيَّ عَلَى الْفَلَاحِ" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/kalpurush"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:background="@drawable/radius_background"
+            android:text="@string/hayya_alas_salaah_wa_hayya_alal_falaah" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/kalpurush"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:text="@string/hasten_to_the_prayer_hasten_to_success" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/kalpurush"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:text="@string/instead_one_should_say" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="38sp"
+            android:textColor="@color/black"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/noorehuda_regular"
+            android:layout_marginBottom="10dp"
+            android:text="لاَ حَوْلَ وَلاَ قُوَّةَ إِلَّا بِاللّٰهِ" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/kalpurush"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:background="@drawable/radius_background"
+            android:text="@string/laa_hawla_wa_laa_quwwata_illaa_billaah" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            android:text="@string/there_is_no_might_and_no_power_except_by_allah_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/kalpurush"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:text="@string/after_uttering_mu_adhdhin_tashahhud_i_e_ashhadu_anna_muhammadar_the_listeners_will_say" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="38sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/noorehuda_regular"
+            android:justificationMode="inter_word"
+            android:text="أَشْهَدُ أَنْ لَا إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ رَضِيتُ بِاللَّهِ رَبًّا وَبِمُحَمَّدٍ رَسُولًا وَبِالْإِسْلَامِ دِينًا" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/kalpurush"
+            android:text="@string/ash_hadu_an_laa_ilaaha_ill_allahu_wa_hdahu_laa_shareeka_lahu_wa_anna_mu_hammadan_abduhu_wa_rasooluhu_radeetu_billaahi_rabban_wa_bimu_hammadin_rasoolan_wa_bil_islaami_deen_an" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            android:text="@string/i_bear_witness_that_none_has_the_right_to_be_worshipped_except_allah_alone_without_partner_and_that_muhammad_is_his_slave_and_messenger_i_am_pleased_with_allah_as_a_lord_and_muhammad_as_a_messenger_and_islam_as_a_religion_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:background="@drawable/radius_background"
+            android:fontFamily="@font/kalpurush"
+            android:justificationMode="inter_word"
+            android:text="@string/sad_ibn_abi_waqqas_ra_said_the_messenger_of_allah_said_whoever_hears_muadhzin_and_utters_these_words_all_his_sins_will_be_forgiven"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="\n\n" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:background="@color/premium_black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:fontFamily="@font/kalpurush"
+            android:textSize="10sp"
+            android:text="@string/_1_sahih_muslim_385" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="10sp"
+            android:fontFamily="@font/kalpurush"
+            android:text="@string/_2_sahih_muslim_386" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dua_background"
+    tools:context=".fragments.adhan.Adhan02_1Fragment">
+
+    <LinearLayout
+        android:id="@+id/topBarAdhan02_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/background_bottom_round"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButtonAdhan02_1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:src="@drawable/ic_back_arrow_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/titleTextViewAdhan02_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:text="@string/adhan_2_1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/subtitleTextViewAdhan02_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:text="@string/after_the_adhan"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/forwordButtonAdhan02_1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_forward_arrow_black" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarAdhan02_1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topBarAdhan02_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@drawable/radius_background"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/after_replying_to_the_call_of_mu_adhdhin_you_should_recite_in_arabic_allah_s_blessings_on_the_prophet_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text="حَيَّ عَلَى الصَّلاَةِ وَحَيَّ عَلَى الْفَلَاحاَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اَللَّهُمَّ بَارِكَ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:background="@drawable/radius_background"
+                android:text="@string/transliteration_allaahumma_salli_alaa_mu_hammadin_wa_alaa_aali_mu_hammadin_kamaa_sallayta_alaa_ibraaheema_wa_alaa_aali_ibraaheema_innaka_hameedun_majeed_allaahumma_baarik_alaa_mu_hammadin_wa_alaa_aali_mu_hammadin_kamaa_baarakta_alaa_ibraaheema_wa_alaa_aali_ibraaheema_innaka_hameedun_majeed" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:text="@string/translation_o_allah_bestow_your_favor_on_muhammad_and_on_the_family_of_muhammad_as_you_have_bestowed_your_favor_on_ibrahim_ah_and_on_the_family_of_ibrahim_ah_you_are_praiseworthy_most_glorious_o_allah_bless_muhammad_and_the_family_of_muhammad_as_you_have_blessed_ibrahim_and_the_family_of_ibrahim_ah_you_are_praiseworthy_most_glorious" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:background="@drawable/radius_background"
+                android:fontFamily="@font/kalpurush"
+                android:justificationMode="inter_word"
+                android:text="@string/abdullah_bin_amr_bin_al_as_ra_reported_allah_s_messenger_as_saying_when_you_hear_the_mu_adhdhin_repeat_what_he_says_then_invoke_a_blessing_on_me_for_everyone_who_invokes_a_blessing_on_me_will_receive_ten_blessings_from_allah_then_beg_from_allah_al_wasila_for_me_which_is_a_rank_in_paradise_fitting_for_only_one_of_allah_s_servants_and_i_hope_that_i_may_be_that_one_if_anyone_who_asks_that_i_be_given_the_wasila_he_will_be_assured_of_my_intercession"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="\n\n" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/premium_black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="10sp"
+                android:text="@string/_1_sahih_muslim_384" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.QuranActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layoutBottomBackground"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/quran_background"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/backButtonQuran"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:onClick="onBackButtonClick"
+                android:src="@drawable/ic_back_arrow_black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/kalpurush"
+                android:gravity="center"
+                android:text="@string/the_quarn_juz_30"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2"
+                    android:orientation="vertical">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPagerQuran"
+                        android:layout_width="match_parent"
+                        android:padding="5dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/ivQuran"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:src="@drawable/quran"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+<!--        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quran" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerLayoutQuran"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/quran_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutBottomBackground">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/fragment_quran"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/quran78"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:id="@+id/textureQuran78"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_78"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/an_naba"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_tidings"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلنَّبَا"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_40_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_79"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/an_nazi_at"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/those_who_drag_forth"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلنَّازِعَات"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_46_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran80"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_80"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/abasa"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/he_frowned"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="عَبَس"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_42_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran81"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_81"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/at_takwir"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_overthrowing"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلتَّكْوِيْر"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_29_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_82"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_infitar"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_cleaving"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْاِنْفِطَار"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_19_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_83"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_mutaffifin"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_defrauding"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْمُطَفِّفِيْن"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_36_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_84"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_inshiqaq"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_sundering"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْاِنْشِقَاق"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_25_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran85"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_85"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_buruj"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_mansions_of_the_stars"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْبُرُوْج"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_22_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran86"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_86"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/at_tariq"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_nightcommer"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلطَّارِق"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_17_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran87"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_87"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_a_la"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_most_high"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْاَعْلٰی"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_19_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_88"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_ghashiyah"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_overwhelming"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْغَاشِيَة"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_26_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran89"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_89"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_fajr"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_dawn"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْفَجْر"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_30_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran90"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_90"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_balad"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_city"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْبَـلَد"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_20_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran91"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_91"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/ash_shams"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_sun"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلشَّمْس"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_15_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran92"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_92"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_layl"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_night"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلَّيْل"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_21_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran93"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_93"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/ad_duhaa"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_morning_hours"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْضُّحٰی"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_11_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran94"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_94"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/ash_sharh"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_relief"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلَمْ نَشْرَ ح"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_8_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran95"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_95"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/at_tin"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_fig"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلتِّیْن"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_8_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran96"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_96"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_alaq"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_clot"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْعَلَق"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_19_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran97"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_97"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_qadr"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_power"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْقَدْر"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_5_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran98"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_98"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_bayyinah"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_clear_proof"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْبَيِّنَة"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_8_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran99"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_99"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/az_zalzalah"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_earthquake"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلزِّلْزَال"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_8_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_100"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_adiyat"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_courser"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْعٰدِيٰت"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_11_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_101"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_qari_ah"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_calamity"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْقَارِعَة"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_11_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran102"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_102"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/at_takathur"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_rivalry_in_world_increase"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلتَّكَاثُر"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_8_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran103"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_103"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_asr"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_declining_day"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْعَصْر"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_3_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran104"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_104"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_humazah"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_traducer"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْهُمَزَة"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_9_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran105"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_105"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_fil"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_elephant"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْفِيْل"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_5_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran106"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_106"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/quraysh"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/quraysh"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="قُـرَيْش"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_4_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran107"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_107"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_ma_un"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_small_kindnesses"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْمَاعُوْن"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_7_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran108"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_108"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_kawthar"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_abundance"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْـكَوْثَر"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_3_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran109"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_109"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_kafirun"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_disbelievers"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْكَافِرُوْن"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_6_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran110"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_110"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/an_nasr"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_divine_support"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلنَّصْر"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_3_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_111"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_masad"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/the_palm_fiber"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَللَّھَب"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_5_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_112"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_ikhlas"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/sincerity"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْاِخْلَاص"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_4_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran113"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_113"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/al_falaq"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/the_daybreak"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلْفَلَق"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_5_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quran114"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/click_effect"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <!-- Inner layout with ImageView and TextView -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <TextView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:background="@drawable/star_background"
+                            android:fontFamily="@font/kalpurush"
+                            android:gravity="center"
+                            android:text="@string/_114"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+                                android:text="@string/an_nas"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/hind_siliguri_regular"
+
+                                android:text="@string/mankind"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/noorehuda_regular"
+                                android:gravity="start |center"
+                                android:text="اَلنَّاس"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:fontFamily="@font/kalpurush"
+                                android:gravity="end |center"
+                                android:text="@string/_6_ayahs"
+                                android:textColor="@color/black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/quran_background"
+    tools:context=".fragments.quran.Quran99Fragment">
+
+    <LinearLayout
+        android:id="@+id/topBarQuran99"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/background_bottom_round"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButtonQuran99"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_back_arrow_black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivQuran99"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_mosque"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:text="@string/az_zalzalah"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/hind_siliguri_regular"
+                android:text="@string/the_earthquake"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/kalpurush"
+                android:text="@string/surah_99_ayah_8"/>
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/forwordButtonQuran99"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onBackButtonClick"
+
+            android:clickable="true"
+            android:src="@drawable/ic_forward_arrow_black" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarQuran99">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@drawable/bismillah"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_1"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text=" اِذَا زُلۡزِلَتِ الۡاَرۡضُ زِلۡزَالَهَا ۙ﴿۱﴾" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/when_the_earth_is_shaken_in_its_ultimate_quaking" />
+
+
+        </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_2"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text=" وَ اَخۡرَجَتِ الۡاَرۡضُ اَثۡقَالَهَا ۙ﴿۲﴾" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/and_when_the_earth_throws_out_all_its_contents" />
+
+
+        </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_3"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text=" وَ قَالَ الۡاِنۡسَانُ مَا لَهَا ۚ﴿۳﴾" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/and_humanity_cries_what_is_wrong_with_it" />
+
+
+        </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_4"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text=" یَوۡمَئِذٍ تُحَدِّثُ اَخۡبَارَهَا ۙ﴿۴﴾" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/on_that_day_the_earth_will_recount_everything" />
+
+
+           </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_5"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text=" بِاَنَّ رَبَّکَ اَوۡحٰی لَهَا ؕ﴿۵﴾" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/having_been_inspired_by_your_lord_to_do_so" />
+
+
+        </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_6"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text=" یَوۡمَئِذٍ یَّصۡدُرُ النَّاسُ اَشۡتَاتًا ۬ۙ لِّیُرَوۡا اَعۡمَالَهُمۡ ؕ﴿۶﴾" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/on_that_day_people_will_proceed_in_separate_groups1_to_be_shown_the_consequences_of_their_deeds" />
+
+
+        </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_7"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+                android:text=" فَمَنۡ یَّعۡمَلۡ مِثۡقَالَ ذَرَّۃٍ خَیۡرًا یَّرَهٗ ؕ﴿۷﴾" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/so_whoever_does_an_atom_s_weight_of_good_will_see_it" />
+
+
+        </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/premium_white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:justificationMode="inter_word"
+
+                    android:padding="4dp"
+                    android:text="@string/_8"
+                    android:textColor="@color/quran_style"
+                    android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="38sp"
+                android:fontFamily="@font/noorehuda_regular"
+                android:textColor="@color/black"
+               android:text="وَ مَنۡ یَّعۡمَلۡ مِثۡقَالَ ذَرَّۃٍ شَرًّا یَّرَهٗ ﴿۸﴾" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/kalpurush"
+                android:background="@color/premium_white"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/and_whoever_does_an_atom_s_weight_of_evil_will_see_it" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

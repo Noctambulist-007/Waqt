@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_top_round"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SalahFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fragment_salah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- First CardView -->
+        <LinearLayout
+            android:id="@+id/salah01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_1"
+                    android:fontFamily="@font/kalpurush"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/after_takbeer"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second CardView -->
+        <LinearLayout
+            android:id="@+id/salah02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:background="@drawable/click_effect"
+            app:cardElevation="4dp"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_2"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/in_rukoo"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/salah03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:background="@drawable/click_effect"
+            app:cardElevation="4dp"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_3"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="10sp"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/rising_from_rukoo"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second CardView -->
+        <LinearLayout
+            android:id="@+id/salah04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_4"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/state_of_rukoo"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/salah05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_5"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="10sp"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/prostrationg_sujood" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second CardView -->
+        <LinearLayout
+            android:id="@+id/salah06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_6"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/between_two_prostrations"  />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/salah07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_7"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="10sp"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/prostration_due_to_quran_recitation" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second CardView -->
+        <LinearLayout
+            android:id="@+id/salah08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_8"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:textColor="@color/black"
+                    android:text="@string/the_tashahhud"  />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/salah09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- ImageView -->
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_9"
+                    android:fontFamily="@font/kalpurush"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/after_tashahhud_salah" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second CardView -->
+        <LinearLayout
+            android:id="@+id/salah10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_10"
+                    android:fontFamily="@font/kalpurush"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/before_salam"  />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/salah11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_11"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/kalpurush"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/after_salam" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second CardView -->
+        <LinearLayout
+            android:id="@+id/salah12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@drawable/click_effect"
+            android:layout_margin="5dp">
+
+            <!-- Inner layout with ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:text="@string/salah_n_12"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="10sp"
+                    android:background="@drawable/circular_background"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- TextView -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/hind_siliguri_regular"
+                    android:text="@string/after_fajr_amp_maghrib" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

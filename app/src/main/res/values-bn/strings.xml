@@ -1,0 +1,1226 @@
+<resources>
+    <string name="app_name">ওয়াক্ত</string>
+    <string name="drawer_open">চালু করুন</string>
+    <string name="drawer_close">বন্ধ করুন</string>
+    <string name="about_app">ওয়াক্ত বিশ্বের অন্যতম আকর্ষণীয় নামাজের অ্যাপ। অটো সাইলেন্ট ফিচারসহ এতে রয়েছে অফলাইন কুরআন ও দুআ পড়ার সুবিধা।\n\n\ফিচারস:\n- ৬টি নজরকাড়া থিমস\n- অটো সাইলেন্ট মোড\n- কুরআন ও দুআ সিরিজ\n- কিবলা কম্পাস\n- অটোমেটিক থিম পরিবর্তন\n- অটোমেটিক লোকেশন নির্ধারণ\n- প্রতিদিনের নামাজের সময় (শুরু-শেষ)\n- স্মার্ট নোটিফিকেশন\n- ওয়াক্ত উইজেট\n- বিজ্ঞাপন মুক্ত\n\nআপনার বন্ধু এবং পরিবার-পরিজনের সাথে এই অ্যাপটি শেয়ার করুন। আল্লাহ আমাদের সবাইকে দুনিয়া ও আখিরাতে হিদায়াত দান করুন, আমিন।\n\nওয়াক্ত © ২০২৩-২০২৪, হিপিফাই। সর্বস্বত্ব সংরক্ষিত।</string>    <string name="about_us">হিপিফাই একটি ভিশনারী সফটওয়্যার কোম্পানি। আমাদের লক্ষ্য হচ্ছে মানুষের দৈনন্দিন জীবনের সমস্যা সমাধান করে এরকম সফটওয়্যার সল্যুশনস তৈরি করা। হিপিফাই একটি গ্রাহক-কেন্দ্রিক সফটওয়্যার কোম্পানি। আমাদের প্রথম অ্যাপ ওয়াক্ত, যা আপনাকে নামাজের সঠিক সময়, নোটিফিকেশন ও নামাজের আগে ফোন অটোসাইলেন্ট করতে সাহায্য করবে। এছাড়াও আমরা আরো কিছু প্রজেক্ট নিয়ে কাজ করছি। শুধু তাই নয়, আমরা আপনার ব্যবসার চাহিদা অনুযায়ী সফটওয়্যার তৈরি করি। আমরা পূর্ণ দায়িত্বের সাথে আপনার প্রজেক্ট গ্রহণ এবং তা সম্পূর্ণ সম্পন্ন করতে প্রস্তুত।\n\nআরো জানতে আমাদের ওয়েবসাইট ঘুরে আসুন: heapiphy.com</string>
+    <string name="sadaqah">নবিজি সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেন, “যে ব্যক্তি মানুষকে আল্লাহর দিকে আহ্বান করবে, তার জন্য তাদের সাওয়াবের মতো পুরস্কার থাকবে এবং যারা তা মেনে চলে তাদের সাওয়াবের কোনো পরিমাণ হ্রাস করা হবে না।" [মুসলিম: ২৬৭৪]\n\nআমাদের আরো বেশকিছু দরকারি ইসলামিক অ্যাপস এবং ওয়েবসাইট বানানোর পরিকল্পনা আছে। তাই আপনি যদি ওয়াক্ত অ্যাপের উন্নয়ন এবং আমাদের এই সমস্ত প্রকল্পগুলো চালিয়ে যেতে চান, লক্ষ লক্ষ ভাই-বোনদের কাছে ইসলামের বাণী পৌঁছে দিতে চান, তাহলে প্রতি মাসে বা একবারে যতটা সম্ভব আমাদের সমর্থন করুন।\n\nজ্ঞাতব্য: আমরা জাকাত গ্রহণ করি না। আপনি হাদিয়া দিয়ে আমাদের সমর্থন করতে পারেন।\n\nআমাদের সমর্থন করতে এবং আপনি যদি বাংলাদেশে থাকেন, অনুগ্রহ করে আপনার হাদিয়া নিচে দেয়া তথ্যে পাঠাতে পারেন। কিন্তু আপনি যদি অন্য দেশের হয়ে থাকেন, তাহলে অনুগ্রহ করে heapiphy@gmail.com ই-মেইলের মাধ্যমে আমাদের সাথে যোগাযোগ করুন।</string>
+    <string name="waqt">ওয়াক্ত</string>
+    <string name="waqt_now">চলমান ওয়াক্ত</string>
+    <string name="waqt_next">পরবর্তী ওয়াক্ত</string>
+    <string name="heapiphy">হিপিফাই</string>
+    <string name="from_nheapiphy">হিপিফাই</string>
+    <string name="about_app_info">অ্যাপ বিস্তারিত</string>
+    <string name="give_feedback">ফিডব্যাক</string>
+    <string name="about_us_info">আমাদের সম্পর্কে</string>
+    <string name="sadaqah_info">সাদাকা</string>
+    <string name="auto_silent_mode">অটো সাইলেন্ট মোড</string>
+    <string name="waqt_needs_permission_to_access_do_not_disturb_settings_would_you_like_to_grant_permission">ডু নট ডিস্টার্ব (DND) সেটিংস এক্সেস করতে ওয়াক্ত অ্যাপের পারমিশন প্রয়োজন৷ আপনি কি পারমিশন দিতে ইচ্ছুক?</string>
+    <string name="serenity_in_your_prayer_intro">নামাজে প্রশান্তি</string>
+    <string name="location_ex_dhaka">লোকেশন যেমন: Dhaka</string>
+    <string name="search">খুঁজুন</string>
+    <string name="location_updated_refresh_the_app_to_see_the_changes">লোকেশন আপডেট হয়েছে। রিফ্রেশ করুন।</string>
+    <string name="sadaqah_jariyah">সাদাকা</string>
+    <string name="bikash_personal">বিকাশ (ব্যক্তিগত)</string>
+    <string name="_01756964475">০১৭৫৬৯৬৪৪৭৫</string>
+    <string name="nagad_personal">নগদ (ব্যক্তিগত)</string>
+    <string name="_01785889470">০১৭৮৫৮৮৯৪৭০</string>
+    <string name="dutch_bangla_bank">ডাচ বাংলা ব্যাংক লিমিটেড</string>
+    <string name="_7017322426284">৭০১৭৩২২৪২৬২৮৪</string>
+    <string name="fajr">ফজর</string>
+    <string name="shurooq">সূর্যোদয়</string>
+    <string name="dhuhr">জুহর</string>
+    <string name="asr">আসর</string>
+    <string name="maghrib">মাগরিব</string>
+    <string name="isha">ইশা</string>
+    <string name="language">ভাষা</string>
+    <string name="tutorial">টিউটোরিয়াল</string>
+    <string name="connect">যোগাযোগ</string>
+    <string name="apply">এপ্লাই করুন</string>
+    <string name="forbidden_time">নিষিদ্ধ সময়</string>
+    <string name="there_are_three_times_when_it_is_generally_forbidden_to_perform_salat_in_islam_these_times_are_known_as_makruh_tahrimi_and_it_is_discouraged_to_offer_prayers_during_these_periods_the_three_forbidden_times_are_n_n1_the_time_of_sunrise_fajr_nthis_is_the_time_period_between_the_pre_dawn_prayer_fajr_and_sunrise_researchers_found_that_it_takes_12_15_minutes_to_disappear_the_yellow_light_after_sunrise_n_n2_the_time_of_zawaal_dhuhr_nthis_is_the_time_when_the_sun_is_at_its_highest_point_in_the_sky_around_midday_it_starts_right_after_the_sun_has_crossed_the_zenith_point_until_it_starts_declining_in_arabic_the_time_is_called_zawaal_according_to_islamic_scholars_6_minutes_before_the_dhuhr_midday_prayer_haram_time_to_pray_salat_n_n3_the_time_of_sunset_maghrib_nwhile_the_sun_starts_to_take_a_yellowish_color_before_sunset_the_time_is_forbidden_for_any_salat_research_finds_that_it_usually_takes_15_minutes_before_maghrib_so_this_15_minutes_is_the_haram_time_for_prayer_n_nhowever_if_anyone_misses_asr_prayer_in_case_he_she_starts_praying_before_sunset_and_the_prayer_continues_while_sunset_the_prayer_will_be_granted">তিনটি সময় আছে যখন নামাজ নিষিদ্ধ (হারাম)। যে সময়গুলোতে নামাজ পড়তে নিষেধ করা হয়েছে সেগুলো হলো সূর্যোদয়, সূর্যাস্ত এবং জাওয়ালের সময়।\n\n১. সূর্যোদয় থেকে ভোর পর্যন্ত (ফজর):\nসূর্যোদয়ের শুরু থেকে হলুদ আলো সম্পূর্ণরূপে দূর না হওয়া পর্যন্ত সব ধরনের নামাজ পড়া হারাম। গবেষণায় দেখা গেছে, সূর্যোদয়ের পরে হলুদ আলো অদৃশ্য হতে ১২-১৫ মিনিট সময় লাগে।\n\n২. সূর্য যখন মাথার ওপরে (জুহর):\nসূর্য যখন ঠিক মাথার ওপরে থাকে তখন সব ধরনের নামাজ ও সিজদা করা নিষেধ। আরবি ভাষায় এ সময়কে জাওয়াল বলে। যখন সূর্য একটু হেলে পড়বে তখন জুহরের ওয়াক্ত শুরু হয়। ইসলামি গবেষকদের মতে জুহরের নামাজের ওয়াক্ত শুরুর আগের ৬ মিনিটকে নিষিদ্ধ সময় ধরা হয়।\n\n৩. সূর্য ডোবার সময় (মাগরিব):\nসূর্য যখন হলুদ বর্ণ ধারণ করে ডুবতে শুরু করে তারপর সূর্যোদয় পর্যন্ত সব ধরনের নামাজ পড়া নিষেধ। গবেষণায় দেখা গেছে সূর্য হলুদ বর্ণ ধারণ করে ডুবতে শুরু করে তখন সূর্যাস্ত পর্যন্ত ১৫ মিনিট সময় লাগে। তাই এই ১৫ মিনিট নিষিদ্ধ সময় ধরা হয়।</string>
+    <string name="appwidget_text">উদাহরণ</string>
+    <string name="add_widget">উইজেট এড করুন</string>
+    <string name="app_widget_description">ওয়াক্ত উইজেটের বিবরণ</string>
+    <string name="updating_location_this_may_take_a_moment">লোকেশন আপডেট হচ্ছে। একটু অপেক্ষা করুন…</string>
+    <string name="location_updated">লোকেশন আপডেট হয়েছে।!</string>
+    <string name="refresh_the_app_to_see_the_changes">রিফ্রেশ করুন</string>
+    <string name="refresh">রিফ্রেশ করুন</string>
+    <string name="deny">না</string>
+    <string name="grant">হ্যাঁ</string>
+    <string name="start">শুরু</string>
+    <string name="end">শেষ</string>
+    <string name="salah_times">নামাজের সময়সূচি</string>
+    <string name="md_sajedul_islam">সাজেদুল ইসলাম</string>
+    <string name="one_repeats_just_as_the_muadhdhin_says_except_when_he_says">মুয়াজ্জিন যা বলে শ্রোতারাও তা বলবে, তবে,</string>
+    <string name="adhan_1">আজান #১</string>
+    <string name="hearing_the_adhan">আজানের সময়</string>
+    <string name="hayya_alas_salaah_wa_hayya_alal_falaah">উচ্চারণ: হাইয়্যা আলাসসালাহ, হাইয়্যা আলাল ফালাহ।</string>
+    <string name="hasten_to_the_prayer_hasten_to_success">অর্থ: নামাজের দিকে আসো, কল্যাণের দিকে আসো।</string>
+    <string name="instead_one_should_say">তখন বলবে,</string>
+    <string name="laa_hawla_wa_laa_quwwata_illaa_billaah">উচ্চারণ: লা হাওলা ওয়ালা কুওয়াতা ইল্লা বিল্লাহ।</string>
+    <string name="there_is_no_might_and_no_power_except_by_allah_1">অর্থ: আল্লাহর সাহায্য ছাড়া (পাপ কাজ থেকে দূরে থাকার) কোনো উপায় এবং (সৎকাজ করার) কোনো শক্তি কারো নেই।[১]</string>
+    <string name="after_uttering_mu_adhdhin_tashahhud_i_e_ashhadu_anna_muhammadar_the_listeners_will_say">মুয়াজ্জিন তাশাহহুদ (আশহাদু আন্না মুহাম্মাদার…) উচ্চারণ করার পরই শ্রোতারা বলবে,</string>
+    <string name="ash_hadu_an_laa_ilaaha_ill_allahu_wa_hdahu_laa_shareeka_lahu_wa_anna_mu_hammadan_abduhu_wa_rasooluhu_radeetu_billaahi_rabban_wa_bimu_hammadin_rasoolan_wa_bil_islaami_deen_an">উচ্চারণ: আশ্‌হাদু আল্লা ইলাহা ইল্লাল্লাহু ওয়াহ্‌দাহু লা শারিকা লাহু ওয়া আন্না মুহাম্মাদান আবদুহু ওয়া রাসুলুহু; রাদিতু বিল্লাহি রব্বান, ওয়া বিমুহাম্মাদিন রাসুলান, ওয়া বিলইসলামি দ্বিনান।</string>
+    <string name="i_bear_witness_that_none_has_the_right_to_be_worshipped_except_allah_alone_without_partner_and_that_muhammad_is_his_slave_and_messenger_i_am_pleased_with_allah_as_a_lord_and_muhammad_as_a_messenger_and_islam_as_a_religion_2">অর্থ: আমি সাক্ষ্য দিচ্ছি, আল্লাহ ছাড়া কোনো মাবুদ নেই; তিনি একক, তাঁর কোনো শরিক নেই। মুহাম্মাদ (ﷺ) তাঁর বান্দা ও রাসুল। আমি আল্লাহকে রব, মুহাম্মাদ (ﷺ)-কে রাসুল এবং ইসলামকে দ্বিন হিসেবে গ্রহণ করে সন্তুষ্ট।</string>
+    <string name="sad_ibn_abi_waqqas_ra_said_the_messenger_of_allah_said_whoever_hears_muadhzin_and_utters_these_words_all_his_sins_will_be_forgiven">রাসুলুল্লাহ সা. বলেন, যে ব্যক্তি মুয়াজ্জিনকে শুনে এ বাক্যগুলো বলবে তার সকল পাপ ক্ষমা করা হবে।[২]</string>
+    <string name="_1_sahih_muslim_385">[১] সহিহ মুসলিম, ৩৮৫</string>
+    <string name="_2_sahih_muslim_386">[২] সহিহ মুসলিম, ৩৮৬</string>
+    <string name="adhan">আজান</string>
+    <string name="ablution">ওজু</string>
+    <string name="mosque">মসজিদ</string>
+    <string name="salah">নামাজ</string>
+    <string name="starting_ablution">ওজুর শুরুতে</string>
+    <string name="ablution_n_1">ওজু\n#১</string>
+    <string name="ablution_n_2">ওজু\n#২</string>
+    <string name="ending_ablution">ওজুর শেষে</string>
+    <string name="adhan_n_1">আজান\n#১</string>
+    <string name="adhan_n_2">আজান\n#২</string>
+    <string name="after_the_adhan">আজানের পর</string>
+    <string name="adhan_n_3">আজান\n#৩</string>
+    <string name="between_adhan_amp_iqamah"><![CDATA[আজান ও ইকামতের মধ্যে]]></string>
+    <string name="mosque_n_1">মসজিদ\n#১</string>
+    <string name="going_to_the_mosque">মসজিদে যাওয়ার সময়</string>
+    <string name="mosque_n_2">মসজিদ\n#২</string>
+    <string name="entering_the_mosque">মসজিদে ঢোকার সময়</string>
+    <string name="mosque_n_3">মসজিদ\n#৩</string>
+    <string name="leaving_the_mosque">মসজিদ থেকে বের হওয়ার সময়</string>
+    <string name="salah_n_1">নামাজ\n#১</string>
+    <string name="after_takbeer">তাকবিরের পর</string>
+    <string name="salah_n_2">নামাজ\n#২</string>
+    <string name="in_rukoo">রুকু</string>
+    <string name="salah_n_3">নামাজ\n#৩</string>
+    <string name="rising_from_rukoo">রুকু থেকে ওঠার সময়</string>
+    <string name="salah_n_4">নামাজ\n#৪</string>
+    <string name="state_of_rukoo">রুকুর পর</string>
+    <string name="salah_n_5">নামাজ\n#৫</string>
+    <string name="prostrationg_sujood">সিজদা</string>
+    <string name="salah_n_6">নামাজ\n#৬</string>
+    <string name="between_two_prostrations">দুই সিজদার মধ্যবরতী সময়</string>
+    <string name="salah_n_7">নামাজ\n#৭</string>
+    <string name="prostration_due_to_quran_recitation">সিজদায় কুরআন তিলাওয়াত</string>
+    <string name="salah_n_8">নামাজ\n#৮</string>
+    <string name="the_tashahhud">তাশাহহুদ</string>
+    <string name="salah_n_9">নামাজ\n#৯</string>
+    <string name="after_tashahhud_salah">তাশাহহুদের পর</string>
+    <string name="salah_n_10">নামাজ\n#১০</string>
+    <string name="before_salam">সালামের আগে</string>
+    <string name="salah_n_11">নামাজ\n#১১</string>
+    <string name="after_salam">সালামের পর</string>
+    <string name="salah_n_12">নামাজ\n#১২</string>
+    <string name="after_fajr_amp_maghrib"><![CDATA[ফজর ও মাগরিবের পর]]></string>
+    <string name="salah_n_13">নামাজ\n#১৩</string>
+    <string name="after_obligatory_salah">ফরজ নামাজের পর</string>
+    <string name="salah_n_14">নামাজ\n#১৪</string>
+    <string name="salah_n_15">নামাজ\n#১৫</string>
+    <string name="adhan_2_1">আজান #২.১</string>
+    <string name="_1_sahih_muslim_384">[১] সহিহ মুসলিম, ৩৮৪</string>
+    <string name="after_replying_to_the_call_of_mu_adhdhin_you_should_recite_in_arabic_allah_s_blessings_on_the_prophet_1">মুয়াজ্জিনের সাথে আজানের প্রতিউত্তর দেয়ার পর নবিজির ওপর দরুদ পাঠ করা উত্তম।</string>
+    <string name="transliteration_allaahumma_salli_alaa_mu_hammadin_wa_alaa_aali_mu_hammadin_kamaa_sallayta_alaa_ibraaheema_wa_alaa_aali_ibraaheema_innaka_hameedun_majeed_allaahumma_baarik_alaa_mu_hammadin_wa_alaa_aali_mu_hammadin_kamaa_baarakta_alaa_ibraaheema_wa_alaa_aali_ibraaheema_innaka_hameedun_majeed">উচ্চারণ: আল্লা হুম্মা সাল্লি আলা মুহাম্মাদিও ওয়া আলা আলি মুহাম্মাদিন কামা সাল্লাইতা আলা ইবরাহিমা ওয়া আলা আলি ইবরাহিমা ইন্নাকা হামিদুম মাজিদ। আল্লা হুম্মা বারিক আলা মুহাম্মাদিও ওয়া আলা আলি মুহাম্মাদিন কামা বারকতা আলা ইবরাহিমা ওয়া আলা আলি ইবরাহিমা ইন্নাকা হামিদুম মাজিদ।</string>
+    <string name="translation_o_allah_bestow_your_favor_on_muhammad_and_on_the_family_of_muhammad_as_you_have_bestowed_your_favor_on_ibrahim_ah_and_on_the_family_of_ibrahim_ah_you_are_praiseworthy_most_glorious_o_allah_bless_muhammad_and_the_family_of_muhammad_as_you_have_blessed_ibrahim_and_the_family_of_ibrahim_ah_you_are_praiseworthy_most_glorious">অনুবাদ: হে আল্লাহ, আপনি মুহাম্মাদ (ﷺ) এবং তাঁর বংশধরদের ওপর রহমত বর্ষণ করুন, যেমন আপনি ইবরাহিম আ. এবং তার বংশধরদের ওপর রহমত বর্ষণ করেছেন। নিশ্চয় আপনি অতি প্রশংসিত, অত্যন্ত মর্যাদার অধিকারী। হে আল্লাহ, আপনি মুহাম্মাদ (ﷺ) ও তাঁর বংশধরদের ওপর তেমনি বরকত দান করুন যেমনি বরকত দান করেছেন ইবরাহিম আ. ও তার বংশধরদের ওপর। নিশ্চয় আপনি অতি প্রশংসিত, অতি মর্যাদার অধিকারী।</string>
+    <string name="abdullah_bin_amr_bin_al_as_ra_reported_allah_s_messenger_as_saying_when_you_hear_the_mu_adhdhin_repeat_what_he_says_then_invoke_a_blessing_on_me_for_everyone_who_invokes_a_blessing_on_me_will_receive_ten_blessings_from_allah_then_beg_from_allah_al_wasila_for_me_which_is_a_rank_in_paradise_fitting_for_only_one_of_allah_s_servants_and_i_hope_that_i_may_be_that_one_if_anyone_who_asks_that_i_be_given_the_wasila_he_will_be_assured_of_my_intercession">রাসুলুল্লাহ (ﷺ) বলেন, যখন তোমরা মুয়াজ্জিনকে আজান দিতে শুনবে, তখন সে যেমন বলে অনুরূপ বলবে। এরপর আমার ওপর দরুদ পাঠ করবে; কারণ, যে ব্যক্তি আমার ওপর একবার দরুদ পাঠ করবে, আল্লাহ তাকে দশবার সালাত (রহমত) প্রদান করবেন। এরপর আমার জন্য ওসিলা চাইবে; কারণ, ওসিলা জান্নাতের সর্বোচ্চ স্থান। আল্লাহর একজন বান্দাই এ মর্যাদা লাভ করবে; আমি আশা করি আমিই হব সেই বান্দা। যে ব্যক্তি আমার জন্য ওসিলা প্রার্থনা করবে, তার জন্য শাফায়াত প্রাপ্য হয়ে যাবে।[১]</string>
+    <string name="adhan_3">আজান #৩</string>
+    <string name="narrated_anas_ibn_malik_ra_the_messenger_of_allah_said_dua_is_not_returned_between_adhaan_and_iqamah_1">আল্লাহর রাসুল (ﷺ) বলেন, আজান ও ইকামতের মধ্যবর্তী সময় দুআ ফিরিয়ে দেয়া হয় না।[১]</string>
+    <string name="allah_s_messenger_said_whenever_you_hear_the_adhaan_say_what_the_mu_adh_dhin_is_saying_the_prophet_called_both_adhaan_and_iqamah_as_adhaan_2_here_is_to_be_mentioned_that_to_reply_qaadaqaamatissalah_as_aqaamaha_allahy_wa_aadaamahaa_the_hadith_is_weak_da_eef_3_so_for_replying_the_iqaamah_the_musalli_should_reply_by_using_same_words_as_the_ad_aan">ইকামত দেয়ার সময় মুসল্লিরা মুয়াজ্জিনের সাথে সাথে ইকামতের শব্দগুলো বলবে। রাসুল (ﷺ) আজান ও ইকামত উভয়কেই আজান বলেছেন।[২] উল্লেখ্য, কাদ্ কা-মাতিস সালাহ এর জবাবে আকামাহাল্লাহু ওয়া আদামাহা বলার হাদিসটি জইফ।[৩] তাই ইকামতের শব্দগুলোর জবাবে মুসল্লিদেরও আজানের মতোই বলতে হবে।</string>
+    <string name="_1_sahih_albani_tirmidhi_212">[১] সহিহ। তিরমিজি, ২১২</string>
+    <string name="_2_sahih_bukhari_611">[২] সহিহ বুখারি, ৬১১</string>
+    <string name="_3_da_if_albani_abu_dawud_528">[৩] জইফ। আবু দাউদ, ৫২৮</string>
+    <string name="ablution_1">ওজু #১</string>
+    <string name="the_messenger_of_allah_said_that_whoever_doesn_t_say_bismillaah_his_ablution_will_be_invalidated_1">রাসুলুল্লাহ (ﷺ) বলেন, যে ব্যক্তি বিসমিল্লাহ বলবে না তার ওজু হবে না।[১]</string>
+    <string name="transliteration_bismillaah">উচ্চারণ: বিসমিল্লাহ।</string>
+    <string name="translation_in_the_name_of_allah">অর্থ: আল্লাহর নামে।</string>
+    <string name="irwa_ul_ghalil_1_122_ibn_majah_no_397">[১] ইরওয়াউল গালিল, ১/১২২। ইবন মাজাহ, ৩৯৭</string>
+    <string name="ablution_2_1">ওজু #২.১</string>
+    <string name="after_doing_ablution_well_one_should_say">ওজু করে এবং যথাযথভাবে তা শেষ করে বলতে হবে,</string>
+    <string name="transliteration_ash_hadu_an_laa_ilaaha_illallahu_wahdahu_laa_shareeka_lahu_wa_ash_hadu_anna_muhammadan_abduhu_wa_rasooluhu">উচ্চারণ: আশহাদু আল্লা ইলাহা ইল্লাল্লাহু ওয়াহদাহু লাশারিকা লাহু ওয়া আশহাদু আন্না মুহাম্মাদান আবদুহু ওয়া রাসুলুহ।</string>
+    <string name="translation_i_bear_witness_that_none_has_the_right_to_be_worshipped_but_allah_alone_who_has_no_partner_and_i_bear_witness_that_muhammad_is_his_slave_and_his_messenger">অর্থ: আমি সাক্ষ্য দিচ্ছি, একমাত্র আল্লাহ ছাড়া কোনো হক ইলাহ নেই, তাঁর কোনো শরিক নেই। আমি আরো সাক্ষ্য দিচ্ছি, মুহাম্মাদ (ﷺ) তাঁর বান্দা ও রাসুল।</string>
+    <string name="uqba_bin_amir_ra_reported_allah_s_messenger_say_if_any_muslim_performs_ablution_well_then_stands_and_prays_two_rak_ahs_setting_about_them_with_his_heart_as_well_as_his_face_paradise_would_be_guaranteed_to_him_1">রাসুলুল্লাহ (ﷺ) বলেন, যদি কেউ সুন্দরভাবে এবং পরিপূর্ণভাবে ওজু করে; এরপর এই দুআ পাঠ করে তাহলে জান্নাতের আটটি দরজাই তার জন্য খুলে দেয়া হবে। সে যে দরজা দিয়ে ইচ্ছা করবে জান্নাতে প্রবেশ করতে পারবে।[১]</string>
+    <string name="muslim_234_576">[১] সহিহ মুসলিম, ২৩৪, ৫৭৬</string>
+    <string name="transliteration_allaahummaj_alnee_minat_tawwaabeena_waj_alnee_minal_mutatahhireen">উচ্চারণ: আল্লাহুম্মাজ আলনি মিনাত তাওয়্যাবিনা ওয়াজ আলনি মিনাল মুতাতাহ হিরিন।</string>
+    <string name="translation_o_allah_make_me_among_those_who_turn_to_you_in_repentance_and_make_me_among_those_who_are_purified">অর্থ: হে আল্লাহ, আপনি আমাকে তাওবাকারীদের অন্তর্ভুক্ত করুন এবং যারা গুরুত্ব ও পূর্ণতাসহকারে পবিত্রতা অর্জন করে আমাকে তাদের অন্তর্ভুক্ত করুন।</string>
+    <string name="it_has_been_narrated_in_sahih_hadith_that_the_dua_should_be_recited_after_the_previous_dhikr_the_eight_gates_of_paradise_will_be_opened_for_the_one_who_recites_these_two_duas_he_will_enter_paradise_through_whichever_door_he_wishes_1">দুআটি আগের জিকিরের পরে পড়ার কথা সহিহ হাদিসে বর্ণিত হয়েছে। যে এই দুআ দুটি পড়বে তার জন্য জান্নাতের আটটি দরজা খুলে যাবে; যে দরজা দিয়ে ইচ্ছা, সে (জান্নাতে) প্রবেশ করবে।[১]</string>
+    <string name="sahih_albani_tirmidhi_55">[১] সহিহ। তিরমিজি, ৫৫</string>
+    <string name="transliteration_subhaanaka_allaahumma_wa_bihamdika_ash_hadu_an_laa_ilaaha_illaa_anta_astaghfiruka_wa_atoobu_ilayk">উচ্চারণ: সুবহানাকা আল্লাহুম্মা, ওয়া বিহামদিকা, আশহাদু আল্লা ইলাহা ইল্লা আনতা, আসতাগফিরুকা, ওয়া আতুবু ইলাইক।</string>
+    <string name="translation_glory_is_to_you_o_allah_and_praise_i_bear_witness_that_there_is_none_worthy_of_worship_but_you_i_seek_your_forgiveness_and_turn_to_you_in_repentance">অর্থ: হে আল্লাহ, আপনার পবিত্রতা এবং প্রশংসা জ্ঞাপন করছি। আমি সাক্ষ্য দিচ্ছি, একমাত্র আল্লাহ ছাড়া কোনো হক ইলাহ নেই। আমি আপনার কাছে ক্ষমা প্রার্থনা করছি; আপনার কাছে তাওবা করছি।</string>
+    <string name="abu_sayed_ra_said_rasulullah_said_if_someone_says_this_dua_after_ablution_it_will_be_written_in_a_letter_and_sealed_under_the_throne_that_seal_will_not_be_broken_before_the_resurrection_1">রাসুলুল্লাহ (ﷺ) বলেন, কেউ ওজুর পরে এই দুআটি বললে তা একটি পত্রে লিখে তা মোহরাঙ্কিত করে (আরশের নিচে) রাখা হবে। কিয়ামতের আগে সে মোহর ভাঙা হবে না।[১]</string>
+    <string name="an_nasa_i_amalul_yawm_wal_laylah_p_173_see_also_al_albani_irwa_ul_ghalil_1_135_and_2_94">[১] নাসাই, আমালুল ইয়াওমি ওয়াল লাইলাহ, ১৭৩। সহিহ ইরওয়াউল গালিল, ১/১৩৫ এবং ২/৯৪</string>
+    <string name="transliteration_allaahumma_rabba_haadhi_hid_da_watit_taammah_wassalaatil_qaa_imah_aati_mu_hammadan_il_waseelata_wal_fadeelah_wab_ath_hu_maqaaman_ma_hmoodan_illadhee_wa_adtah">উচ্চারণ: আল্লাহুম্মা, রাব্বা হাজিহিদ দাওয়াতিত তাম্মাতি ওয়াস সালাতিল কায়িমাহ, আতি মুহাম্মাদান আল ওয়াসিলাতা ওয়াল ফাদিলাতা, ওয়াব আসহু মাকামাম মাহমুদানিল্লাজি ওয়াদতাহ।</string>
+    <string name="translation_o_allah_owner_of_this_perfect_call_and_owner_of_this_prayer_to_be_performed_bestow_upon_muhammad_al_waseelah_and_al_fadeelah_and_raise_him_upon_a_praised_platform_which_you_have_promised_him">অর্থ: হে আল্লাহ, এ পরিপূর্ণ আহ্বান এবং প্রতিষ্ঠিত সালাতের মালিক, আপনি মুহাম্মাদ (ﷺ)-কে ওসিলা (নৈকট্য) এবং মহামর্যাদা দান করুন। তাকে সম্মানিত অবস্থানে উন্নীত করুন, যার প্রতিশ্রুতি আপনি তাকে দিয়েছেন।[১]</string>
+    <string name="sahih_bukhari_614">[১] সহিহ বুখারি, ৬১৪</string>
+    <string name="mosque_1_1">মসজিদ #১.১</string>
+    <string name="when_the_mu_adhdhin_gave_the_call_to_prayer_the_prophet_used_to_go_out_for_the_prayer_while_reciting_this_supplication_1">মুয়াজ্জিন আজান দিলে, নবিজি (ﷺ) এই দুআ পড়তে পড়তে সালাতের উদ্দেশ্যে বেরিয়ে পড়তেন,[১]</string>
+    <string name="transliteration_allaahumma_j_al_fee_qalbee_noor_an_wa_fee_lisaanee_noor_an_waj_al_fee_sam_ee_noor_an_waj_al_fee_basaree_noor_an_waj_al_min_khalfee_noor_an_wamin_amaamee_noor_an_waj_al_min_fawqee_noor_an_wa_min_t_ahtee_noor_an_allaahumma_a_tinee_noor_an">উচ্চারণ: আল্লাহুম্মাজআল ফি কালবি নুরান, ওয়া ফি লিসানি নুরান, ওয়াজআল ফি সাময়ি নুরান, ওয়াজআল ফি বাসারি নুরান, ওয়াজআল মিন খালফি নুরান, ওয়া মিন আমামি নুরান, ওয়াজআল মিন ফাওকি নুরান, ওয়া মিন তাহতি নুরান, আল্লাহুম্মা আতিনি নুরান।</string>
+    <string name="translation_o_allah_place_within_my_heart_light_and_upon_my_tongue_light_and_within_my_ears_light_and_within_my_eyes_light_and_place_behind_me_light_and_in_front_of_me_light_and_above_me_light_and_beneath_me_light_o_allah_bestow_upon_me_light">অর্থ: হে আল্লাহ, তুমি আমার অন্তরে, জিহ্বায়, কানে ও চোখে নুর দান করো। আমার পিছনে ও সামনে নুর দান করো। নুর দান করো আমার উপরে ও নিচে। হে আল্লাহ, তুমি আমাকে নুর দান করো।</string>
+    <string name="bukhari_6316">[১] সহিহ বুখারি, ৬৩১৬</string>
+    <string name="mosque_1_2">মসজিদ #১.২</string>
+    <string name="transliteration_allaahummaj_al_fee_qalbee_nooran_wa_fee_lisaaanee_nooran_wa_fee_sam_ee_nooran_wa_fee_basaree_nooran_wa_min_fawqee_nooran_wa_min_tahtee_nooran_wa_an_yameenee_nooran_wa_an_shimaalee_nooran_wa_min_amaamee_nooran_wa_min_khalfee_nooran_waj_al_fee_nafsee_nooran_wa_a_dhim_lee_nooran_wa_adhdhim_lee_nooran_waj_al_lee_nooran_waj_alnee_nooran_allaahumma_a_tinee_nooran_waj_al_fee_asabee_nooran_wafee_lahmee_nooran_wafee_damee_nooran_wa_fee_sha_ree_nooran_wa_fee_basharee_nooran">উচ্চারণ: আল্লাহুম্মাজআল ফি কালবি নুরান, ওয়া ফি লিসানি নুরান, ওয়া ফি সাময়ি নুরান, ওয়া ফি বাসারি নুরান, ওয়া মিন ফাওকি নুরান, ওয়া মিন তাহতি নুরান, ওয়া আন ইয়ামিনি নুরান, ওয়া আন শিমালি নুরান, ওয়া মিন আমামি নুরান, ওয়া মিন খালফি নুরান, ওয়াজআল ফি নাফসি নুরান, ওয়া আজিম লি নুরান, ওয়া আজ্জিম লি নুরান, ওয়াজআল লি নুরান, ওয়াজআলনি নুরান; আল্লাহুম্মা আতিনি নুরান, ওয়াজআল ফি আসাবি নুরান, ওয়া ফি লাহমি নুরান, ওয়া ফি দামি নুরান, ওয়া ফি শারি নুরান, ওয়া ফি বাশারি নুরান।</string>
+    <string name="translation_o_allah_place_light_in_my_heart_and_on_my_tongue_light_and_in_my_ears_light_and_in_my_sight_light_and_above_me_light_and_below_me_light_and_to_my_right_light_and_to_my_left_light_and_before_me_light_and_behind_me_light_place_in_my_soul_light_magnify_for_me_light_and_amplify_for_me_light_make_for_me_light_and_make_me_a_light_o_allah_grant_me_light_and_place_light_in_my_nerves_and_in_my_body_light_and_in_my_blood_light_and_in_my_hair_light_and_in_my_skin_light">অর্থ: হে আল্লাহ, আপনি আমার অন্তরে নুর দান করুন, আমার জবানে নুর দান করুন, আমার শ্রবণশক্তিতে নুর দান করুন, আমার দর্শনশক্তিতে নুর দান করুন, আমার ওপরে নুর দান করুন, আমার নিচে নুর দান করুন, আমার ডানে নুর দান করুন, আমার বামে নুর দান করুন, আমার সামনে নুর দান করুন, আমার পেছনে নুর দান করুন, আমার আত্মায় নুর দান করুন, আমার জন্য নুরকে বড় করে দিন, আমার জন্য নুর বাড়িয়ে দিন, আমার জন্য নুর নির্ধারণ করুন, আমাকে নুরময় করুন। হে আল্লাহ, আমাকে নুর দান করুন, আমার পেশিতে নুর প্রদান করুন, আমার মাংসে নুর দান করুন, আমার রক্তে নুর দান করুন, আমার চুলে নুর দান করুন এবং আমার চামড়ায় নুর দান করুন।[১]</string>
+    <string name="mosque_2">মসজিদ #২</string>
+    <string name="transliteration_a_oodhu_billahil_aatheem_wa_bi_wajhihil_kareem_wa_sultanihil_qadeem_minash_shaytanir_rajeem_bismil_lahi_wassalatu_wassalamu_aala_rasoolil_lah_allaahumma_iftah_lee_abwaaba_rahmatik">উচ্চারণ: আউযু বিল্লাহিল আজিম, ওয়া বি ওয়াজহিহিল কারিম, ওয়া সুলতানিহিল কাদিম মিনাশ শাইতানির রাজিম। বিসমিল্লাহি ওয়াসসালাতু ওয়াসসালামু আলা রাসুলিল্লাহ, আল্লাহুম্মাফতাহ লি আবওয়াবা রাহমাতিক।</string>
+    <string name="translation_i_take_refuge_with_allah_the_supreme_and_with_his_noble_face_and_his_eternal_authority_from_the_accursed_devil_in_the_name_of_allah_and_prayers_and_peace_be_upon_the_messenger_of_allah_o_allah_open_the_gates_of_your_mercy_for_me">অর্থ: আমি মহান আল্লাহর কাছে বিতাড়িত শয়তান হতে আশ্রয় প্রার্থনা করছি, যিনি সর্বময় রাজত্বের এবং মর্যাদাপূর্ণ চেহারার অধিকারী। আল্লাহর নামে (প্রবেশ করছি), সালাত ও সালাম আল্লাহর রাসুলের ওপর। হে আল্লাহ, আপনি আমার জন্য আপনার রহমতের দরজাসমূহ খুলে দিন।</string>
+    <string name="sahih_albani_abu_dawud_465_466">[১] সহিহ। আবু দাউদ, ৪৬৫, ৪৬৬</string>
+    <string name="if_some_hadiths_are_combined_the_dua_for_entering_the_mosque_will_be_as_follows">কিছু হাদিসসমূহ একত্র করলে মসজিদে প্রবেশের দুআ হবে এমন,[১]</string>
+    <string name="mosque_3">মসজিদ #৩</string>
+    <string name="if_some_hadiths_are_combined_the_dua_for_going_out_the_mosque_will_be_as_follows">কিছু হাদিসসমূহ একত্র করলে মসজিদ থেকে বের হওয়ার দুআ হবে এমন,[১]</string>
+    <string name="transliteration_bismillahi_allaahumma_salli_ala_muhammad_allaahumma_inni_as_aluka_min_fadlik">উচ্চারণ: বিসমিল্লাহি আল্লাহুম্মা সাল্লি আলা মুহাম্মাদ, আল্লাহুম্মা ইন্নি আসআলুকা মিন ফাদলিক।</string>
+    <string name="translation_in_the_name_of_allah_i_am_going_out_oh_allah_please_send_bessings_and_peace_upon_muhammad_oh_allah_i_want_from_your_bounty">অর্থ: আল্লাহর নামে (বের হচ্ছি)। হে আল্লাহ, মুহাম্মাদ (ﷺ) এর ওপর শান্তি বর্ষণ করো। হে আল্লাহ, আমি তোমার কাছে তোমার করুণা চাই।</string>
+    <string name="hasan_albani_ibn_sunni_88_muslim_713">[১] হাসান। ইবনুস সুন্নি, ৮৮। মুসলিম, ৭১৩</string>
+    <string name="transliteration_subhaanaka_allaahumma_wa_bihamdika_wa_tabaarakasmuka_wa_ta_aalaa_jadduka_wa_laa_ilaaha_ghayruk">উচ্চারণ: সুবহানাকাল্লাহুম্মা ওয়া বিহামদিকা ওয়া তাবারাকাসমুকা ওয়া তাআলা জাদ্দুকা ওয়া লা ইলাহা গাইরুক।</string>
+    <string name="translation_glory_is_to_you_o_allah_and_praise_blessed_is_your_name_and_exalted_is_your_majesty_there_is_none_worthy_of_worship_but_you">অর্থ: হে আল্লাহ, আপনার প্রশংসাসহ আপনার পবিত্রতা ও মহিমা ঘোষণা করছি, আপনার নাম বড়ই বরকতময়, আপনার প্রতিপত্তি অতি উঁচু। আর আপনি ছাড়া কোনো হক ইলাহ নেই।</string>
+    <string name="muslim_399">[১] সহিহ মুসলিম, ৩৯৯</string>
+    <string name="say_this_tasbeeh_at_least_three_times">কমপক্ষে ৩ বার এ তাসবিহ পাঠ করা,[১]</string>
+    <string name="transliteration_subhaana_rabbiyal_adheem">উচ্চারণ: সুবহানা রাব্বিয়াল আজিম।</string>
+    <string name="translation_glory_to_my_lord_the_exalted">অর্থ: মহাপবিত্র আমার মহান প্রভু।</string>
+    <string name="sahih_albani_tirmidhi_262">[১] সহিহ। তিরমিজি, ২৬২</string>
+    <string name="salah_3">নামাজ #৩</string>
+    <string name="salah_2">নামাজ #২</string>
+    <string name="transliteration_sami_allahu_liman_hamidah">উচ্চারণ: সামিয়াল্লাহু লিমান হামিদাহ।</string>
+    <string name="translation_allah_hears_whoever_praises_him">অর্থ: আল্লাহ তার কথা শোনেন যে তাঁর প্রশংসা করে।[১]</string>
+    <string name="bukhari_796">[১] সহিহ বুখারি, ৭৯৬</string>
+    <string name="salah_4">নামাজ #৪</string>
+    <string name="bukhari_799">[১] সহিহ বুখারি, ৭৯৯</string>
+    <string name="translation_our_lord_praise_is_yours_abundant_holy_and_blessed_praise">অর্থ: হে আমাদের প্রভু, আপনারই প্রশংসা, অশেষ প্রশংসা, পবিত্র ও বরকতময় প্রশংসা।[১]</string>
+    <string name="transliteration_rabbanaa_wa_lakal_hamd_hamdan_katheeran_tayyiban_mubaarakan_feeh">উচ্চারণ: রাব্বানা ওয়া লাকাল হামদ, হামদান কাসিরান তাইয়্যিবান মুবারাকান ফিহ।</string>
+    <string name="muslim_772">[১] সহিহ মুসলিম, ৭৭২</string>
+    <string name="translation_glory_is_to_my_lord_the_most_high">অর্থ: মহাপবিত্র আমার প্রভু যিনি সর্বোচ্চ।</string>
+    <string name="transliteration_subhaana_rabbiyal_a_laa">উচ্চারণ: সুবহানা রাব্বিয়াল আলা।</string>
+    <string name="say_at_least_three_times"> কমপক্ষে ৩ বার পাঠ করা,[১]</string>
+    <string name="salah_5">নামাজ #৫</string>
+    <string name="salah_6">নামাজ #৬</string>
+    <string name="sahih_albani_abu_dawud_874">[১] সহিহ। আবু দাউদ, ৮৭৪</string>
+    <string name="translation_o_my_lord_forgive_me_my_lord_forgive_me">অর্থ: হে প্রভু আমাকে ক্ষমা করুন, হে প্রভু আমাকে ক্ষমা করুন।[১]</string>
+    <string name="transliteration_rabbighfir_lee_rabbighfir_lee">উচ্চারণ: রাব্বিগফিরলি, রাব্বিগফিরলি।</string>
+    <string name="salah_7">নামাজ #৭</string>
+    <string name="hasan_albani_tirmidhi_580">[১] সহিহ। তিরমিজি, ৫৮০</string>
+    <string name="translation_i_have_prostrated_my_face_to_the_one_who_created_it_and_gave_it_hearing_and_sight_by_his_might_and_his_power">অর্থ: আমার চেহারা তাঁর উদ্দেশ্যে সিজদায় অবনত, যিনি একে সৃষ্টি করেছেন এবং কান ও চোখ খুলে দিয়েছেন তাঁর নিজের অপার ক্ষমতাবলে।[১]</string>
+    <string name="transliteration_sajada_wajhiya_lilladhee_khalaqahu_wa_shaqqa_sam_a_hu_wa_basarahu_bi_hawlihi_wa_quwwatih">উচ্চারণ: সাজাদা ওয়াজহিয়া লিল্লাজি খালাকাহু ওয়া শাক্কা সামআহু ওয়া বাসারাহু বিহাউলিহি ওয়া কুওয়্যাতিহ।</string>
+    <string name="salah_8">নামাজ #৮</string>
+    <string name="transliteration_attahiyyaatu_lillaahi_wassalawaatu_wattayyibaatu_assalaamu_alayka_ayyuhan_nabiyyu_wa_rahmatullaahi_wa_barakaatuhu_assalaamu_alaynaa_wa_alaa_ibaadillaahis_saaliheen_ash_hadu_an_laa_ilaaha_illallahu_wa_ash_hadu_anna_muhammadan_abduhu_wa_rasooluhu">উচ্চারণ: আত্তাহিয়্যাতু লিল্লাহি ওয়াসসালাওয়াতু ওয়াত্তায়্যিবাতু আসসালামু আলাইকা আইয়্যুহান নাবিয়্যু ওয়া রাহমাতুল্লাহি ওয়া বারাকাতুহু। আসসালামু আলাইনা ওয়া আলা ইবাদিল্লাহিস সালিহীন। আশহাদু আল্লাইলাহা ইল্লাল্লাহু ওয়া আশহাদু আন্না মুহাম্মাদান আব্দুহু ওয়া রাসুলুহ।</string>
+    <string name="translation_all_greetings_of_humility_are_for_allah_and_all_prayers_and_goodness_peace_be_upon_you_o_prophet_and_the_mercy_of_allah_and_his_blessings_peace_be_upon_us_and_upon_the_righteous_slaves_of_allah_i_bear_witness_that_there_is_none_worthy_of_worship_but_allah_and_i_bear_witness_that_muhammad_is_his_slave_and_his_messenger">অর্থ: সমস্ত মৌখিক, দৈহিক ও আর্থিক ইবাদত আল্লাহর জন্য। হে নবি, আপনার প্রতি সালাম এবং আল্লাহর রহমত ও বরকত বর্ষিত হোক। সালাম আমাদের প্রতি এবং আল্লাহর নেক বান্দাদের প্রতি। আমি সাক্ষ্য প্রদান করছি, আল্লাহ ছাড়া আর কোনো মাবুদ নেই। আরো সাক্ষ্য দিচ্ছি, নিশ্চয় মুহাম্মাদ (ﷺ) আল্লাহর বান্দা ও রাসুল।[১]</string>
+    <string name="bukhari_7381">[১] সহিহ বুখারি, ৭৩৮১</string>
+    <string name="salah_9">নামাজ #৯</string>
+    <string name="transliteration_allaahumma_salli_alaa_muhammadin_wa_alaa_aali_muhammadin_kamaa_sallayta_alaa_ibraaheema_wa_alaa_aali_ibraaheema_innaka_hameedun_majeed_allaahumma_baarik_alaa_muhammadin_wa_alaa_aali_muhammadin_kamaa_baarakta_alaa_ibraaheema_wa_alaa_aali_ibraaheema_innaka_hameedun_majeed">উচ্চারণ: আল্লাহুম্মা সাল্লি আলা মুহাম্মাদিউ ওয়া আলা আলি মুহাম্মাদিন কামা সাল্লাইতা আলা ইবরাহিমা ওয়া আলা আলি ইবরাহিমা ইন্নাকা হামিদুম মাজিদ। আল্লাহুম্মা বারিক আলা মুহাম্মাদিউ ওয়া আলা আলি মুহাম্মাদিন, কামা বারাকতা আলা ইবরাহিমা ওয়া আলা আলি ইবরাহিমা ইন্নাকা হামিদুম মাজিদ।</string>
+    <string name="translation_o_allah_bestow_your_favor_on_muhammad_and_on_the_family_of_muhammad_as_you_have_bestowed_your_favor_on_ibrahim_and_on_the_family_of_ibrahim_you_are_praiseworthy_most_glorious_o_allah_bless_muhammad_and_the_family_of_muhammad_as_you_have_blessed_ibrahim_and_the_family_of_ibrahim_you_are_praiseworthy_most_glorious">অর্থ: হে আল্লাহ, তুমি মুহাম্মাদ (ﷺ) ও তার পরিবারবর্গের ওপর রহমত বর্ষণ করো, যেভাবে রহমত বর্ষণ করেছো ইবরাহিম আ. ও তার পরিবারবর্গের প্রতি। নিশ্চয় তুমি প্রশংসিত ও সম্মানিত। হে আল্লাহ, বরকত অবতীর্ণ করো মুহাম্মাদ (ﷺ) ও তার পরিবারবর্গের ওপর, যেভাবে তুমি বরকত নাজিল করেছো ইবরাহিম আ. ও তার পরিবার-পরিজনের প্রতি। নিশ্চয় তুমি প্রশংসিত ও সম্মানিত।[১]</string>
+    <string name="bukhari_3370">[১] সহিহ বুখারি, ৩৩৭০</string>
+    <string name="salah_10">নামাজ #১০</string>
+    <string name="mathurah">মাসুরা</string>
+    <string name="transliteration_allaahumma_innee_a_oodhu_bika_min_adhaabi_jahannam_wa_min_adhaabil_qabr_wa_min_fitnatil_mahyaa_wal_mamaati_wa_min_sharri_fitnatil_maseehid_dajjaal">উচ্চারণ: আল্লাহুম্মা, ইন্নি আউজু বিকা মিন আজাবি জাহান্নাম, ওয়া মিন আজাবিল কাবর, ওয়া মিন ফিতনাতিল মাহইয়া ওয়াল মামাতি ওয়া মিন শাররি ফিতনাতিল মাসিহিদ দাজ্জাল।</string>
+    <string name="translation_o_allah_i_seek_refuge_with_thee_from_the_torment_of_the_hell_from_the_torment_of_the_grave_from_the_trial_of_life_and_death_and_from_the_evil_of_the_trial_of_masih_al_dajjal">অর্থ: হে আল্লাহ, আমি আপনার কাছে আশ্রয় চাই; জাহান্নামের আজাব থেকে, কবরের আজাব থেকে, জাগতিক জীবনের ও মৃত্যুর ফিতনা (পরীক্ষা বা বিপদ) থেকে এবং দাজ্জালের অমঙ্গল থেকে।[১]</string>
+    <string name="muslim_588">[১] সহিহ মুসলিম, ৫৮৮</string>
+    <string name="salah_11_1">নামাজ #১১.১</string>
+    <string name="say_three_times_1">৩ বার বলবে,[২]</string>
+    <string name="transliteration_astaghfirullaah">উচ্চারণ: আসতাগফিরুল্লাহ।</string>
+    <string name="translation_i_ask_allah_for_forgiveness">অর্থ: আমি আল্লাহর কাছে ক্ষমা চাই।</string>
+    <string name="then_say_2">এরপর বলবে,[৩]</string>
+    <string name="allaahumma_antas_salaamu_wa_minkas_salaamu_tabaarakta_yaa_thal_jalaali_wal_ikraam">উচ্চারণ: আল্লাহুম্মা আনতাস সালামু ওয়া মিনকাস সালামু তাবারক্তা ইয়া জালজালালি ওয়াল ইকরাম।</string>
+    <string name="o_allah_you_are_peace_and_from_you_comes_peace_blessed_are_you_o_owner_of_majesty_and_honor">অর্থ: হে আল্লাহ, আপনি শান্তিময়। আপনার তরফ থেকেই শান্তি বর্ষিত হয়। আপনি বরকতময়, হে মহিমাময় ও সম্মানের অধিকারী!</string>
+    <string name="_1_sahih_muslim_591">[২] সহিহ মুসলিম, ৫৯১</string>
+    <string name="salah_11_2">নামাজ #১১.২</string>
+    <string name="thauban_ra_said_that_rasulullah_used_to_say_after_saying_istighfar_three_times_after_the_prayer">রাসুলুল্লাহ (ﷺ) সালাত শেষে ৩ বার ইস্তিগফার বলার পর বলতেন,[১]</string>
+    <string name="transliteration_allaahumma_antas_salaam_wa_minkas_salaam_tabaarakta_yaa_dhal_jalaali_wal_ikraam">উচ্চারণ: আল্লাহুম্মা আনতাস সালাম ওয়া মিনকাস সালাম, তাবারাকতা ইয়া জাল জালালি ওয়াল ইকরাম।</string>
+    <string name="translation_o_allah_you_are_peace_and_from_you_comes_peace_blessed_are_you_o_owner_of_majesty_and_honor">অর্থ: হে আল্লাহ, আপনিই সালাম (শান্তি), আপনার থেকেই শান্তি, হে মহাসম্মানের অধিকারী ও মর্যাদা প্রদানের অধিকারী, আপনি বরকতময়।</string>
+    <string name="the_prophet_used_to_say_this_dua_after_every_compulsory_prayer_2">রাসুলুল্লাহ (ﷺ) প্রত্যেক ফরজ সালাতে সালাম ফিরানোর পরে এই দুআ বলতেন,[২]</string>
+
+    <string name="translation_none_has_the_right_to_be_worshipped_except_allah_alone_without_partner_to_him_belongs_all_sovereignty_and_praise_and_and_he_is_able_to_do_all_things_o_allah_none_can_prevent_what_you_have_willed_to_bestow_and_none_can_bestow_what_you_have_willed_to_prevent_and_no_wealth_or_majesty_can_benefit_anyone_as_from_you_is_all_wealth_and_majesty">অর্থ: আল্লাহ ছাড়া কোনো মাবুদ নেই, তিনি একক, তাঁর কোনো শরিক নেই। রাজত্ব তাঁরই এবং প্রশংসা তাঁরই। তিনি সবকিছুর ওপর ক্ষমতাবান। হে আল্লাহ, আপনি যা দান করেন তা আটকানোর ক্ষমতা কারো নেই। আর আপনি যা না দেন তা দেয়ার ক্ষমতাও কারো নেই। কোনো ভাগ্যবানের ভাগ্য বা পরিশ্রমীর পরিশ্রম আপনার ইচ্ছার বাইরে কোনো উপকারে লাগে না।</string>
+    <string name="muslim_591">[১] সহিহ মুসলিম, ৫৯১</string>
+    <string name="_2_bukhari_844">[২] সহিহ বুখারি, ৮৪৪</string>
+    <string name="salah_11_3">নামাজ #১১.৩</string>
+    <string name="after_every_prescribed_salat_ayatul_kursi_should_be_recited">প্রত্যেক ফরজ সালাত শেষে আয়াতুল কুরসি ১ বার পড়বে,[১]</string>
+    <string name="transliteration_allahu_laa_ilaaha_illaa_huwal_hayyul_qayyoom_laa_ta_khudhuhu_sinatun_wa_laa_nawm_lahu_maa_fis_samaawaati_wa_maa_fil_ardhi_man_dhal_ladhee_yashfa_u_indahu_illaa_bi_idhnihi_ya_lamu_maa_bayna_aydeehim_wa_maa_khalfahum_wa_laa_yuheetoona_bishay_im_min_ilmihi_illaa_bimaa_shaa_a_wasi_a_kursiyyuhus_samaawaati_wal_ardh_wa_laa_ya_ooduhu_hifdhuhumaa_wa_huwal_aliyyul_adheem">উচ্চারণ: আল্লাহু লা ইলাহা ইল্লা হুওয়াল হাইয়্যুল কাইয়্যুম। লা তাখুজুহু সিনাতুও ওয়ালা নাউম। লাহু মা ফিসসামা ওয়াতি ওয়ামা ফিল আরদ। মান জাল্লাজি ইয়াশফাউ ইনদাহু ইল্লা বিইজনিহি। ইয়ালামু মা বাইনা আইদিহিম ওয়ামা খালফাহুম। ওয়ালা ইয়ুহিতুনা বিশাই ইম মিন ইলমিহি ইল্লা বিমা শাআ। ওয়াসিআ কুরসিয়্যুহুস সামাওয়াতি ওয়াল আরদ। ওয়ালা ইয়াউদুহু হিফজুহুমা। ওয়া হুয়াল আলিয়্যুল আজিম।</string>
+    <string name="translation_allah_there_is_none_worthy_of_worship_but_he_the_ever_living_the_one_who_sustains_and_protects_all_that_exists_neither_slumber_nor_sleep_overtakes_him_to_him_belongs_whatever_is_in_the_heavens_and_whatever_is_on_the_earth_who_is_he_that_can_intercede_with_him_except_with_his_permission_he_knows_what_happens_to_them_in_this_world_and_what_will_happen_to_them_in_the_hereafter_and_they_will_never_compass_anything_of_his_knowledge_except_that_which_he_wills_his_throne_extends_over_the_heavens_and_the_earth_and_he_feels_no_fatigue_in_guarding_and_preserving_them_and_he_is_the_most_high_the_most_great">অর্থ: আল্লাহ, তিনি ছাড়া কোনো উপাস্য নেই। তিনি চিরঞ্জীব ও চিরস্থায়ী। তন্দ্রা ও নিদ্রা তাঁকে স্পর্শ করে না। আসমানসমূহে ও জমিনে যা কিছু রয়েছে সবই তাঁর। কে আছে এমন, যে তাঁর অনুমতি ছাড়া তাঁর কাছে সুপারিশ করতে পারে? সামনে অথবা পেছনের সবই তিনি জানেন। একমাত্র তিনি যতটুকু ইচ্ছা করেন তা ছাড়া, তাঁর জ্ঞানের কিছুই তারা আয়ত্ত্ব করতে পারে না। তাঁর আসন আসমান ও জমিন ব্যাপী হয়ে আছে; আর এগুলো সংরক্ষণে তাঁকে বিব্রত হতে হয় না। তিনিই সর্বোচ্চ, মহীয়ান।</string>
+    <string name="the_prophet_said_whoever_recites_ayatul_kursi_immediately_after_each_prescribed_prayer_there_will_be_nothing_standing_between_him_and_his_entering_paradise_except_death_1">রাসুলুল্লাহ (ﷺ) বলেন, যে ব্যক্তি প্রত্যেক সালাতের পরে আয়াতুল কুরসি পাঠ করবে তার জান্নাতে প্রবেশের পথে মৃত্যু ছাড়া আর কোনো বাধা থাকবে না।[২]</string>
+    <string name="_1_silsila_sahiha_972">[১] সিলসিলা সহিহা, ৯৭২</string>
+    <string name="salah_11_4">নামাজ #১১.৪</string>
+    <string name="after_every_prescribed_salat_surah_ikhlas_one_times">প্রত্যেক ফরজ সালাত শেষে সুরা ইখলাস ১ বার,</string>
+    <string name="transliteration_bismillaahir_rahmaanir_raheem_1_qul_huwallahu_ahad_2_allahus_samad_3_lam_yalid_wa_lam_yoolad_4_wa_lam_yakun_lahu_kufuwan_ahad">উচ্চারণ: বিসমিল্লাহির রাহমানির রাহিম। ১. ক্বুল হুওয়াল্লাহু আহাদ। ২. আল্লাহুস সামাদ। ৩. লাম ইয়ালিদ ওয়া লাম ইউলাদ। ৪. ওয়া লাম ইয়াকুল্লাহু কুফুওয়ান আহাদ।</string>
+    <string name="translation_in_the_name_of_allah_the_entirely_merciful_the_especially_merciful_1_say_he_is_allah_who_is_one_2_allah_the_eternal_refuge_3_he_neither_begets_nor_is_born_4_nor_is_there_to_him_any_equivalent_sura_ikhlas_1_4">অর্থ: পরম করুণাময় অতি দয়ালু আল্লাহর নামে। ১. বলো, তিনিই আল্লাহ, এক ও অদ্বিতীয়। ২. আল্লাহ কারো মুখাপেক্ষী নন, সকলেই তাঁর মুখাপেক্ষী। ৩. তিনি কাউকে জন্ম দেননি এবং তাঁকেও জন্ম দেয়া হয়নি। ৪. আর তাঁর কোনো সমকক্ষও নেই। (সুরা ইখলাস, ১-৪)</string>
+    <string name="surah_falaq_one_times">সুরা ফালাক ১ বার,</string>
+    <string name="transliteration_bismillaahir_rahmaanir_raheem_1_qul_a_oodhu_birabbil_falaq_2_min_sharri_maa_khalaq_3_wa_min_sharri_ghaasiqin_ithaa_waqab_4_wa_min_sharrin_naffaathaati_fil_uqad_5_wa_min_sharri_haasidin_ithaa_hasad">উচ্চারণ: বিসমিল্লাহির রাহমানির রাহিম। ১. ক্বুল আউযু বিরাব্বিল ফালাক। ২. মিন শাররি মা খালাক। ৩. ওয়া মিন শাররি গাসিকিন ইজা ওয়াকাব। ৪. ওয়া মিন শাররিন নাফফাসাতি ফিল উকাদ। ৫. ওয়া মিন শাররি হা সিদিন ইজা হাসাদ।</string>
+    <string name="translation_in_the_name_of_allah_the_entirely_merciful_the_especially_merciful_1_say_i_seek_refuge_in_the_lord_of_daybreak_2_from_the_evil_of_that_which_he_created_3_and_from_the_evil_of_darkness_when_it_settles_4_and_from_the_evil_of_the_blowers_in_knots_5_and_from_the_evil_of_an_envier_when_he_envies_sura_falaq_1_5">অর্থ: পরম করুণাময়, অতি দয়ালু আল্লাহর নামে। ১. বলো, আমি আশ্রয় প্রার্থনা করছি ঊষার রবের কাছে। ২. তিনি যা সৃষ্টি করেছেন তার অনিষ্ট থেকে। ৩. রাতের অন্ধকারের অনিষ্ট থেকে যখন তা গভীর হয়। ৪. আর গীরায় ফুঁ-দানকারী নারীদের অনিষ্ট থেকে। ৫. হিংসুকের অনিষ্ট থেকে যখন সে হিংসা করে। (সুরা ফালাক, ১-৫)</string>
+    <string name="surah_nas_one_times">সুরা নাস ১ বার,</string>
+    <string name="transliteration_bismillaahir_rahmaanir_raheem_1_qul_a_oodhu_birabbin_naas_2_malikin_naas_3_ilaahin_naas_4_min_sharril_waswaasil_khannaas_5_allathee_yuwaswisu_fee_sudoorin_naas_6_minal_jinnati_wannaas">উচ্চারণ: বিসমিল্লাহির রাহমানির রাহিম। ১. ক্বুল আউযু বিরাব্বিন্নাস। ২. মালিকিন্নাস। ৩. ইলা হিন্নাস। ৪. মিন শাররিল ওয়াসওয়াসিল খান্নাস। ৫. আল্লাজি ইউওয়াসউইসু ফি সুদুরিন্নাস। ৬. মিনাল জিন্নাতি ওয়ান্নাস।</string>
+    <string name="translation_in_the_name_of_allah_the_entirely_merciful_the_especially_merciful_1_say_i_seek_refuge_in_the_lord_of_mankind_2_the_sovereign_of_mankind_3_the_god_of_mankind_4_from_the_evil_of_the_retreating_whisperer_5_who_whispers_evil_into_the_breasts_of_mankind_6_from_among_the_jinn_and_mankind_sura_nas_1_6">অর্থ: পরম করুণাময়, অতি দয়ালু আল্লাহর নামে। ১. বলো, আমি আশ্রয় চাই মানুষের রব। ২. মানুষের অধিপতি। ৩. মানুষের ইলাহর কাছে। ৪. কুমন্ত্রণাদাতার অনিষ্ট থেকে, যে দ্রুত আত্মগোপন করে। ৫. যে মানুষের মনে কুমন্ত্রণা দেয়। ৬. জিন ও মানুষ থেকে। (সুরা নাস, ১-৬)</string>
+    <string name="the_prophet_used_to_recite_surah_ikhlaas_falaaq_and_naas_once_after_every_obligatory_prayer_1_after_magrib_and_ishaa_prayer_he_used_to_recite_three_times_2">রাসুলুল্লাহ (ﷺ) প্রত্যেক সালাতের শেষে সুরা ইখলাস, ফালাক এবং নাস একবার করে পড়তেন।[১] আর ফজর ও মাগরিবের সালাতের পর ৩ বার করে পড়তেন।[২]</string>
+    <string name="_1_sahih_albani_abu_dawud_1523">[১] সহিহ। আবু দাউদ, ১৫২৩ </string>
+    <string name="_2_hasan_albani_abu_dawud_5082">[২] হাসান। আবু দাউদ, ৫০৮২</string>
+    <string name="salah_11_5">নামাজ #১১.৫</string>
+    <string name="_33_times_subhanallah">৩৩ বার সুবহানাল্লাহ,</string>
+    <string name="transliteration_subhaanallah">উচ্চারণ: সুবহানাল্লাহ।</string>
+    <string name="translation_how_perfect_allah_is">অর্থ: আল্লাহর পবিত্রতা ঘোষণা করছি।</string>
+    <string name="_33_times_alhamdulillah">৩৩ বার আলহামদুলিল্লাহ,</string>
+    <string name="transliteration_alhamdu_lillaah">উচ্চারণ: আলহামদুলিল্লাহ।</string>
+    <string name="translation_all_praise_is_for_allah">অর্থ: প্রশংসা আল্লাহর জন্য।</string>
+    <string name="_34_times_allahu_akbar">৩৪ বার আল্লাহু আকবার,</string>
+    <string name="transliteration_allahu_akbar">উচ্চারণ: আল্লাহু আকবার।</string>
+    <string name="translation_allah_is_the_greatest">অর্থ: আল্লাহ সর্বশ্রেষ্ঠ।</string>
+    <string name="_33_times_subhanallah_33_times_alhamdulillah_and_34_times_allahu_akbar_these_have_been_mentioned_in_different_numbers_in_different_sahih_hadiths_the_number_above_is_more_famous_maximum_number_400_times_subhanallah_alhamdulillah_allahu_akbar_and_la_ilaha_illallah_do_100_dhikr_every_time_minimum_number_30_times_10_times_subhanallah_10_times_alhamdulillah_and_10_times_allahu_akbar_1">৩৩ বার সুবহানাল্লাহ, ৩৩ বার আলহামদুলিল্লাহ এবং ৩৪ বার আল্লাহু আকবার। এ জিকিরগুলোর বিষয়ে বিভিন্ন সহিহ হাদিসে বিভিন্ন সংখ্যা বলা হয়েছে। তবে ওপরের সংখ্যাটিই বেশি প্রসিদ্ধ। সর্বোচ্চ সংখ্যা ৪০০ বার; সুবহানাল্লাহ, আলহামদুলিল্লাহ, আল্লাহু আকবার এবং লা ইলাহা ইল্লাল্লাহ; প্রত্যেক দুআ ১০০ বার করে। সর্বনিম্ন সংখ্যা ৩০ বার; ১০ বার সুবহানাল্লাহ, ১০ বার আলহামদুলিল্লাহ এবং ১০ বার আল্লাহু আকবার।[১]</string>
+    <string name="_1_bukhari_843">[১] সহিহ বুখারি, ৮৪৩</string>
+    <string name="say_thirty_three_times_each">প্রত্যেকটি ৩৩ বার করে বলবে,</string>
+    <string name="transliteration_subhaanallahi_walhamdu_lillaahi_wallahu_akbar">উচ্চারণ: সুবহানাল্লাহ, ওয়াল হামদুলিল্লাহ, ওয়াল্লাহু আকবার।</string>
+    <string name="translation_how_perfect_allah_is_all_praise_is_for_allah_and_allah_is_the_greatest">অর্থ: আল্লাহ কতই না পবিত্র-মহান। সকল প্রশংসা আল্লাহর জন্য। আল্লাহ সবচেয়ে বড়।</string>
+    <string name="and_then_say">তারপর বলবে,</string>
+    <string name="transliteration_laa_ilaaha_illallahu_wahdahu_laa_shareeka_lahu_lahul_mulku_walahul_hamdu_wahuwa_alaa_kulli_shay_in_qadeer">উচ্চারণ: লা ইলাহা ইল্লাল্লাহু ওয়াহদাহু লা শারিকা লাহু, লাহুল মুলকু ওয়ালাহুল হামদু ওয়াহুয়া আলা কুল্লি শাইইন কাদির।</string>
+    <string name="translation_none_has_the_right_to_be_worshipped_except_allah_alone_without_any_partner_to_him_belong_all_sovereignty_and_praise_and_he_is_over_all_things_omnipotent">অর্থ: একমাত্র আল্লাহ ছাড়া কোনো হক ইলাহ নেই, তাঁর কোনো শরিক নেই, রাজত্ব তাঁরই। সকল প্রশংসা তাঁরই এবং তিনি সবকিছুর ওপর ক্ষমতাবান।</string>
+    <string name="whoever_says_these_after_every_prayer_will_be_forgiven_his_sins_even_though_they_be_as_the_foam_of_the_sea_2">যে ব্যক্তি প্রতি নামাজের পরে এটা বলবে, তার পাপরাশি ক্ষমা করে দেয়া হয়, যদিও তা সমুদ্রের ফেনারাশির মতো হয়।[২]</string>
+    <string name="muslim_1_418_no_597">[২] সহিহ মুসলিম, ৫৯৭</string>
+    <string name="after_returning_the_salutation_rasulullah_would_say_once_1">রাসুলুল্লাহ (ﷺ) সালাম ফিরানোর পর ১ বার বলতেন,[১]</string>
+    <string name="transliteration_allahu_akbar_once">উচ্চারণ: আল্লাহু আকবার।</string>
+    <string name="translation_allah_is_the_greatest_oncee">অর্থ: আল্লাহ সর্বশ্রেষ্ঠ।</string>
+    <string name="bukhari_842">[১] সহিহ বুখারি, ৮৪২</string>
+    <string name="transliteration_laa_ilaaha_ill_allahu_wa_hdahu_laa_shareeka_lahu_lahul_mulku_wa_lahul_hamdu_yu_hyee_wa_yumeetu_wa_huwa_alaa_kulli_shay_in_qadeer">উচ্চারণ: লা ইলাহা ইল্লাল্লাহু, ওয়াহদাহু লা শারিকা লাহু, লাহুল মুলকু, ওয়া লাহুল হামদু‌, ইউহয়ি ওয়া ইউমিতু ওয়া হুয়া আলা কুল্লি শাইয়িন কাদির।</string>
+    <string name="translation_none_has_the_right_to_be_worshipped_except_allah_who_is_alone_and_does_not_have_any_partner_to_him_belongs_all_sovereignty_and_praise_he_gives_life_and_causes_death_and_he_is_omnipotent_over_all_things_1">অর্থ: আল্লাহ ছাড়া কোনো মাবুদ নেই, তিনি একক, তাঁর কোনো শরিক নেই। রাজত্ব তাঁরই এবং প্রশংসা তাঁরই। তিনিই জীবন দান করেন এবং মৃত্যুও দান করেন। তাঁর হাতেই সকল কল্যাণ এবং তিনি সবকিছুর ওপর ক্ষমতাবান।[১]</string>
+    <string name="say_the_dua_7_times">৭ বার বলবে,</string>
+    <string name="transliteration_allaahumma_ajirni_minan_naar">উচ্চারণ: আল্লাহুম্মা, আজিরনি মিনান নার।</string>
+    <string name="translation_o_allah_protect_me_from_hell">অর্থ: হে আল্লাহ, আমাকে জাহান্নামের আগুন থেকে রক্ষা করুন।</string>
+    <string name="harith_ibn_muslim_ra_said_the_messenger_of_allah_said_to_me_when_you_finish_the_maghrib_prayer_say_o_allah_protect_me_from_hell_seven_times_for_if_you_say_that_and_die_that_night_allah_will_protect_you_from_jahannam_and_when_you_finish_the_fajr_prayer_say_it_in_a_similar_way_for_if_you_die_that_day_allah_will_protect_you_from_jahannam_most_of_the_muhaddithin_have_considered_this_hadith_to_be_acceptable_2">রাসুলুল্লাহ (ﷺ) বলেন, তুমি ফজরের সালাতের পরেই (দুনিয়াবি) কথা বলার আগে এই দুআ ৭ বার বলবে। যদি তুমি ঐ দিনে মৃত্যুবরণ করো তাহলে আল্লাহ তোমাকে জাহান্নামের আগুন থেকে রক্ষা করবেন। একইভাবে মাগরিবের সালাতের পরে কথা বলার আগেই এই দুআ ৭ বার বলবে। তুমি যদি ঐ রাতে মৃত্যুবরণ করো তাহলে আল্লাহ তোমাকে জাহান্নাম থেকে রক্ষা করবেন।\nঅধিকাংশ মুহাদ্দিস হাদিসটিকে গ্রহণযোগ্য বলে গণ্য করেছেন।[২]</string>
+    <string name="_1_hasan_albani_tirmidhi_3534">[১] হাসান। তিরমিজি, ৩৫৩৪</string>
+    <string name="_2_hasan_ibn_hajar_al_futuhaatur_rabbaniyyah_3_69">[২] হাসান। আল-ফুতুহাতুর রাব্বানিয়্যাহ, ৩/৬৯</string>
+    <string name="say_ten_times">Say ten times:</string>
+    <string name="adhan_2_2">আজান #২.২</string>
+    <string name="ablution_2_2">ওজু #২.২</string>
+    <string name="ablution_2_3">ওজু #২.৩</string>
+    <string name="salah_1">নামাজ #১</string>
+    <string name="_3_sahih_muslim_1_414_591">[৩] সহিহ মুসলিম, ১/৪১৪, ৫৯১</string>
+    <string name="transliteration_laa_ilaaha_ill_allahu_wa_hdahu_laa_shareeka_lahu_lahul_mulku_wa_lahul_hamdu_wa_huwa_alaa_kulli_shay_in_qadeer_allaahumma_laa_maani_a_li_maa_a_tayta_wa_laa_mu_tiya_li_maa_mana_ta_wa_laa_yanfa_u_dhal_jaddi_minkal_jaddu">উচ্চারণ: লা ইলাহা ইল্লাল্লাহু, ওয়াহদাহু লা শারিকা লাহু, লাহুল মুলকু, ওয়া লাহুল হামদু, ওয়া হুআ আলা কুল্লি শাইয়িন কাদির। আল্লাহুম্মা, লা মানি আ লিমা আত্বাইতা, ওয়ালা মুত্বিয়া লিমা মানাতা, ওয়ালা ইয়ান্‌ফাউ জাল জাদ্দি মিনকাল জাদ্দু।</string>
+    <string name="salah_12">নামাজ #১২</string>
+    <string name="dua">দুআ সিরিজ</string>
+
+    <string-array name="prayer_texts">
+        <item>তোমরা ধৈর্য ও নামাজের মাধ্যমে সাহায্য প্রার্থনা করো। নিঃসন্দেহে তা বড্ড কঠিন; বিনীতদের জন্য ছাড়া। [সুরা বাকারা, আয়াত: ৪৫]</item>
+        <item>সজাগ দৃষ্টি রেখো সব নামাজের প্রতি এবং (বিশেষ করে) মধ্যবর্তী নামাজের প্রতি। আল্লাহর সামনে আদব নিয়ে দাঁড়াও। [সুরা বাকারা, আয়াত: ২৩৮]</item>
+        <item>ঐ সব নামাজির জন্য দুঃখ, যারা নিজেদের নামাজগুলোতে অলসতা করে। যারা লোককে দেখানোর জন্য নামাজ পড়ে। [সুরা মাউন, আয়াত: ৪-৬]</item>
+        <item>নিশ্চয় মুমিনরা সফল, যারা নিজেদের নামাজে অন্তরের বিনয় প্রকাশ করে। [সুরা মুমিন, আয়াত: ১-২]</item>
+        <item>সূর্য হেলে পড়ার পর থেকে রাতের ঘন অন্ধকার পর্যন্ত কায়িম করো এবং কায়িম করো ফরজের কুরআন পাঠও (সালাতুল ফরজ)। নিশ্চয় ফজরের পাঠ (সালাতুল ফরজ) প্রত্যক্ষ করা হয়। [সুরা বনি ইসরাইল, আয়াত: ৭৮]</item>
+        <item>যখন তোমরা নামাজ শেষ করো, তখন দাঁড়ানো, বসা কিংবা শোয়া অবস্থায় আল্লাহকে স্মরণ করো। এরপর যখন বিপদমুক্ত হয়ে যাও, তখন নামাজ ঠিক করে পড়ো। নিশ্চয় নির্দিষ্ট সময়ের মধ্যে নামাজ মুসলিমদের ওপর ফরজ। [সুরা নিসা, আয়াত: ১০৩]</item>
+        <item>যারা ইমান এনেছো, জুমার দিনে যখন তোমাদেরকে নামাজের জন্য ডাকা হয় তখন তোমরা  আল্লাহর স্মরণের দিকে ধাবিত হও এবং বেচাকেনা বন্ধ রাখো। এটা তোমাদের জন্য উত্তম; যদি তোমরা জানতে! [সুরা জুমা, আয়াত: ৯]</item>
+        <item>তুমি নামাজ কায়িম করো দিনের দুই প্রান্তে ও রাতের প্রথমাংশে। নিশ্চয় ভালো কাজ মন্দ কাজকে মিটিয়ে দেয়। উপদেশ গ্রহণকারীদের জন্য এটি এক উপদেশ। [সুরা হুদ, আয়াত: ১১৪]</item>
+        <item>বলো, নিশ্চয় আমার নামাজ, আমার কুরবানি, আমার জীবন ও আমার মরণ জগৎসমূহের প্রতিপালক আল্লাহর জন্য। [সুরা আনআম, আয়াত: ১৬২]</item>
+        <item>আমি যদি তাদেরকে পৃথিবীতে প্রতিষ্ঠিত করি (ক্ষমতা ও সম্পদ দিয়ে), তাহলে তারা সালাত কায়িম করবে, সৎ কাজের নির্দেশ দিবে এবং অসৎ কাজ হতে নিষেধ করবে; সব কাজের পরিণাম আল্লাহর (কাছেই)। [সুরা হজ, আয়াত: ৪১]</item>
+        <item>নিশ্চয় নামাজ অশ্লীল ও খারাপ কাজ থেকে বিরত রাখে। [সুরা আনকাবুত, আয়াত: ৪৫] </item>
+    </string-array>
+
+    <string-array name="quran_texts">
+        <item>মুমিন তো তারাই, (যাদের সামনে) আল্লাহকে স্মরণ করা হলে তাদের হৃদয় ভীত হয়, যখন তাদের সামনে তাঁর আয়াতসমূহ তিলাওয়াত করা হয় তখন তা তাদের ইমান বাড়ে এবং তারা তাদের প্রতিপালকের ওপর ভরসা করে। [সুরা আনফাল, ৮:২]</item>
+        <item>যারা উত্তমভাবে কুরআন পড়বে তারা থাকবে অনুগত সম্মানিত ফিরিশতাদের সাথে। আর যে কুরআন পড়তে গিয়ে আটকে আটকে যায়; কষ্ট হয়, তার জন্য রয়েছে দ্বিগুণ সাওয়াব। [সহিহ মুসলিম]</item>
+        <item>তোমরা কুরআন পড়ো। কেননা কিয়ামতের দিন কুরআন তার পাঠকারীর জন্য সুপারিশ করবে। [সহিহ মুসলিম]</item>
+        <item>তোমাদের মধ্যে সর্বোত্তম ব্যক্তি সেই, যে নিজে কুরআন শিক্ষা করে ও অপরকে শিক্ষা দেয়। [সহিহ বুখারি]</item>
+        <item>এই কুরআন (কিয়ামতে) সুপারিশকারী; তার সুপারিশ গ্রহণযোগ্য হবে। (কুরআন) সত্যায়িত প্রতিবাদী। যে ব্যক্তি তাকে নিজ সামনে রাখবে, সে ব্যক্তিকে সে জান্নাতের প্রতি পথপ্রদর্শন করে নিয়ে যাবে। আর যে ব্যক্তি তাকে পিছনে রাখবে, সে ব্যক্তিকে সে জাহান্নামের দিকে পরিচালিত করবে। [ইবনু হিব্বান]</item>
+        <item>যে ব্যক্তি চায় যে, সে আল্লাহ ও তাঁর রাসুলকে (অধিক) ভালোবাসুক (অথবা আল্লাহ ও তাঁর রাসুল তাকে ভালোবাসুন), সে যেন কুরআন দেখে পাঠ করে। [শুআবুল ইমান]</item>
+        <item>মানুষের মধ্যে আল্লাহর কিছু স্পেশাল মানুষ আছে; আহলে কুরআন (কুরআন বুঝে পাঠকারী ও তদনুযায়ী আমলকারী ব্যক্তিরাই) হলো আল্লাহর সেই স্পেশাল মানুষ। [সহিহ জামি]</item>
+        <item>কুরআনের (শুদ্ধভাবে পাঠকারী ও পানির মতো হিফজকারী পাকা) হাফিজ মহাসম্মানিত পুণ্যবান লিপিকার (ফিরিশতাবর্গের) সঙ্গী হবে। আর যে ব্যক্তি (পাকা হিফজ না থাকার কারণে) কুরআন পাঠে ’ওঁ-ওঁ’ করে এবং পড়তে কষ্টবোধ করে, তার জন্য রয়েছে দুটি সাওয়াব (একটি তিলাওয়াত ও দ্বিতীয়টি কষ্টের দরুন)। [সহিহ বুখারি]</item>
+        <item>দুজনের ক্ষেত্রে ঈর্ষা করা সিদ্ধ। ১. যাকে আল্লাহ কুরআন (মুখস্থ করার শক্তি) দান করেছেন; তাই সে এর মাধ্যমে দিনরাত তা পড়ে ও আমল করে। ২. যাকে আল্লাহ সম্পদ দান করেছেন; তাই সে (আল্লাহর পথে) দিনরাত তা ব্যয় করে। [সহিহ বুখারি]</item>
+        <item>পবিত্র কুরআনের পাঠক, হাফিজ ও তার ওপর আমলকারীকে (কিয়ামতের দিন) বলা হবে, তুমি কুরআন পড়তে থাকো ও ওপরে উঠতে থাকো। আর ঠিক সেইভাবে স্পষ্ট ও ধীরে ধীরে পড়তে থাকো, যেভাবে দুনিয়াতে পড়তে। কেননা, (জান্নাতের ভেতর) তোমার স্থান ঠিক সেখানে হবে, যেখানে তোমার সর্বশেষ আয়াতটি পড়া শেষ হবে। [আবু দাউদ]</item>
+
+    </string-array>
+
+    <string name="prayer_text_font_family">kalpurush.ttf</string>
+    <string name="_78">৭৮</string>
+    <string name="an_naba">আন-নাবা</string>
+    <string name="the_tidings">মহাসংবাদ</string>
+    <string name="_40_ayahs">৪০ আয়াত</string>
+    <string name="_79">৭৯</string>
+    <string name="an_nazi_at">আন-নাজিআত</string>
+    <string name="those_who_drag_forth">প্রচেষ্টাকারী</string>
+    <string name="_46_ayahs">৪৬ আয়াত</string>
+    <string name="_80">৮০</string>
+    <string name="abasa">আবাসা</string>
+    <string name="he_frowned">সে ভ্রু কুঁচকালো</string>
+    <string name="_42_ayahs">৪২ আয়াত</string>
+    <string name="_81">৮১</string>
+    <string name="at_takwir">আত-তাকউইর</string>
+    <string name="the_overthrowing">অন্ধকারাচ্ছন্ন</string>
+    <string name="_29_ayahs">২৯ আয়াত</string>
+    <string name="_82">৮২</string>
+    <string name="al_infitar">আল-ইনফিতার</string>
+    <string name="the_cleaving">বিদীর্ণ করা</string>
+    <string name="_19_ayahs">১৯ আয়াত</string>
+    <string name="_83">৮৩</string>
+    <string name="al_mutaffifin">আল-মুতাফফিফিন</string>
+    <string name="the_defrauding">প্রতারণা করা</string>
+    <string name="_36_ayahs">৩৬ আয়াত</string>
+    <string name="_84">৮৪</string>
+    <string name="al_inshiqaq">আল-ইনশিকাক</string>
+    <string name="the_sundering">খণ্ড-বিখণ্ডকরণ</string>
+    <string name="_25_ayahs">২৫ আয়াত</string>
+    <string name="_85">৮৫</string>
+    <string name="al_buruj">আল-বুরুজ</string>
+    <string name="the_mansions_of_the_stars">নক্ষত্রপুঞ্জ</string>
+    <string name="_22_ayahs">২২ আয়াত</string>
+    <string name="_86">৮৬</string>
+    <string name="at_tariq">আত-তারিক</string>
+    <string name="the_nightcommer">রাতের আগন্তুক</string>
+    <string name="_17_ayahs">১৭ আয়াত</string>
+    <string name="_87">৮৭</string>
+    <string name="al_a_la">আল-আ\'লা</string>
+    <string name="the_most_high">‌সর্বোন্নত</string>
+    <string name="_88">৮৮</string>
+    <string name="al_ghashiyah">আল-গাশিয়া</string>
+    <string name="the_overwhelming">বিহ্বলকর ঘটনা</string>
+    <string name="_26_ayahs">২৬ আয়াত</string>
+    <string name="_89">৮৯</string>
+    <string name="al_fajr">আল-ফাজর</string>
+    <string name="the_dawn">ভোরবেলা</string>
+    <string name="_30_ayahs">৩০ আয়াত</string>
+    <string name="_90">৯০</string>
+    <string name="al_balad">আল-বালাদ</string>
+    <string name="the_city">শহর</string>
+    <string name="_20_ayahs">২০ আয়াত</string>
+    <string name="_91">৯১</string>
+    <string name="ash_shams">আশ-শামস</string>
+    <string name="the_sun">সূর্য</string>
+    <string name="_15_ayahs">১৫ আয়াত</string>
+    <string name="_92">৯২</string>
+    <string name="al_layl">আল-লাইল</string>
+    <string name="the_night">রাত</string>
+    <string name="_21_ayahs">২১ আয়াত</string>
+    <string name="_93">৯৩</string>
+    <string name="ad_duhaa">আদ-দুহা</string>
+    <string name="the_morning_hours">পূর্বাহ্নের সূর্যকিরণ</string>
+    <string name="_11_ayahs">১১ আয়াত</string>
+    <string name="_94">৯৪</string>
+    <string name="ash_sharh">আল-ইনশিরাহ</string>
+    <string name="the_relief">বক্ষ প্রশস্তকরণ</string>
+    <string name="_8_ayahs">৮ আয়াত</string>
+    <string name="_95">৯৫</string>
+    <string name="at_tin">আত-তিন</string>
+    <string name="the_fig">ডুমুর</string>
+    <string name="_96">৯৬</string>
+    <string name="al_alaq">আল-আলাক</string>
+    <string name="the_clot">রক্তপিণ্ড</string>
+    <string name="_97">৯৭</string>
+    <string name="al_qadr">আল-কাদর</string>
+    <string name="the_power">মহিমান্বিত</string>
+    <string name="_5_ayahs">৫ আয়াত</string>
+    <string name="_98">৯৮</string>
+    <string name="al_bayyinah">আল-বায়্যিনাহ</string>
+    <string name="the_clear_proof">সুস্পষ্ট প্রমাণ</string>
+    <string name="_99">৯৯</string>
+    <string name="az_zalzalah">আজ-জিলজাল</string>
+    <string name="the_earthquake">ভূমিকম্প</string>
+    <string name="_100">১০০</string>
+    <string name="al_adiyat">আল-আদিআত</string>
+    <string name="the_courser">অভিযানকারী</string>
+    <string name="_101">১০১</string>
+    <string name="al_qari_ah">আল-কারিআ</string>
+    <string name="the_calamity">মহাসংকট</string>
+    <string name="_102">১০২</string>
+    <string name="at_takathur">আত-তাকাসুর</string>
+    <string name="the_rivalry_in_world_increase">প্রাচুর্য্যের প্রতিযোগিতা</string>
+    <string name="_103">১০৩</string>
+    <string name="al_asr">আল-আসর</string>
+    <string name="the_declining_day">অপরাহ্ন</string>
+    <string name="_3_ayahs">৩ আয়াত</string>
+    <string name="_104">১০৪</string>
+    <string name="al_humazah">আল-হুমাজা</string>
+    <string name="the_traducer">পরনিন্দাকারী</string>
+    <string name="_9_ayahs">৯ আয়াত</string>
+    <string name="_105">১০৫</string>
+    <string name="al_fil">আল-ফিল</string>
+    <string name="the_elephant">হাতি</string>
+    <string name="_106">১০৬</string>
+    <string name="quraysh">আল-কুরাইশ</string>
+    <string name="_4_ayahs">৪ আয়াত</string>
+    <string name="_107">১০৭</string>
+    <string name="al_ma_un">আল-মাউন</string>
+    <string name="the_small_kindnesses">সাহায্য-সহায়তা </string>
+    <string name="_7_ayahs">৭ আয়াত</string>
+    <string name="_108">১০৮</string>
+    <string name="al_kawthar">আল-কাউসার</string>
+    <string name="the_abundance">প্রাচুর্য</string>
+    <string name="_109">১০৯</string>
+    <string name="al_kafirun">আল-কাফিরুন</string>
+    <string name="the_disbelievers">অস্বীকারকারীগণ</string>
+    <string name="_6_ayahs">৬ আয়াত</string>
+    <string name="_110">১১০</string>
+    <string name="an_nasr">আন-নাসর</string>
+    <string name="the_divine_support">সাহায্য</string>
+    <string name="_111">১১১</string>
+    <string name="al_masad">আল-মাসাদ</string>
+    <string name="the_palm_fiber">জ্বলন্ত অঙ্গার</string>
+    <string name="_112">১১২</string>
+    <string name="al_ikhlas">আল-ইখলাস</string>
+    <string name="sincerity">একনিষ্ঠতা</string>
+    <string name="_113">১১৩</string>
+    <string name="al_falaq">আল-ফালাক</string>
+    <string name="the_daybreak">নিশিভোর</string>
+    <string name="_114">১১৪</string>
+    <string name="an_nas">আন-নাস</string>
+    <string name="mankind">মানবজাতি</string>
+    <string name="surah_78_ayah_40">সুরা: ৭৮ | আয়াত: ৪০</string>
+    <string name="surah_79_ayah_46">সুরা: ৭৯ | আয়াত: ৪৬</string>
+    <string name="surah_80_ayah_42">সুরা: ৮০ | আয়াত: ৪২</string>
+    <string name="surah_81_ayah_29">সুরা: ৮১ | আয়াত: ২৯</string>
+    <string name="surah_82_ayah_19">সুরা: ৮২ | আয়াত: ১৯</string>
+    <string name="surah_83_ayah_36">সুরা: ৮৩ | আয়াত: ৩৬</string>
+    <string name="surah_84_ayah_25">সুরা: ৮৪ | আয়াত: ২৫</string>
+    <string name="surah_85_ayah_22">সুরা: ৮৫ | আয়াত: ২২</string>
+    <string name="surah_86_ayah_17">সুরা: ৮৬ | আয়াত: ১৭</string>
+    <string name="surah_87_ayah_19">সুরা: ৮৭ | আয়াত: ১৯</string>
+    <string name="surah_88_ayah_26">সুরা: ৮৮ | আয়াত: ২৬</string>
+    <string name="surah_89_ayah_30">সুরা: ৮৯ | আয়াত: ৩০</string>
+    <string name="surah_90_ayah_20">সুরা: ৯০ | আয়াত: ২০</string>
+    <string name="surah_91_ayah_15">সুরা: ৯১ | আয়াত: ১৫</string>
+    <string name="surah_92_ayah_21">সুরা: ৯২ | আয়াত: ২১</string>
+    <string name="surah_93_ayah_11">সুরা: ৯৩ | আয়াত: ১১</string>
+    <string name="surah_94_ayah_8">সুরা: ৯৪ | আয়াত: ৮</string>
+    <string name="surah_95_ayah_8">সুরা: ৯৫ | আয়াত: ৮</string>
+    <string name="surah_96_ayah_19">সুরা: ৯৬ | আয়াত: ১৯</string>
+    <string name="surah_97_ayah_5">সুরা: ৯৭ | আয়াত: ৫</string>
+    <string name="surah_98_ayah_8">সুরা: ৯৮ | আয়াত: ৮</string>
+    <string name="surah_99_ayah_8">সুরা: ৯৯ | আয়াত: ৮</string>
+    <string name="surah_100_ayah_11">সুরা: ১০০ | আয়াত: ১১</string>
+    <string name="surah_101_ayah_11">সুরা: ১০১ | আয়াত: ১১</string>
+    <string name="surah_102_ayah_8">সুরা: ১০২ | আয়াত: ৮</string>
+    <string name="surah_103_ayah_3">সুরা: ১০৩ | আয়াত: ৩</string>
+    <string name="surah_104_ayah_9">সুরা: ১০৪ | আয়াত: ৯</string>
+    <string name="surah_105_ayah_5">সুরা: ১০৫ | আয়াত: ৫</string>
+    <string name="surah_106_ayah_4">সুরা: ১০৬ | আয়াত: ৪</string>
+    <string name="surah_107_ayah_7">সুরা: ১০৭ | আয়াত: ৭</string>
+    <string name="surah_108_ayah_3">সুরা: ১০৮ | আয়াত: ৩</string>
+    <string name="surah_109_ayah_6">সুরা: ১০৯ | আয়াত: ৬</string>
+    <string name="surah_110_ayah_3">সুরা: ১১০ | আয়াত: ৩</string>
+    <string name="surah_111_ayah_5">সুরা: ১১১ | আয়াত: ৫</string>
+    <string name="surah_112_ayah_4">সুরা: ১১২ | আয়াত: ৪</string>
+    <string name="surah_113_ayah_5">সুরা: ১১৩ | আয়াত: ৫</string>
+    <string name="surah_114_ayah_6">সুরা: ১১৪ | আয়াত: ৬</string>
+    <string name="_1">১</string>
+    <string name="_2">২</string>
+    <string name="_3">৩</string>
+    <string name="_4">৪</string>
+    <string name="_5">৫</string>
+    <string name="_6">৬</string>
+    <string name="_7">৭</string>
+    <string name="_8">৮</string>
+    <string name="_9">৯</string>
+    <string name="_10">১০</string>
+    <string name="_11">১১</string>
+    <string name="_12">১২</string>
+    <string name="_13">১৩</string>
+    <string name="_14">১৪</string>
+    <string name="_15">১৫</string>
+    <string name="_16">১৬</string>
+    <string name="_17">১৭</string>
+    <string name="_18">১৮</string>
+    <string name="_19">১৯</string>
+    <string name="_20">২০</string>
+    <string name="_21">২১</string>
+    <string name="_22">২২</string>
+    <string name="_23">২৩</string>
+    <string name="_24">২৪</string>
+    <string name="_25">২৫</string>
+    <string name="_26">২৬</string>
+    <string name="_27">২৭</string>
+    <string name="_28">২৮</string>
+    <string name="_29">২৯</string>
+    <string name="_30">৩০</string>
+    <string name="_31">৩১</string>
+    <string name="_32">৩২</string>
+    <string name="_33">৩৩</string>
+    <string name="_34">৩৪</string>
+    <string name="_35">৩৫</string>
+    <string name="_36">৩৬</string>
+    <string name="_37">৩৭</string>
+    <string name="_38">৩৮</string>
+    <string name="_39">৩৯</string>
+    <string name="_40">৪০</string>
+    <string name="_41">৪১</string>
+    <string name="_42">৪২</string>
+    <string name="_43">৪৩</string>
+    <string name="_44">৪৪</string>
+    <string name="_45">৪৫</string>
+    <string name="_46">৪৬</string>
+
+    <!--78-->
+    <string name="what_are_they_asking_one_another_about">তারা একে অন্যের কাছে কী বিষয়ে জিজ্ঞাসাবাদ করছে?</string>
+    <string name="about_the_momentous_news">মহাসংবাদটির বিষয়ে,</string>
+    <string name="over_which_they_disagree">যে বিষয়ে তারা মতানৈক্য করছে।</string>
+    <string name="but_no_they_will_come_to_know">কখনো না, তারা অচিরেই জানতে পারবে;</string>
+    <string name="again_no_they_will_come_to_know">কখনো না, তারা অচিরেই জানতে পারবে।</string>
+    <string name="have_we_not_smoothed_out_the_earth_like_a_bed">আমরা কি করিনি জমিনকে শয্যা</string>
+    <string name="and_made_the_mountains_as_its_pegs">আর পর্বতসমূহকে পেরেক?</string>
+    <string name="and_created_you_in_pairs">আর আমরা সৃষ্টি করেছি তোমাদেরকে জোড়ায় জোড়ায়,</string>
+    <string name="and_made_your_sleep_for_rest">আর তোমাদের ঘুমকে করেছি বিশ্ৰাম,</string>
+    <string name="and_made_the_night_as_a_cover">আর করেছি রাতকে আবরণ,</string>
+    <string name="and_made_the_day_for_livelihood">আর করেছি দিনকে জীবিকা আহরণের সময়,</string>
+    <string name="and_built_above_you_seven_mighty_heavens">আর আমরা নির্মাণ করেছি তোমাদের ওপরে সুদৃঢ় সাত আকাশ</string>
+    <string name="and_placed_in_them_a_shining_lamp">আর আমরা সৃষ্টি করেছি প্রোজ্জ্বল দীপ।</string>
+    <string name="and_sent_down_from_rainclouds_pouring_water">আর আমরা বর্ষণ করেছি মেঘমালা হতে প্রচুর বৃষ্টি,</string>
+    <string name="producing_by_it_grain_and_various_plants">যাতে তা দ্বারা আমরা উৎপন্ন করি শস্য, উদ্ভিদ,</string>
+    <string name="and_dense_orchards">ও ঘন সন্নিবিষ্ট উদ্যান।</string>
+    <string name="indeed_the_day_of_final_decision_is_an_appointed_time">নিশ্চয় নির্ধারিত আছে বিচার দিন;</string>
+    <string name="it_is_the_day_the_trumpet_will_be_blown_and_you_will_all_come_forth_in_crowds">সেদিন শিঙায় ফুঁ দেয়া হবে তখন তোমরা দলে দলে আসবে,</string>
+    <string name="the_sky_will_be_split_open_becoming_many_gates">আর আকাশ উন্মুক্ত করা হবে, ফলে তা হবে বহু দ্বারবিশিষ্ট।</string>
+    <string name="and_the_mountains_will_be_blown_away_becoming_like_a_mirage">আর চলমান করা হবে পর্বতসমূহকে, ফলে সেগুলো হয়ে যাবে মরীচিকা,</string>
+    <string name="indeed_hell_is_lying_in_ambush">নিশ্চয় জাহান্নাম ওত পেতে অপেক্ষমান;</string>
+    <string name="as_a_home_for_the_transgressors">সীমালঙ্ঘনকারীদের জন্য প্রত্যাবর্তনস্থল।</string>
+    <string name="where_they_will_remain_for_endless_ages">সেখানে তারা যুগ যুগ ধরে অবস্থান করবে।</string>
+    <string name="there_they_will_not_taste_any_coolness_or_drink">সেখানে তারা আস্বাদন করবে না শীতলতা, না কোনো পানীয়—</string>
+    <string name="except_boiling_water_and_oozing_pus">ফুটন্ত পানি ও পুঁজ ছাড়া;</string>
+    <string name="a_fitting_reward">এটাই উপযুক্ত প্রতিফল।</string>
+    <string name="for_they_never_expected_any_reckoning">নিশ্চয় তারা কখনো হিসাবের আশা করত না,</string>
+    <string name="and_totally_rejected_our_signs">আর তারা আমাদের নিদর্শনাবলিতে কঠোরভাবে মিথ্যারোপ করেছিল।</string>
+    <string name="and_we_have_everything_recorded_precisely">আর সবকিছুই আমরা সংরক্ষণ করেছি লিখিতভাবে।</string>
+    <string name="so_the_deniers_will_be_told_taste_the_punishment_for_all_you_will_get_from_us_is_more_torment">অতঃপর তোমরা আস্বাদ গ্রহণ করো, আমরা তো তোমাদের শাস্তিই শুধু বৃদ্ধি করব।</string>
+    <string name="indeed_the_righteous_will_have_salvation">নিশ্চয় মুত্তাকিদের জন্য আছে সাফল্য,</string>
+    <string name="gardens_vineyards">উদ্যানসমূহ, আঙুরসমূহ,</string>
+    <string name="and_full_bosomed_maidens_of_equal_age">আর সমবয়স্কা প্রস্ফুটিত যৌবনা তরুণী</string>
+    <string name="and_full_cups_of_pure_wine">এবং পরিপূর্ণ পানপাত্ৰ।</string>
+    <string name="never_to_hear_any_idle_talk_or_lying_therein">সেখানে তারা শুনবে না কোনো অসার ও মিথ্যা বাক্য;</string>
+    <string name="a_fitting_reward_as_a_generous_gift_from_your_lord">আপনার রবের পক্ষ থেকে পুরস্কার, যথোচিত দানস্বরূপ,</string>
+    <string name="the_lord_of_the_heavens_and_the_earth_and_everything_in_between_the_most_compassionate_no_one_will_dare_speak_to_him">যিনি আসমানসমূহ, জমিন ও এ দুইয়ের মধ্যবর্তী সমস্ত কিছুর রব, দয়াময়; তাঁর কাছে আবেদন-নিবেদনের শক্তি তাদের থাকবে না।</string>
+    <string name="on_the_day_the_holy_spirit_and_the_angels_will_stand_in_ranks_none_will_talk_except_those_granted_permission_by_the_most_compassionate_and_whose_words_are_true">সেদিন রুহ ও ফিরিশতাগণ সারিবদ্ধভাবে দাঁড়াবে, সেদিন কেউ কথা বলবে না, তবে রহমান যাকে অনুমতি দেবেন সে ছাড়া, এবং সে সঠিক কথা বলবে।</string>
+    <string name="that_day_is_the_ultimate_truth_so_let_whoever_wills_take_the_path_leading_back_to_their_lord">এ দিনটি সত্য; অতএব, যার ইচ্ছে সে তার রবের কাছে আশ্রয় গ্ৰহণ করুক।</string>
+    <string name="indeed_we_have_warned_you_of_an_imminent_punishment_the_day_every_person_will_see_the_consequences_of_what_their_hands_have_done_and_the_disbelievers_will_cry_i_wish_i_were_dust">নিশ্চয় আমরা তোমাদেরকে আসন্ন শাস্তি সম্পর্কে সতর্ক করলাম; যেদিন মানুষ তার কৃতকর্ম দেখতে পাবে এবং কাফির বলবে, হায়! আমি যদি মাটি হতাম।”</string>
+
+
+    <!--79-->
+    <string name="by_those_angels_stripping_out_evil_souls_harshly">শপথ নির্মমভাবে উৎপাটনকারীদের,</string>
+    <string name="and_those_pulling_out_good_souls_gently">আর মৃদুভাবে বন্ধনমুক্তকারীদের</string>
+    <string name="and_those_gliding_through_heavens_swiftly">আর তীব্ৰ গতিতে সন্তরণকারীদের,</string>
+    <string name="and_those_taking_the_lead_vigorously">আর দ্রুতবেগে অগ্রসরমানদের,</string>
+    <string name="and_those_conducting_affairs_obediently">অতঃপর সব কাজ নির্বাহকারীদের।</string>
+    <string name="consider_the_day_when_the_quaking_blast_will_come_to_pass">সেদিন প্ৰকম্পিতকারী প্ৰকম্পিত করবে,</string>
+    <string name="followed_by_a_second_blast">তাকে অনুসরণ করবে পরবর্তী কম্পনকারী,</string>
+    <string name="the_deniers_hearts_on_that_day_will_be_trembling_in_horror">অনেক হৃদয় সেদিন সন্ত্রস্ত হবে,</string>
+    <string name="with_their_eyes_downcast">তাদের দৃষ্টিসমূহ ভীতি-বিহ্বলতায় নত হবে।</string>
+    <string name="but_now_they_ask_mockingly_will_we_really_be_restored_to_our_former_state">তারা বলে, আমরা কি আগের অবস্থায় ফিরে যাবই—</string>
+    <string name="even_after_we_have_been_reduced_to_decayed_bones">চূৰ্ণবিচূর্ণ অস্থিতে পরিণত হওয়ার পরও?</string>
+    <string name="adding_then_such_a_return_would_be_a_total_loss_for_us">তারা বলে, তাই যদি হয় তবে তো এটা এক সর্বনাশা প্ৰত্যাবর্তন।</string>
+    <string name="but_indeed_it_will_take_only_one_mighty_blast"> এ তো শুধু এক বিকট আওয়াজ,</string>
+    <string name="and_at_once_they_will_be_above_ground">তখনই ময়দানে তাদের আবির্ভাব হবে।</string>
+    <string name="has_the_story_of_moses_reached_you_o_prophet">আপনার কাছে মুসার বৃত্তান্ত পৌঁছেছে কি?</string>
+    <string name="his_lord_called_him_in_the_sacred_valley_of_uwa">যখন তাঁর রব পবিত্র উপত্যকা তুওয়ায় তাকে ডেকে বলেছিলেন,</string>
+    <string name="commanding_go_to_pharaoh_for_he_has_truly_transgressed_all_bounds">ফিরাউনের কাছে যান, সে তো সীমালঙ্ঘন করেছে,</string>
+    <string name="and_say_would_you_be_willing_to_purify_yourself">অতঃপর বলুন, তোমার কি আগ্রহ আছে যে, তুমি পবিত্র হও—</string>
+    <string name="and_let_me_guide_you_to_your_lord_so_that_you_will_be_in_awe_of_him">আর আমি তোমাকে তোমার রবের দিকে পথপ্রদর্শন করি, যাতে তুমি তাঁকে ভয় করো?</string>
+    <string name="then_moses_showed_him_the_great_sign">অতঃপর তিনি তাকে মহানিদর্শন দেখালেন।</string>
+    <string name="but_he_denied_and_disobeyed_allah">কিন্তু সে মিথ্যারোপ করল এবং অবাধ্য হলো।</string>
+    <string name="then_turned_his_back_striving_against_the_truth">তারপর সে পিছনে ফিরে প্রতিবিধানে সচেষ্ট হলো।</string>
+    <string name="then_he_summoned_his_people_and_called_out">অতঃপর সে সকলকে সমবেত করে ঘোষণা দিল,</string>
+    <string name="saying_i_am_your_lord_the_most_high">অতঃপর বলল, আমিই তোমাদের সর্বোচ্চ রব।</string>
+    <string name="so_allah_overtook_him_making_him_an_example_in_this_life_and_the_next">অতঃপর আল্লাহ তাকে আখিরাতে ও দুনিয়ায় কঠিন শাস্তিতে পাকড়াও করলেন।</string>
+    <string name="surely_in_this_is_a_lesson_for_whoever_stands_in_awe_of_allah">নিশ্চয় যে ভয় করে তার জন্য তো এতে শিক্ষা রয়েছে।</string>
+    <string name="which_is_harder_to_create_you_or_the_sky_he_built_it">তোমাদেরকে সৃষ্টি করা কঠিন, না আসমান সৃষ্টি? তিনিই তা নির্মাণ করেছেন;</string>
+    <string name="raising_it_high_and_forming_it_flawlessly">তিনি এর ছাদকে সুউচ্চ করেছেন ও সুবিন্যস্ত করেছেন।</string>
+    <string name="he_dimmed_its_night_and_brought_forth_its_daylight">আর তিনি এর রাতকে করেছেন অন্ধকারাচ্ছন্ন এবং প্রকাশ করেছেন এর সূর্যালোক;</string>
+    <string name="as_for_the_earth_he_spread_it_out_as_well">আর জমিনকে এরপর বিস্তৃত করেছেন।</string>
+    <string name="bringing_forth_its_water_and_pastures">তিনি তা থেকে বের করেছেন তার পানি ও তৃণভূমি,</string>
+    <string name="and_setting_the_mountains_firmly_upon_it">আর পর্বতকে তিনি দৃঢ়ভাবে প্রোথিত করেছেন;</string>
+    <string name="all_as_a_means_of_sustenance_for_you_and_your_animals">এসব তোমাদের ও তোমাদের চতুষ্পদ জন্তুগুলোর ভোগের জন্য।</string>
+    <string name="but_when_the_supreme_disaster_comes_to_pass">অতঃপর যখন মহাসংকট উপস্থিত হবে</string>
+    <string name="the_day_every_person_will_remember_all_their_striving">মানুষ যা করেছে তা সে সেদিন স্মরণ করবে,</string>
+    <string name="and_the_hellfire_will_be_displayed_for_all_to_see">আর প্রকাশ করা হবে জাহান্নাম দর্শকদের জন্য,</string>
+    <string name="then_as_for_those_who_transgressed">সুতরাং যে সীমালঙ্ঘন করে,</string>
+    <string name="and_preferred_the_fleeting_life_of_this_world">এবং দুনিয়ার জীবনকে অগ্রাধিকার দেয়।</string>
+    <string name="the_hellfire_will_certainly_be_their_home">জাহান্নামই হবে তার আবাস।</string>
+    <string name="and_as_for_those_who_were_in_awe_of_standing_before_their_lord_and_restrained_themselves_from_evil_desires">আর যে তার রবের অবস্থানকে ভয় করে এবং কুপ্রবৃত্তি হতে নিজেকে বিরত রাখে,</string>
+    <string name="paradise_will_certainly_be_their_home">জান্নাতই হবে তার আবাস।</string>
+    <string name="they_ask_you_o_prophet_regarding_the_hour_when_will_it_be">তারা আপনাকে জিজ্ঞেস করে, কিয়ামত সম্পর্কে, তা কখন ঘটবে?</string>
+    <string name="but_it_is_not_for_you_to_tell_its_time">তা কি আলোচনার জ্ঞান আপনার আছে?</string>
+    <string name="that_knowledge_rests_with_your_lord_alone">এর পরম জ্ঞান আপনার রবেরই কাছে;</string>
+    <string name="your_duty_is_only_to_warn_whoever_is_in_awe_of_it">যে এটার ভয় রাখে আপনি শুধু তার সতর্ককারী।</string>
+    <string name="on_the_day_they_see_it_it_will_be_as_if_they_had_stayed_in_the_world_no_more_than_one_evening_or_its_morning">যেদিন তারা তা দেখতে পাবে সেদিন তাদের মনে হবে যেন তারা দুনিয়ায় মাত্র এক সন্ধ্যা অথবা এক প্ৰভাত অবস্থান করেছে!</string>
+
+
+    <!--80-->
+    <string name="he_frowned_and_turned_his_attention_away">তিনি ভ্ৰকুঞ্চিত করলেন এবং মুখ ফিরিয়ে নিলেন,</string>
+    <string name="simply_because_the_blind_man_came_to_him_interrupting">কারণ, তার কাছে অন্ধ লোকটি আসল।</string>
+    <string name="you_never_know_o_prophet_perhaps_he_may_be_purified">আর কীসে আপনাকে জানাবে যে, সে হয়তো পরিশুদ্ধ হতো,</string>
+    <string name="or_he_may_be_mindful_benefitting_from_the_reminder">অথবা উপদেশ গ্ৰহণ করত, ফলে সে উপদেশ তার উপকারে আসত।</string>
+    <string name="as_for_the_one_who_was_indifferent">আর যে পরোয়া করে না,</string>
+    <string name="you_gave_him_your_undivided_attention">আপনি তার প্রতি মনোযোগ দিয়েছেন।</string>
+    <string name="even_though_you_are_not_to_blame_if_he_would_not_be_purified">অথচ সে নিজে পরিশুদ্ধ না হলে আপনার কোনো দায়িত্ব নেই,</string>
+    <string name="but_as_for_the_one_who_came_to_you_eager_to_learn">অপরদিকে যে আপনার কাছে ছুটে এল,</string>
+    <string name="being_in_awe_of_allah">আর সে ভয়ও করে,</string>
+    <string name="you_were_inattentive_to_him">আপনি তার থেকে উদাসীন হলেন;</string>
+    <string name="but_no_this_revelation_is_truly_a_reminder">কখনো নয়, এটা তো উপদেশ বাণী</string>
+    <string name="so_let_whoever_wills_be_mindful_of_it">কাজেই যে ইচ্ছে করবে। সে এটা স্মরণ রাখবে,</string>
+    <string name="it_is_written_on_pages_held_in_honour">এটা আছে মর্যাদাসম্পন্ন লিপিসমূহে</string>
+    <string name="highly_esteemed_purified">যা উন্নত, পবিত্ৰ,</string>
+    <string name="by_the_hands_of_angel_scribes">লেখক বা দূতদের হাতে।</string>
+    <string name="honourable_and_virtuous">(যারা) মহাসম্মানিত ও নেককার।</string>
+    <string name="condemned_are_disbelieving_humans_how_ungrateful_they_are_to_allah">মানুষ ধ্বংস হোক! সে কত অকৃতজ্ঞ!</string>
+    <string name="from_what_substance_did_he_create_them">তিনি তাকে কোন বস্তু থেকে সৃষ্টি করেছেন?</string>
+    <string name="he_created_them_from_a_sperm_drop_and_ordained_their_development">শুক্রবিন্দু থেকে, তিনি তাকে সৃষ্টি করেন, পরে তার পরিমিত বিকাশ সাধন করেন,</string>
+    <string name="then_he_makes_the_way_easy_for_them">তারপর তার জন্য পথ সহজ করে দেন;</string>
+    <string name="then_causes_them_to_die_and_be_buried">এরপর তার মৃত্যু ঘটান এবং তাকে কবরস্থ করেন।</string>
+    <string name="then_when_he_wills_he_will_resurrect_them">এরপর যখন ইচ্ছে তিনি তাকে পুনর্জীবিত করবেন।</string>
+    <string name="but_no_they_have_failed_to_comply_with_what_he_ordered">কখনো নয়, তিনি তাকে যা আদেশ করেছেন, সে এখনো তা পূর্ণ করেনি।</string>
+    <string name="let_people_then_consider_their_food">অতঃপর মানুষ যেন তার খাদ্যের প্রতি লক্ষ করে!</string>
+    <string name="how_we_pour_down_rain_in_abundance">নিশ্চয় আমরা প্রচুর বৃষ্টি বর্ষণ করি,</string>
+    <string name="and_meticulously_split_the_earth_open_for_sprouts">তারপর আমরা জমিনকে যথাযথভাবে বিদীর্ণ করি;</string>
+    <string name="causing_grain_to_grow_in_it">অতঃপর তাতে আমরা উৎপন্ন করি শস্য;</string>
+    <string name="as_well_as_grapes_and_greens">আঙুর, শাক-সবজি,</string>
+    <string name="and_olives_and_palm_trees">জয়তুন, খেজুরগাছ,</string>
+    <string name="and_dense_orchards_80">অনেক গাছবিশিষ্ট উদ্যান,</string>
+    <string name="and_fruit_and_fodder">ফল এবং গবাদি খাদ্য,</string>
+    <string name="all_as_a_means_of_sustenance_for_you_and_your_animals_80">এগুলো তোমাদের ও তোমাদের চতুস্পদ জন্তুদের ভোগের জন্য।</string>
+    <string name="then_when_the_deafening_blast_comes_to_pass">অতঃপর যখন তীক্ষ্ণ আওয়াজ আসবে,</string>
+    <string name="on_that_day_every_person_will_flee_from_their_own_siblings">সেদিন মানুষ পালিয়ে যাবে তার ভাইয়ের কাছ থেকে,</string>
+    <string name="and_even_their_mother_and_father">এবং তার মা, তার বাবা,</string>
+    <string name="and_even_their_spouse_and_children">তার স্ত্রী ও তার সন্তান থেকে,</string>
+    <string name="for_then_everyone_will_have_enough_concern_of_their_own">সেদিন তাদের প্রত্যেকের হবে এমন গুরুতর অবস্থা যা তাকে সম্পূর্ণরূপে ব্যস্ত রাখবে।</string>
+    <string name="on_that_day_some_faces_will_be_bright">অনেক চেহারা সেদিন হবে উজ্জ্বল,</string>
+    <string name="laughing_and_rejoicing">সহাস্য ও প্রফুল্ল,</string>
+    <string name="while_other_faces_will_be_dusty">আর অনেক চেহারা সেদিন হবে ধূলিধূসর।</string>
+    <string name="cast_in_gloom">সেগুলোকে আচ্ছন্ন করবে কালিমা।</string>
+    <string name="those_are_the_disbelievers_the_wicked_sinners">এরাই কাফির ও পাপাচারী।</string>
+
+
+    <!--81-->
+    <string name="when_the_sun_is_put_out">সূর্যকে যখন নিষ্প্রভ করা হবে,</string>
+    <string name="and_when_the_stars_fall_down">আর যখন নক্ষত্ররাজি খসে পড়বে,</string>
+    <string name="and_when_the_mountains_are_blown_away">আর পর্বতসমূহকে যখন চলমান করা হবে,</string>
+    <string name="and_when_pregnant_camels_are_left_untended_1">আর যখন পূর্ণগর্ভা মাদি উট উপেক্ষিত হবে,</string>
+    <string name="and_when_wild_beasts_are_gathered_together_1">আর যখন বন্য পশুগুলো একত্র করা হবে,</string>
+    <string name="and_when_the_seas_are_set_on_fire_1">আর যখন সাগরকে অগ্নি-উত্তাল করা হবে,</string>
+    <string name="and_when_the_souls_and_their_bodies_are_paired_once_more">আর যখন আত্মাগুলোকে সমগোত্রীয়দের সাথে মিলিয়ে দেয়া হবে,</string>
+    <string name="and_when_baby_girls_buried_alive_are_asked">আর যখন জীবন্ত সমাধিস্থ কন্যাকে জিজ্ঞেস করা হবে,</string>
+    <string name="for_what_crime_they_were_put_to_death_1">কী অপরাধে তাকে হত্যা করা হয়েছিল?</string>
+    <string name="and_when_the_records_of_deeds_are_laid_open">আর যখন আমলনামাগুলো উন্মোচিত করা হবে,</string>
+    <string name="and_when_the_sky_is_stripped_away">আর যখন আসমানের আবরণ অপসারিত করা হবে,</string>
+    <string name="and_when_the_hellfire_is_fiercely_flared_up">আর যখন জাহান্নামকে ভীষণভাবে প্ৰজ্বলিত করা হবে,</string>
+    <string name="and_when_paradise_is_brought_near">আর যখন জান্নাত নিকটবর্তী করা হবে</string>
+    <string name="on_that_day_each_soul_will_know_what_deeds_it_has_brought_along">তখন প্রত্যেক ব্যক্তিই জানবে সে কি উপস্থিত করেছে।</string>
+    <string name="i_do_swear_by_the_receding_stars">সুতরাং আমি শপথ করছি পশ্চাদপসরণকারী নক্ষত্রের,</string>
+    <string name="which_travel_and_hide_1">যা চলমান, অপসৃয়মাণ,</string>
+    <string name="and_the_night_as_it_falls">শপথ রাতের যখন তা শেষ হয়,</string>
+    <string name="and_the_day_as_it_breaks_1">শপথ প্ৰভাতের যখন তার আবির্ভাব হয়,</string>
+    <string name="indeed_this_quran_is_the_word_of_allah_delivered_by_gabriel_a_noble_messenger_angel">নিশ্চয় এ কুরআন সম্মানিত রাসুলের আনীত বাণী</string>
+    <string name="full_of_power_held_in_honour_by_the_lord_of_the_throne">যে সামৰ্থ্যশালী, আরশের মালিকের কাছে মর্যাদাসম্পন্ন,</string>
+    <string name="obeyed_there_in_heaven_and_trustworthy">সে মান্য সেখানে, বিশ্বাসভাজন।</string>
+    <string name="and_your_fellow_man1_is_not_insane">আর তোমাদের সাথি উন্মাদ নন,</string>
+    <string name="and_he_did_see_that_angel_on_the_clear_horizon_1">তিনি তো তাকে স্পষ্ট দিগন্তে দেখেছেন,</string>
+    <string name="and_he_does_not_withhold_what_is_revealed_to_him_of_the_unseen">তিনি গায়েবি বিষয় সম্পর্কে কৃপণ নয়।</string>
+    <string name="and_this_quran_is_not_the_word_of_an_outcast_devil_1">আর এটা কোনো অভিশপ্ত শয়তানের বাক্য নয়।</string>
+    <string name="so_what_other_path_would_you_take">কাজেই তোমরা কোথায় যাচ্ছ?</string>
+    <string name="surely_this_quran_is_only_a_reminder_to_the_whole_world">এ তো শুধু সৃষ্টিকুলের জন্য উপদেশ,</string>
+    <string name="to_whoever_of_you_wills_to_take_the_straight_way">তোমাদের মধ্যে যে সরল পথে চলতে চায়, তার জন্য।</string>
+    <string name="but_you_cannot_will_to_do_so_except_by_the_will_of_allah_the_lord_of_all_worlds">আর তোমরা ইচ্ছে করতে পারো না, যদি না সৃষ্টিকুলের রব আল্লাহ ইচ্ছে করেন।</string>
+
+
+    <!--82-->
+    <string name="when_the_sky_splits_open">যখন আসমান বিদীর্ণ হবে,</string>
+    <string name="and_when_the_stars_fall_away">আর যখন নক্ষত্রমণ্ডলী বিক্ষিপ্তভাবে ঝরে পড়বে,</string>
+    <string name="and_when_the_seas_burst_forth">আর যখন সাগরগুলো বিস্ফোরিত করা হবে,</string>
+    <string name="and_when_the_graves_spill_out">আর যখন কবরসমূহ উন্মোচিত হবে,</string>
+    <string name="then_each_soul_will_know_what_it_has_sent_forth_or_left_behind">তখন প্রত্যেকে জানবে, সে কী আগে পাঠিয়েছে ও কী পিছনে রেখে গিয়েছে।</string>
+    <string name="o_humanity_what_has_emboldened_you_against_your_lord_the_most_generous">হে মানুষ, কীসে তোমাকে তোমার মহান রব সম্পর্কে বিভ্ৰান্ত করল?</string>
+    <string name="who_created_you_fashioned_you_and_perfected_your_design">যিনি তোমাকে সৃষ্টি করেছেন, অতঃপর তোমাকে সুঠাম করেছেন এবং সুসামঞ্জস্য করেছেন,</string>
+    <string name="moulding_you_in_whatever_form_he_willed">যে আকৃতিতে চেয়েছেন, তিনি তোমাকে গঠন করেছেন।</string>
+    <string name="but_no_in_fact_you_deny_the_final_judgment">কখনো নয়, তোমরা তো প্রতিদান দিবসে মিথ্যারোপ করে থাকো;</string>
+    <string name="while_you_are_certainly_observed_by_vigilant">আর নিশ্চয় নিয়োজিত আছেন তোমাদের ওপর সংরক্ষকদল;</string>
+    <string name="honourable_angels_recording_everything">সম্মানিত লেখকবৃন্দ;</string>
+    <string name="they_know_whatever_you_do">তারা জানে তোমরা যা করো।</string>
+    <string name="indeed_the_virtuous_will_be_in_bliss">পুণ্যবানরা তো থাকবে পরম স্বাচ্ছন্দ্যে;</string>
+    <string name="and_the_wicked_will_be_in_hell">আর পাপাচারীরা তো থাকবে জাহান্নামে;</string>
+    <string name="burning_in_it_on_judgment_day">তারা প্রতিদান দিবসে তাতে দগ্ধ হবে,</string>
+    <string name="and_they_will_have_no_escape_from_it">আর তারা সেখান থেকে অন্তর্হিত হতে পারবে না।</string>
+    <string name="what_will_make_you_realize_what_judgment_day_is">আর কীসে আপনাকে জানাবে প্রতিদান দিবস কী?</string>
+    <string name="again_what_will_make_you_realize_what_judgment_day_is">আবারো বলি, কীসে আপনাকে জানাবে প্রতিদান দিবস কী?</string>
+    <string name="it_is_the_day_no_soul_will_be_of_any_benefit_to_another_whatsoever_for_all_authority_on_that_day_belongs_to_allah_entirely">সেদিন কেউ কারো জন্য কিছু করার মালিক হবে না; আর সেদিন সব বিষয়ের কর্তৃত্ব হবে আল্লাহর।</string>
+
+
+    <!--83-->
+    <string name="woe_to_the_defrauders">দুর্ভোগ তাদের জন্য যারা মাপে কম দেয়।</string>
+    <string name="those_who_take_full_measure_when_they_buy_from_people">যারা লোকদের কাছ থেকে মেপে নেয়ার সময় পূর্ণমাত্রায় গ্রহণ করে,</string>
+    <string name="but_give_less_when_they_measure_or_weigh_for_buyers">আর যখন তাদেরকে মেপে দেয় তথবা ওজন করে দেয়, তখন কম দেয়।</string>
+    <string name="do_such_people_not_think_that_they_will_be_resurrected">তারা কি বিশ্বাস করে না যে, তারা পুনরুত্থিত হবে।</string>
+    <string name="for_a_tremendous_day"> মহাদিনে?</string>
+    <string name="the_day_all_people_will_stand_before_the_lord_of_all_worlds">যেদিন দাঁড়াবে সমস্ত মানুষ সৃষ্টিকুলের রবের সামনে!</string>
+    <string name="but_no_the_wicked_are_certainly_bound_for_sijj_n1_in_the_depths_of_hell">কখনো না, পাপাচারীদের আমলনামা তো সিজ্জিনে আছে।—</string>
+    <string name="and_what_will_make_you_realize_what_sijj_n_is">আর কীসে আপনাকে জানাবে সিজ্জিন কী?</string>
+    <string name="a_fate_already_sealed_1">চিহ্নিত আমলনামা।</string>
+    <string name="woe_on_that_day_to_the_deniers"> সেদিন দুর্ভোগ হবে মিথ্যারোপকারীদের,</string>
+    <string name="those_who_deny_judgment_day">যারা প্রতিদান দিবসে মিথ্যারোপ করে,</string>
+    <string name="none_would_deny_it_except_every_evildoing_transgressor">আর শুধু প্ৰত্যেক পাপিষ্ঠ সীমালঙ্ঘনকারীই এতে মিথ্যারোপ করে;</string>
+    <string name="whenever_our_revelations_are_recited_to_them_they_say_ancient_fables">যখন তার কাছে আমাদের আয়াতসমূহ তিলাওয়াত করা হয় তখন সে বলে, পূর্ববর্তীদের উপকথা।</string>
+    <string name="but_no_in_fact_their_hearts_have_been_stained_by_all_the_evil_they_used_to_commit">কখনো নয়; বরং তারা যা অর্জন করেছে তা-ই তাদের হৃদয়ে জং ধরিয়েছে।</string>
+    <string name="undoubtedly_they_will_be_sealed_off_from_their_lord_on_that_day">তারপর নিশ্চয় তারা জাহান্নামে দগ্ধ হবে;</string>
+    <string name="and_then_be_told_this_is_what_you_used_to_deny">তারপর বলা হবে, এটাই তা যাতে তোমরা মিথ্যারোপ করতে।</string>
+    <string name="and_then_be_told_this_is_what_you_used_to_deny_83">তারপর বলা হবে, এটাই তা যাতে তোমরা মিথ্যারোপ করতে।</string>
+    <string name="but_no_the_virtuous_are_certainly_bound_for_illiy_n1_in_elevated_gardens">কখনো নয়, নিশ্চয় পুণ্যবানদের আমলনামা ইল্লিয়িনে</string>
+    <string name="and_what_will_make_you_realize_what_illiy_n_is">আর কীসে আপনাকে জানাবে ইল্লিয়িন কী?</string>
+    <string name="a_fate_already_sealed">চিহ্নিত আমলনামা।</string>
+    <string name="witnessed_by_those_nearest_to_allah">(আল্লাহর) সান্নিধ্যপ্রাপ্তরাই তা অবলোকন করে।</string>
+    <string name="surely_the_virtuous_will_be_in_bliss">নিশ্চয় পুণ্যবানগণ থাকবে পরম স্বাচ্ছন্দ্যে,</string>
+    <string name="seated_on_canopied_couches_gazing_around">সুসজ্জিত আসনে বসে তারা দেখতে থাকবে।</string>
+    <string name="you_will_recognize_on_their_faces_the_glow_of_delight">আপনি তাদের মুখমণ্ডলে স্বাচ্ছন্দ্যের দীপ্তি দেখতে পাবেন,</string>
+    <string name="they_will_be_given_a_drink_of_sealed_pure_wine">তাদেরকে মোহর করা বিশুদ্ধ পানীয় হতে পান করানো হবে;</string>
+    <string name="whose_last_sip_will_smell_like_musk_so_let_whoever_aspires_to_this_strive_diligently">যার মোহর হবে মিশকের, আর এ বিষয়ে প্রতিযোগীরা প্ৰতিযোগিতা করুক।</string>
+    <string name="and_this_drink_s_flavour_will_come_from_tasn_m">আর তার মিশ্রণ হবে তাসনিমের</string>
+    <string name="a_spring_from_which_those_nearest_to_allah_will_drink">এটা এক প্রস্রবণ, যা থেকে সান্নিধ্যপ্রাপ্তরা পান করে।</string>
+    <string name="indeed_the_wicked_used_to_laugh_at_the_believers">নিশ্চয় যারা অপরাধ করেছে তারা মুমিনদেরকে উপহাস করত</string>
+    <string name="wink_to_one_another_whenever_they_passed_by">আর যখন তারা মুমিনদের কাছ দিয়ে যেত তখন তারা চোখ টিপে বিদ্রূপ করত।</string>
+    <string name="and_muse_over_these_exploits_upon_returning_to_their_own_people">আর যখন তাদের আপনজনের কাছে ফিরে আসত তখন তারা ফিরত উৎফুল্ল হয়ে,</string>
+    <string name="and_when_they_saw_the_faithful_they_would_say_these_people_are_truly_astray">আর যখন মুমিনদেরকে দেখত তখন বলত, নিশ্চয় এরা পথভ্ৰষ্ট।</string>
+    <string name="even_though_they_were_not_sent_as_keepers_over_the_believers">অথচ তাদেরকে মুমিনদের তত্ত্বাবধায়ক করে পাঠানো হয়নি।</string>
+    <string name="but_on_that_day_the_believers_will_be_laughing_at_the_disbelievers">অতএব, আজ মুমিনগণ উপহাস করবে কাফিরদেরকে,</string>
+    <string name="as_they_sit_on_canopied_couches_looking_on">সুসজ্জিত আসনে বসে তারা দেখতে থাকবে।</string>
+    <string name="the_believers_will_be_asked_have_the_disbelievers_not_been_paid_back_for_what_they_used_to_do">কাফিররা তাদের কৃতকর্মের ফল পেল তো?</string>
+
+
+    <!--84-->
+    <string name="when_the_sky_bursts_open">যখন আকাশ বিদীর্ণ হবে,</string>
+    <string name="obeying_its_lord_as_it_must">আর তার রবের আদেশ পালন করবে এবং এটাই তার করণীয়।</string>
+    <string name="and_when_the_earth_is_flattened_out">আর যখন জমিনকে সম্প্রসারিত করা হবে।</string>
+    <string name="and_ejects_all_its_contents1_and_becomes_empty">আর জমিন তার অভ্যন্তরে যা আছে তা বাইরে নিক্ষেপ করবে ও শূন্যগর্ভ হবে।</string>
+    <string name="obeying_its_lord_as_it_must_surely_you_will_all_be_judged">এবং তার রবের আদেশ পালন করবে এটাই তার করণীয়।</string>
+    <string name="o_humanity_indeed_you_are_labouring_restlessly_towards_your_lord_and_will_eventually_meet_the_consequences">হে মানুষ, তুমি তোমার রবের কাছে পৌঁছা পর্যন্ত কঠোর পরিশ্রম করতে হবে, অতঃপর তুমি তাঁর সাক্ষাৎ লাভ করবে।</string>
+    <string name="as_for_those_who_are_given_their_record_in_their_right_hand">অতঃপর যাকে তার আমলনামা তার ডান হাতে দেয়া হবে।</string>
+    <string name="they_will_have_an_easy_reckoning">তার হিসাব-নিকাশ সহজেই নেয়া হবে।</string>
+    <string name="and_will_return_to_their_people_joyfully">এবং সে তার স্বজনদের কাছে প্ৰফুল্লচিত্তে ফিরে যাবে;</string>
+    <string name="and_as_for_those_who_are_given_their_record_in_their_left_hand_from_behind_their_backs">আর যাকে তার আমলনামা তার পিঠের পিছনদিক থেকে দেয়া হবে,</string>
+    <string name="they_will_cry_for_instant_destruction">সে অবশ্যই তার ধ্বংস ডাকবে;</string>
+    <string name="and_will_burn_in_the_blazing_fire">এবং জ্বলন্ত আগুনে দগ্ধ হবে;</string>
+    <string name="for_they_used_to_be_prideful_among_their_people">নিশ্চয় সে তার স্বজনদের মধ্যে আনন্দে ছিল,</string>
+    <string name="thinking_they_would_never_return_to_allah">সে তো ভাবত যে, সে কখনই ফিরে যাবে না;</string>
+    <string name="yes_they_would_surely_their_lord_has_always_been_all_seeing_of_them">হ্যাঁ, নিশ্চয় তার রব তার ওপর সম্যক দৃষ্টি দানকারী।</string>
+    <string name="so_i_do_swear_by_the_twilight">অতঃপর আমি শপথ করছি পশ্চিম আকাশের লালিমার,</string>
+    <string name="and_by_the_night_and_whatever_it_envelops">আর শপথ রাতের এবং তা যা কিছুর সমাবেশ ঘটায় তার,</string>
+    <string name="and_by_the_moon_when_it_waxes_full">এবং শপথ চাঁদের, যখন তা পূর্ণ হয়;</string>
+    <string name="you_will_certainly_pass_from_one_state_to_another_1">অবশ্যই তোমরা এক স্তর থেকে অন্য স্তরে আরোহণ করবে।</string>
+    <string name="so_what_is_the_matter_with_them_that_they_do_not_believe">অতঃপর তাদের কী হলো যে, তারা ইমান আনে না?</string>
+    <string name="and_when_the_quran_is_recited_to_them_they_do_not_bow_down_in_submission_1">আর যখন তাদের কাছে কুরআন পাঠ করা হলে তখন তারা সিজদা করে না? [সিজদা]</string>
+    <string name="in_fact_the_disbelievers_persist_in_denial">বরং কাফিররা মিথ্যারোপ করে।</string>
+    <string name="but_allah_knows_best_whatever_they_hide">আর তারা যা পোষণ করে আল্লাহর তা সবিশেষ অবগত।</string>
+    <string name="so_give_them_good_news_of_a_painful_punishment">কাজেই আপনি তাদেরকে যন্ত্রণাদায়ক শাস্তির সংবাদ দিন;</string>
+    <string name="but_those_who_believe_and_do_good_will_have_a_never_ending_reward">কিন্তু যারা ইমান আনে ও সৎকাজ করে তাদের জন্য রয়েছে নিরবচ্ছিন্ন পুরস্কার।</string>
+
+    <!--85-->
+    <string name="by_the_sky_full_of_constellations">শপথ বুরুজবিশিষ্ট আসমানের,</string>
+    <string name="and_the_promised_day_of_judgment">আর প্রতিশ্রুত দিনের,</string>
+    <string name="and_the_witness_and_what_is_witnessed">এবং দ্রষ্টা ও দৃষ্টের—</string>
+    <string name="condemned_are_the_makers_of_the_ditch">অভিশপ্ত হয়েছিল কুণ্ডের অধিপতিরা—</string>
+    <string name="the_fire_pit_filled_with_fuel"> যে কুণ্ডে ছিল ইন্ধনপূর্ণ আগুন,</string>
+    <string name="when_they_sat_around_it">যখন তারা এর পাশে উপবিষ্ট ছিল;</string>
+    <string name="watching_what_they_had_ordered_to_be_done_to_the_believers">এবং তারা মুমিনদের সাথে যা করছিল তা প্ৰত্যক্ষ করছিল।</string>
+    <string name="who_they_resented_for_no_reason_other_than_belief_in_allah_the_almighty_the_praiseworthy">আর তারা তাদেরকে নির্যাতন করেছিল শুধু এ কারণে যে, তারা ইমান এনেছিল পরাক্রমশালী ও প্রশংসার যোগ্য আল্লাহর ওপর—</string>
+    <string name="the_one_to_whom_belongs_the_kingdom_of_the_heavens_and_earth_and_allah_is_a_witness_over_all_things"> আসমানসমূহ ও জমিনের সর্বময় কর্তৃত্ব যাঁর; আর আল্লাহ সবকিছুর প্ৰত্যক্ষদর্শী।</string>
+    <string name="those_who_persecute_the_believing_men_and_women_and_then_do_not_repent_will_certainly_suffer_the_punishment_of_hell_and_the_torment_of_burning"> নিশ্চয় যারা মুমিন নরনারীকে বিপদাপন্ন করেছে, তারপর তাওবা করেনি; তাদের জন্য আছে জাহান্নামের যন্ত্রণা।</string>
+    <string name="surely_those_who_believe_and_do_good_will_have_gardens_under_which_rivers_flow_that_is_the_greatest_triumph">নিশ্চয় যারা ইমান এনেছে এবং সৎকাজ করেছে তাদের জন্য রয়েছে জান্নাত, যার পাদদেশে নদী প্রবাহিত; এটাই মহাসাফল্য।</string>
+    <string name="indeed_the_crushing_grip_of_your_lord_is_severe">নিশ্চয় আপনার রবের পাকড়াও বড়ই কঠিন।</string>
+    <string name="for_he_is_certainly_the_one_who_originates_and_resurrects_all">তিনিই অস্তিত্ব দান করেন ও পুনরাবর্তন ঘটান,</string>
+    <string name="and_he_is_the_all_forgiving_all_loving">এবং তিনি ক্ষমাশীল, অতি ম্নেহময়</string>
+    <string name="lord_of_the_throne_the_all_glorious">আরশের অধিকারী ও সম্মানিত।</string>
+    <string name="doer_of_whatever_he_wills">তিনি যা ইচ্ছে তা-ই করেন।</string>
+    <string name="has_the_story_of_the_destroyed_forces_reached_you_o_prophet">আপনার কাছে কি পৌঁছেছে সৈন্যবাহিনীর বৃত্তান্ত—</string>
+    <string name="the_forces_of_pharaoh_and_tham_d">ফিরাউন ও সামুদের?</string>
+    <string name="yet_the_disbelievers_still_persist_in_denial">তবু কাফিররা মিথ্যারোপ করায় রত;</string>
+    <string name="but_allah_encompasses_them_from_all_sides">আর আল্লাহ সবদিক থেকে তাদেরকে পরিবেষ্টন করে রয়েছেন।</string>
+    <string name="in_fact_this_is_a_glorious_quran">বস্তুত এটা সম্মানিত কুরআন,</string>
+    <string name="recorded_in_a_preserved_tablet">সংরক্ষিত ফলকে লিপিবদ্ধ।</string>
+
+    <!--86-->
+    <string name="by_the_heaven_and_the_nightly_star">শপথ আসমানের এবং রাতে যা আবির্ভূত হয় তার;</string>
+    <string name="and_what_will_make_you_realize_what_the_nightly_star_is">আর কীসে আপনাকে জানাবে রাতে যা আবির্ভূত হয় তা কী?</string>
+    <string name="it_is_the_star_of_piercing_brightness">উজ্জ্বল নক্ষত্র।</string>
+    <string name="there_is_no_soul_without_a_vigilant_angel_recording_everything">প্রত্যেক জীবের ওপরই তত্ত্বাবধায়ক রয়েছে।</string>
+    <string name="let_people_then_consider_what_they_were_created_from">অতএব, মানুষ যেন চিন্তা করে দেখে তাকে কী থেকে সৃষ্টি করা হয়েছে।</string>
+    <string name="they_were_created_from_a_spurting_fluid">তাকে সৃষ্টি করা হয়েছে সবেগে স্খলিত পানি হতে</string>
+    <string name="stemming_from_between_the_backbone_and_the_ribcage_1">এটা নির্গত হয় মেরুদণ্ড ও পিঞ্জরাস্থির মধ্য থেকে।</string>
+    <string name="surely_he_is_fully_capable_of_bringing_them_back_to_life">নিশ্চয় তিনি তাকে ফিরিয়ে আনতে সক্ষম।</string>
+    <string name="on_the_day_all_secrets_will_be_disclosed">যেদিন গোপন বিষয় পরীক্ষিত হবে</string>
+    <string name="then_one_will_have_neither_power_nor_any_helper">সেদিন তার কোনো সামর্থ্য থাকবে না, এবং সাহায্যকারীও নয়।</string>
+    <string name="by_the_sky_with_its_recurring_cycles">শপথ আসমানের যা ধারণ করে বৃষ্টি</string>
+    <string name="and_the_earth_with_its_sprouting_plants">এবং শপথ জমিনের, যা বিদীর্ণ হয়</string>
+    <string name="surely_this_quran_is_a_decisive_word">নিশ্চয় আল-কুরআন মীমাংসাকারী বাণী।</string>
+    <string name="and_is_not_to_be_taken_lightly">এবং এটা নিরর্থক নয়।</string>
+    <string name="they_are_certainly_devising_evil_plans">তারা ভীষণ ষড়যন্ত্র করে</string>
+    <string name="but_i_too_am_planning">এবং আমিও ভীষণ কৌশল করি।</string>
+    <string name="so_bear_with_the_disbelievers_o_prophet_let_them_be_for_just_a_little_while">অতএব, কাফিরদেরকে অবকাশ দিন; তাদেরকে অবকাশ দিন কিছু কালের জন্য।</string>
+
+
+    <!--87-->
+    <string name="glorify_the_name_of_your_lord_the_most_high">আপনি আপনার সুমহান রবের নামের পবিত্রতা ও মহিমা ঘোষণা করুন</string>
+    <string name="who_created_and_perfectly_fashioned_all">যিনি সৃষ্টি করেন অতঃপর সুঠাম করেন।</string>
+    <string name="and_who_ordained_precisely_and_inspired_accordingly">আর যিনি নির্ধারণ করেন, অতঃপর পথনির্দেশ করেন</string>
+    <string name="and_who_brings_forth_green_pasture">আর যিনি তৃণাদি উৎপন্ন করেন</string>
+    <string name="then_reduces_it_to_withered_chaff">পরে তা ধূসর আবর্জনায় পরিণত করেন।</string>
+    <string name="we_will_have_you_recite_the_quran_o_prophet_so_you_will_not_forget_any_of_it">শীঘ্রই আমরা আপনাকে পাঠ করাব, ফলে আপনি ভুলবেন না</string>
+    <string name="unless_allah_wills_otherwise_1_he_surely_knows_what_is_open_and_what_is_hidden"> আল্লাহ যা ইচ্ছে করেন তা ছাড়া। নিশ্চয় তিনি জানেন যা প্ৰকাশ্য ও যা গোপনীয়।</string>
+    <string name="we_will_facilitate_for_you_the_way_of_ease">আর আমরা আপনার জন্য সুগম করে দেব সহজ পথ।</string>
+    <string name="so_always_remind_with_the_quran_even_if_the_reminder_is_beneficial_only_to_some">অতঃপর উপদেশ যদি ফলপ্রসূ হয় তবে উপদেশ দিন</string>
+    <string name="those_in_awe_of_allah_will_be_mindful_of_it">যে ভয় করে সেই উপদেশ গ্ৰহণ করবে।</string>
+    <string name="but_it_will_be_shunned_by_the_most_wretched">আর তা উপেক্ষা করবে যে নিতান্ত হতভাগ্য,</string>
+    <string name="who_will_burn_in_the_greatest_fire">যে ভয়াবহ আগুনে দগ্ধ হবে,</string>
+    <string name="where_they_will_not_be_able_to_live_or_die">তারপর সেখানে সে মরবেও না, বাঁচবেও না।</string>
+    <string name="successful_indeed_are_those_who_purify_themselves">অবশ্যই সাফল্য লাভ করবে যে পরিশুদ্ধ হয়।</string>
+    <string name="remember_the_name_of_their_lord_and_pray">এবং তার রবের নাম স্মরণ করে ও সালাত কায়িম করে।</string>
+    <string name="but_you_deniers_only_prefer_the_life_of_this_world">কিন্তু তোমরা দুনিয়ার জীবনকে প্রাধান্য দাও,</string>
+    <string name="even_though_the_hereafter_is_far_better_and_more_lasting">অথচ আখিরাতই উৎকৃষ্ট ও স্থায়ী।</string>
+    <string name="this_is_certainly_mentioned_in_the_earlier_scriptures">নিশ্চয় এটা আছে পূর্ববর্তী সহিফাসমূহে—</string>
+    <string name="the_scriptures_of_abraham_and_moses">ইবরাহিম ও মুসার সহিফাসমূহে।</string>
+
+
+    <!--88-->
+    <string name="has_the_news_of_the_overwhelming_event_reached_you_o_prophet">আপনার কাছে কি আচ্ছন্নকারীর (কিয়ামতের) সংবাদ এসেছে?</string>
+    <string name="on_that_day_some_faces_will_be_downcast">সেদিন অনেক চেহারা হবে অবনত</string>
+    <string name="totally_overburdened_exhausted">ক্লিষ্ট, ক্লান্ত</string>
+    <string name="burning_in_a_scorching_fire">তারা প্রবেশ করবে জ্বলন্ত আগুনে</string>
+    <string name="left_to_drink_from_a_scalding_spring">তাদেরকে অত্যন্ত উষ্ণ প্রস্রবণ থেকে পান করানো হবে;</string>
+    <string name="they_will_have_no_food_except_a_foul_thorny_shrub">তাদের জন্য খাদ্য থাকবে না কাঁটাযুক্ত গুল্ম ছাড়া</string>
+    <string name="neither_nourishing_nor_satisfying_hunger">যা তাদেরকে পুষ্ট করবে না এবং তাদের ক্ষুধা নিবৃত্ত করবে না।</string>
+    <string name="on_that_day_other_faces_will_be_glowing_with_bliss">অনেক মুখমণ্ডল সেদিন হবে আনন্দোজ্জ্বল,</string>
+    <string name="fully_pleased_with_their_striving">নিজেদের কাজের সাফল্যে পরিতৃপ্ত</string>
+    <string name="in_an_elevated_garden">সুউচ্চ জান্নাতে—</string>
+    <string name="where_no_idle_talk_will_be_heard">সেখানে তারা অসার বাক্য শুনবে না</string>
+    <string name="in_it_will_be_a_running_spring">সেখানে থাকবে বহমান প্রস্রবণ,</string>
+    <string name="along_with_thrones_raised_high">সেখানে থাকবে উন্নত শয্যাসমূহ,</string>
+    <string name="and_cups_set_at_hand">আর প্রস্তুত থাকবে পানপত্র,</string>
+    <string name="and_fine_cushions_lined_up">সারি সারি উপাধান,</string>
+    <string name="and_splendid_carpets_spread_out">এবং বিছানা গালিচা;</string>
+    <string name="do_they_not_ever_reflect_on_camels_how_they_were_masterfully_created">তবে কি তারা তাকিয়ে দেখে না উটের দিকে, কীভাবে তা সৃষ্টি করা হয়েছে?</string>
+    <string name="and_the_sky_how_it_was_raised_high"> এবং আসমানের দিকে, কীভাবে তা ঊর্ধ্বে স্থাপন করা হয়েছে?</string>
+    <string name="and_the_mountains_how_they_were_firmly_set_up">এবং পর্বতমালার দিকে, কীভাবে তা প্রতিষ্ঠিত করা হয়েছে?</string>
+    <string name="and_the_earth_how_it_was_levelled_out">এবং ভূতলের দিকে, কীভাবে তা বিস্তৃত করা হয়েছে?</string>
+    <string name="so_continue_to_remind_all_o_prophet_for_your_duty_is_only_to_remind">অতএব, আপনি উপদেশ দিন; আপনি তো কেবল একজন উপদেশদাতা</string>
+    <string name="you_are_not_there_to_compel_them_to_believe">আপনি তাদের ওপর শক্তি প্রয়োগকারী নন।</string>
+    <string name="but_whoever_turns_away_persisting_in_disbelief">তবে কেউ মুখ ফিরিয়ে নিলে ও কুফরি করলে</string>
+    <string name="then_allah_will_inflict_upon_them_the_major_punishment">আল্লাহ তাদেরকে দেবেন মহাশাস্তি।</string>
+    <string name="surely_to_us_is_their_return">নিশ্চয় তাদের ফিরে আসা আমাদেরই কাছে;</string>
+    <string name="then_surely_with_us_is_their_reckoning">তারপর তাদের হিসাব-নিকাশ আমাদেরই কাজ।</string>
+
+
+    <!--89-->
+    <string name="by_the_dawn">শপথ ফজরের,</string>
+    <string name="and_the_ten_nights">শপথ দশ রাতের,</string>
+    <string name="and_the_even_and_the_odd">শপথ জোড় ও বেজোড়ের,</string>
+    <string name="and_the_night_when_it_passes">শপথ রাতের যখন তা গত হয়ে থাকে!</string>
+    <string name="is_all_this_not_a_sufficient_oath_for_those_who_have_sense">নিশ্চয় এর মধ্যে শপথ রয়েছে বোধসম্পন্ন ব্যক্তির জন্য।</string>
+    <string name="did_you_not_see_how_your_lord_dealt_with_d">আপনি দেখেননি আপনার রব কী (আচরণ) করেছিলেন আদ বংশের—</string>
+    <string name="the_people_of_iram_with_their_great_stature">ইরাম গোত্রের প্রতি—যারা অধিকারী ছিল সুউচ্চ প্রাসাদের?—,</string>
+    <string name="unmatched_in_any_other_land">যার সমতুল্য কোনো দেশে সৃষ্টি করা হয়নি;</string>
+    <string name="and_tham_d_who_carved_their_homes_into_the_rocks_in_the_stone_valley">এবং সামুদের প্রতি? যারা উপত্যকায় পাথর কেটে ঘর নির্মাণ করেছিল;</string>
+    <string name="and_the_pharaoh_of_mighty_structures">এবং কিলকওয়ালা ফিরাউনের প্রতি?</string>
+    <string name="they_all_transgressed_throughout_the_land">যারা দেশে সীমালঙ্ঘন করেছিল,</string>
+    <string name="spreading_much_corruption_there">অতঃপর সেখানে অশান্তি বৃদ্ধি করেছিল</string>
+    <string name="so_your_lord_unleashed_on_them_a_scourge_of_punishment">ফলে আপনার রব তাদের ওপর শাস্তির কষাঘাত হানলেন।</string>
+    <string name="for_your_lord_is_truly_vigilant">নিশ্চয় আপনার রব সতর্ক দৃষ্টি রাখেন।</string>
+    <string name="now_whenever_a_human_being_is_tested_by_their_lord_through_his_generosity_and_blessings_they_boast_my_lord_has_deservedly_honoured_me">মানুষ তো এরূপ যে, তার রব যখন তাকে পরীক্ষা করেন সম্মান ও অনুগ্রহ দান করে, তখন সে বলে, আমার রব আমাকে সম্মানিত করেছেন।</string>
+    <string name="but_when_he_tests_them_by_limiting_their_provision_they_protest_my_lord_has_undeservedly_humiliated_me">আর যখন তাকে পরীক্ষা করেন তার রিজিক সংকুচিত করে, তখন সে বলে, আমার রব আমাকে হীন করেছেন।</string>
+    <string name="absolutely_not_in_fact_you_are_not_even_gracious_to_the_orphan">কখনো নয়। বরং তোমরা এতিমকে সম্মান করো না,</string>
+    <string name="nor_do_you_urge_one_another_to_feed_the_poor">এবং তোমরা মিসকিনকে খাদ্যদানে পরস্পরকে উৎসাহিত করো না,</string>
+    <string name="and_you_devour_others_inheritance_greedily">আর তোমরা উত্তরাধিকারের সম্পদ সম্পূর্ণরূপে খেয়ে ফেল,</string>
+    <string name="and_love_wealth_fervently">আর তোমরা ধন-সম্পদ খুবই ভালোবাসো।</string>
+    <string name="enough_when_the_earth_is_entirely_crushed_over_and_over">কখনো নয়। যখন জমিনকে চূর্ণ-বিচূর্ণ করা হবে,</string>
+    <string name="and_your_lord_comes_to_judge_with_angels_rank_upon_rank">আর যখন আপনার রব আগমন করবেন ও সারিবদ্ধভাবে ফিরিশতাগণও,</string>
+    <string name="and_hell_is_brought_forth_on_that_day_this_is_when_every_disbelieving_person_will_remember_their_own_sins_but_what_is_the_use_of_remembering_then">আর সেদিন জাহান্নামকে আনা হবে সেদিন মানুষ স্মরণ করবে, তখন এ স্মরণ তার কি কাজে আসবে?</string>
+    <string name="they_will_cry_i_wish_i_had_sent_forth_something_good_for_my_true_life">সে বলবে, হায়! আমার এ জীবনের জন্য আমি যদি কিছু অগ্রিম পাঠাতাম?</string>
+    <string name="on_that_day_he_will_punish_them_severely_like_no_other">সেদিন তার শাস্তির মতো শাস্তি কেউ দিতে পারবে না,</string>
+    <string name="and_bind_them_tightly_like_no_other">এবং তার বাঁধার মতো বাঁধতে কেউ পারবে না।</string>
+    <string name="allah_will_say_to_the_righteous_o_tranquil_soul">হে প্ৰশান্ত আত্মা!</string>
+    <string name="return_to_your_lord_well_pleased_with_him_and_well_pleasing_to_him">তুমি তোমার রবের কাছে ফিরে আসো সন্তুষ্ট ও সন্তোষভাজন হয়ে,</string>
+    <string name="so_join_my_servants">অতঃপর আমার বান্দাদের অন্তর্ভুক্ত হও</string>
+    <string name="and_enter_my_paradise">আর আমার জান্নাতে প্ৰবেশ করো।</string>
+
+
+    <!--90-->
+    <string name="i_do_swear_by_this_city_of_mecca">আমি শপথ করছি এ নগরের—</string>
+    <string name="even_though_you_o_prophet_are_subject_to_abuse_in_this_city">আর আপনি এ নগরের অধিবাসী—</string>
+    <string name="and_by_every_parent_and_their_child">শপথ জন্মদাতার ও যা সে জন্ম দিয়েছে।</string>
+    <string name="indeed_we_have_created_humankind_in_constant_struggle">নিঃসন্দেহে আমরা মানুষকে সৃষ্টি করেছি কষ্ট-ক্লেশের মধ্যে।</string>
+    <string name="do_they_think_that_no_one_has_power_over_them">সে কি মনে করে যে, কখনো তার ওপর কেউ ক্ষমতাবান হবে না?</string>
+    <string name="boasting_i_have_wasted_enormous_wealth">সে বলে, আমি প্রচুর অর্থ নিঃশেষ করেছি।</string>
+    <string name="do_they_think_that_no_one_sees_them">সে কি মনে করে যে, তাকে কেউ দেখেনি?</string>
+    <string name="have_we_not_given_them_two_eyes">আমরা কি তার জন্য সৃষ্টি করিনি দুচোখ?</string>
+    <string name="a_tongue_and_two_lips">আর জিহ্বা ও দুই ঠোঁট?</string>
+    <string name="and_shown_them_the_two_ways_of_right_and_wrong">আর আমরা তাকে দেখিয়েছি দুটি পথ।</string>
+    <string name="if_only_they_had_attempted_the_challenging_path_of_goodness_instead">তবে সে তো বন্ধুর গিরিপথে প্রবেশ করেনি।</string>
+    <string name="and_what_will_make_you_realize_what_attempting_the_challenging_path_is">আর কীসে আপনাকে জানাবে—বন্ধুর গিরিপথ কী?</string>
+    <string name="it_is_to_free_a_slave">এটা হচ্ছে দাসমুক্তি</string>
+    <string name="or_to_give_food_in_times_of_famine">অথবা দুর্ভিক্ষের দিনে খাদ্যদান</string>
+    <string name="to_an_orphaned_relative">এতিম আত্মীয়কে</string>
+    <string name="or_to_a_poor_person_in_distress">অথবা দরিদ্র-নিষ্পেষিত নিঃস্বকে,</string>
+    <string name="and_above_all_to_be_one_of_those_who_have_faith_and_urge_each_other_to_perseverance_and_urge_each_other_to_compassion">তদুপরি সে তাদের অন্তর্ভুক্ত হয়ে যায় যারা ইমান এনেছে এবং পরস্পরকে উপদেশ দিয়েছে ধৈর্য ধারণের, আর পরস্পর উপদেশ দিয়েছে দয়া অনুগ্রহের,</string>
+    <string name="these_are_the_people_of_the_right">তারাই সৌভাগ্যশালী।</string>
+    <string name="as_for_those_who_deny_our_signs_they_are_the_people_of_the_left">আর যারা আমাদের আয়াতসমূহে কুফরি করেছে, তারাই হতভাগ্য।</string>
+    <string name="the_fire_will_be_sealed_over_them">তারা পরিবেষ্টিত হবে অবরুদ্ধ আগুনে।</string>
+
+
+    <!--91-->
+    <string name="by_the_sun_and_its_brightness">শপথ সূর্যের এবং তার কিরণের</string>
+    <string name="and_the_moon_as_it_follows_it">শপথ চাঁদের, যখন তা সূর্যের পর আবির্ভূত হয়,</string>
+    <string name="and_the_day_as_it_unveils_it">শপথ দিনের, যখন সে সূর্যকে প্রকাশ করে,</string>
+    <string name="and_the_night_as_it_conceals_it">শপথ রাতের, যখন সে সূর্যকে আচ্ছাদিত করে,</string>
+    <string name="and_by_heaven_and_the_one_who_built_it">শপথ আসমানের এবং যিনি তা নির্মাণ করেছেন তাঁর,</string>
+    <string name="and_the_earth_and_the_one_who_spread_it">শপথ জমিনের এবং যিনি তা বিস্তৃত করেছেন তাঁর,</string>
+    <string name="and_by_the_soul_and_the_one_who_fashioned_it">শপথ নফসের এবং যিনি তা সুবিন্যস্ত করেছেন তাঁর,</string>
+    <string name="then_with_the_knowledge_of_right_and_wrong_inspired_it">তারপর তাকে তার সৎ কাজের এবং তার অসৎ কাজের জ্ঞান দান করেছেন</string>
+    <string name="successful_indeed_is_the_one_who_purifies_their_soul">সে-ই সফলকাম হয়েছে, যে নিজেকে পবিত্র করেছে।</string>
+    <string name="and_doomed_is_the_one_who_corrupts_it">আর সে-ই ব্যর্থ হয়েছে, যে নিজেকে কলুষিত করেছে।</string>
+    <string name="tham_d_rejected_the_truth_out_of_arrogance">সামুদ সম্প্রদায় অবাধ্যতাবশত মিথ্যারোপ করেছিল।</string>
+    <string name="when_the_most_wicked_of_them_was_roused_to_kill_the_she_camel">তাদের মধ্যে যে সর্বাধিক হতভাগ্য, সে যখন তৎপর হয়ে উঠল,</string>
+    <string name="but_the_messenger_of_allah_warned_them_do_not_disturb_allah_s_camel_and_her_turn_to_drink">তখন আল্লাহর রাসূল তাদেরকে বললেন, আল্লাহর উষ্ট্রী ও তাকে পানি পান করানোর বিষয়ে সাবধান হও।</string>
+    <string name="still_they_defied_him_and_slaughtered_her_so_their_lord_crushed_them_for_their_crime_levelling_all_to_the_ground">কিন্তু তারা তার প্রতি মিথ্যারোপ করল এবং উষ্ট্রীকে জবাই করল। ফলে তাদের পাপের জন্য তাদের রব তাদেরকে সমূলে ধ্বংস করে একাকার করে দিলেন।</string>
+    <string name="he_has_no_fear_of_consequences">আর তিনি এর পরিণামকে ভয় করেন না।</string>
+
+
+    <!--92-->
+    <string name="by_the_night_when_it_covers">শপথ রাতের, যখন সে আচ্ছন্ন করে,</string>
+    <string name="and_the_day_when_it_shines">শপথ দিনের, যখন তা উদ্ভাসিত হয়</string>
+    <string name="and_by_the_one_who_created_male_and_female">শপথ তাঁর, যিনি নর ও নারী সৃষ্টি করেছেন—</string>
+    <string name="surely_the_ends_you_strive_for_are_diverse">নিশ্চয় তোমাদের কর্মপ্ৰচেষ্টা বিভিন্ন প্রকৃতির।</string>
+    <string name="as_for_the_one_who_is_charitable_mindful_of_allah">কাজেই কেউ দান করলে, তাকওয়া অবলম্বন করলে,</string>
+    <string name="and_firmly_believes_in_the_finest_reward">এবং যা উত্তম তা সত্য বলে গ্ৰহণ করলে,</string>
+    <string name="we_will_facilitate_for_them_the_way_of_ease">আমরা তার জন্য সুগম করে দেব সহজ পথ।</string>
+    <string name="and_as_for_the_one_who_is_stingy_indifferent_to_allah">আর কেউ কার্পণ্য করলে এবং নিজেরা অমুখাপেক্ষী মনে করলে,</string>
+    <string name="and_staunchly_denies_the_finest_reward">আর যা উত্তম তাতে মিথ্যারোপ করলে,</string>
+    <string name="we_will_facilitate_for_them_the_path_of_hardship">তার জন্য আমরা সুগম করে দেব কঠোর পথ।</string>
+    <string name="and_their_wealth_will_be_of_no_benefit_to_them_when_they_tumble_into_hell">আর তার সম্পদ তার কোনো কাজে আসবে না, যখন সে ধ্বংস হবে।</string>
+    <string name="it_is_certainly_upon_us_alone_to_show_the_way_to_guidance">নিশ্চয় আমাদের কাজ শুধু পথনির্দেশ করা,</string>
+    <string name="and_surely_to_us_alone_belong_this_life_and_the_next">আর আমরাই তো মালিক আখিরাতের ও প্রথমটির (দুনিয়ার)।</string>
+    <string name="and_so_i_have_warned_you_of_a_raging_fire">অতঃপর আমি তোমাদেরকে লেলিহান আগুন সম্পর্কে সতর্ক করে দিয়েছি।</string>
+    <string name="in_which_none_will_burn_except_the_most_wretched">তাতে প্রবেশ করবে সে-ই, যে নিতান্ত হতভাগ্য—</string>
+    <string name="who_deny_and_turn_away">যে মিথ্যারোপ করে ও মুখ ফিরিয়ে নেয়।</string>
+    <string name="but_the_righteous_will_be_spared_from_it">আর তা থেকে দূরে রাখা হবে পরম মুত্তাকিকে,</string>
+    <string name="who_donate_some_of_their_wealth_only_to_purify_themselves">যে স্বীয় সম্পদ দান করে আত্মশুদ্ধির জন্য,</string>
+    <string name="not_in_return_for_someone_s_favours">এবং তার প্রতি কারো এমন কোনো অনুগ্রহ নেই যার প্রতিদান দিতে হবে,</string>
+    <string name="but_seeking_the_pleasure_of_their_lord_the_most_high">শুধু তার মহান রবের সস্তুষ্টির প্ৰত্যাশায়;</string>
+    <string name="they_will_certainly_be_pleased">আর অচিরেই সে সন্তুষ্ট হবে।</string>
+
+
+    <!--93-->
+    <string name="by_the_morning_sunlight">শপথ পূর্বাহ্ণের,</string>
+    <string name="and_the_night_when_it_falls_still">শপথ রাতের যখন তা হয় নিঝুম-</string>
+    <string name="your_lord_o_prophet_has_not_abandoned_you_nor_has_he_become_hateful_of_you">আপনার রব আপনাকে পরিত্যাগ করেননি এবং শক্ৰতাও করেননি।</string>
+    <string name="and_the_next_life_is_certainly_far_better_for_you_than_this_one">আর অবশ্যই আপনার জন্য পরবর্তী সময় পূর্ববর্তী সময়ের চেয়ে শ্রেয়।</string>
+    <string name="and_surely_your_lord_will_give_so_much_to_you_that_you_will_be_pleased">আর অচিরেই আপনার রব আপনাকে অনুগ্রহ দান করবেন, ফলে আপনি সন্তুষ্ট হবেন।</string>
+    <string name="did_he_not_find_you_as_an_orphan_then_sheltered_you">তিনি কি আপনাকে এতিম অবস্থায় পাননি? অতঃপর তিনি আশ্রয় দিয়েছেন;</string>
+    <string name="did_he_not_find_you_unguided_then_guided_you">আর তিনি আপনাকে পেলেন পথ সম্পর্কে অনবহিত, অতঃপর তিনি পথের নির্দেশ দিলেন।</string>
+    <string name="and_did_he_not_find_you_needy_then_satisfied_your_needs">আর তিনি আপনাকে পেলেন নিঃস্ব অবস্থায়, অতঃপর অভাবমুক্ত করলেন,</string>
+    <string name="so_do_not_oppress_the_orphan">কাজেই আপনি এতিমের প্রতি কঠোর হবেন না।</string>
+    <string name="nor_repulse_the_beggar">আর প্রার্থীকে ভর্ৎসনা করবেন না।</string>
+    <string name="and_proclaim_the_blessings_of_your_lord">আর আপনি আপনার রবের অনুগ্রহের কথা জানিয়ে দিন।</string>
+
+
+    <!--94-->
+    <string name="have_we_not_uplifted_your_heart_for_you_o_prophet">আমরা কি আপনার বক্ষ আপনার কল্যাণে প্রশস্ত করে দেইনি?</string>
+    <string name="relieved_you_of_the_burden">আর আমরা অপসারণ করেছি আপনার ভার,</string>
+    <string name="which_weighed_so_heavily_on_your_back">যা আপনার পিঠ ভেঙে দিচ্ছিল।</string>
+    <string name="and_elevated_your_renown_for_you">আর আমরা আপনার (মর্যাদা বৃদ্ধির) জন্য আপনার স্মরণকে সমুন্নত করেছি,</string>
+    <string name="so_surely_with_hardship_comes_ease">সুতরাং কষ্টের সাথেই তো স্বস্তি আছে,</string>
+    <string name="surely_with_that_hardship_comes_more_ease">নিশ্চয় কষ্টের সাথেই স্বস্তি আছে।</string>
+    <string name="so_once_you_have_fulfilled_your_duty_strive_in_devotion">অতএব, আপনি যখনই অবসর পান তখনই কঠোর ইবাদাতে রত হোন।</string>
+    <string name="turning_to_your_lord_alone_with_hope">আর আপনার রবের প্রতি গভীর মনোযোগী হোন।</string>
+
+
+    <!--95-->
+    <string name="by_the_fig_and_the_olive_of_jerusalem">শপথ তিন ও জয়তুন এর,</string>
+    <string name="and_mount_sinai">শপথ তুরে সিনিন এর,</string>
+    <string name="and_this_secure_city_of_mecca">শপথ এই নিরাপদ নগরীর,</string>
+    <string name="indeed_we_created_humans_in_the_best_form">অবশ্যই আমরা সৃষ্টি করেছি মানুষকে সুন্দরতম গঠনে,</string>
+    <string name="but_we_will_reduce_them_to_the_lowest_of_the_low_in_hell">অতঃপর আমি তাকে হীনতার সবচেয়ে নিম্নস্তরে ফিরিয়ে দিয়েছি—</string>
+    <string name="except_those_who_believe_and_do_good_they_will_have_a_never_ending_reward">কিন্তু তাদেরকে নয় যারা ইমান এনেছে এবং সৎকর্ম করেছে; এদের জন্য তো আছে নিরবচ্ছিন্ন পুরস্কার।</string>
+    <string name="now_what_makes_you_deny_the_final_judgment">কাজেই (হে মানুষ), এরপর কীসে তোমাকে কৰ্মফল দিন সম্পর্কে অবিশ্বাসী করে?</string>
+    <string name="is_allah_not_the_most_just_of_all_judges">আল্লাহ কি বিচারকদের মধ্যে সর্বশ্রেষ্ঠ বিচারক নন?</string>
+
+
+    <!--96-->
+    <string name="read_o_prophet_in_the_name_of_your_lord_who_created">পড়ুন আপনার রবের নামে, যিনি সৃষ্টি করেছেন</string>
+    <string name="created_humans_from_a_clinging_clot">সৃষ্টি করেছেন মানুষকে আলাক হতে।</string>
+    <string name="read_and_your_lord_is_the_most_generous">পড়ুন, আর আপনার রব মহিমান্বিত</string>
+    <string name="who_taught_by_the_pen">যিনি কলমের সাহায্যে শিক্ষা দিয়েছেন</string>
+    <string name="taught_humanity_what_they_knew_not">শিক্ষা দিয়েছেন মানুষকে যা সে জানত না।</string>
+    <string name="most_certainly_one_exceeds_all_bounds">বাস্তবেই, মানুষ সীমালঙ্ঘনই করে থাকে,</string>
+    <string name="once_they_think_they_are_self_sufficient">কারণ সে নিজকে অমুখাপেক্ষী মনে করে।</string>
+    <string name="but_surely_to_your_lord_is_the_return_of_all">নিশ্চয় আপনার রবের কাছেই ফিরে যাওয়া।</string>
+    <string name="have_you_seen_the_man_who_prevents">আমাকে জানাও (এবং আশ্চর্য হও) তার সম্পর্কে, যে বাধা দেয়,</string>
+    <string name="a_servant_of_ours_from_praying">এক বান্দাকে—যখন তিনি সালাত আদায় করেন।</string>
+    <string name="what_if_this_servant_is_rightly_guided">আমাকে বলো! যদি তিনি হিদায়াতের ওপর থাকেন,</string>
+    <string name="or_encourages_righteousness">অথবা তাকওয়ার নির্দেশ দেন; (তারপরও সে কীভাবে বাধা দেয়?)</string>
+    <string name="what_if_that_man_persists_in_denial_and_turns_away">আমাকে বলো! যদি সে (নিষেধকারী) মিথ্যারোপ করে এবং মুখ ফিরিয়ে নেয়,</string>
+    <string name="does_he_not_know_that_allah_sees_all">সে কি জানে না যে, নিশ্চয় আল্লাহ দেখেন?</string>
+    <string name="but_no_if_he_does_not_desist_we_will_certainly_drag_him_by_the_forelock">কখনো নয়, সে যদি বিরত না হয় তবে আমরা তাকে অবশ্যই হেঁচড়ে নিয়ে যাব, মাথার সামনের চুলের গুচ্ছ ধরে</string>
+    <string name="a_lying_sinful_forelock">মিথ্যাচারী, পাপিষ্ঠ সম্মুখ-চুলের-গুচ্ছ।</string>
+    <string name="so_let_him_call_his_associates">অতএব, সে তার পারিষদকে ডেকে আনুক!</string>
+    <string name="we_will_call_the_wardens_of_hell">আমিও অচিরে আহ্বান করব (জাহান্নামের) প্রহরীবর্গকে।</string>
+    <string name="again_no_never_obey_him_o_prophet_rather_continue_to_prostrate_and_draw_near_to_allah">কখনো নয়! আপনি তার অনুসরণ করবেন না। আর আপনি সিজদা করুন এবং নিকটবর্তী হোন। [সিজদা] </string>
+
+
+    <!--97-->
+    <string name="indeed_it_is_we_who_sent_this_quran_down_on_the_night_of_glory">নিশ্চয় আমরা কুরআন নাজিল করেছি লাইলাতুল কদরে;</string>
+    <string name="and_what_will_make_you_realize_what_the_night_of_glory_is">আর আপনাকে কীসে জানাবে লাইলাতুল কদর কী?</string>
+    <string name="the_night_of_glory_is_better_than_a_thousand_months">লাইলাতুল কদর হাজার মাসের চেয়ে শ্রেষ্ঠ।</string>
+    <string name="that_night_the_angels_and_the_holy_spirit1_descend_by_the_permission_of_their_lord_for_every_decreed_matter">সে রাতে ফিরিশতাগণ ও রুহ নাজিল হয় তাদের রবের অনুমতিক্রমে সকল সিদ্ধান্ত নিয়ে।</string>
+    <string name="it_is_all_peace_until_the_break_of_dawn">শান্তিময় সে রাত, ফজরের আবির্ভাব পর্যন্ত।</string>
+
+
+    <!--98-->
+    <string name="the_disbelievers_from_the_people_of_the_book_and_the_polytheists_were_not_going_to_desist_from_disbelief_until_the_clear_proof_came_to_them">আহলে কিতাবদের মধ্যে যারা কুফরি করেছে এবং মুশরিকরা, তারা নিবৃত্ত হবে না যতক্ষণ না তাদের কাছে সুস্পষ্ট প্রমাণ আসবে</string>
+    <string name="a_messenger_from_allah_reciting_scrolls_of_utmost_purity">আল্লাহর কাছ থেকে এক রাসুল, যিনি তিলাওয়াত করেন পবিত্র গ্রন্থ,</string>
+    <string name="containing_upright_commandments">যাতে আছে সঠিক বিধিবদ্ধ বিধান।</string>
+    <string name="it_was_not_until_this_clear_proof_came_to_the_people_of_the_book_that_they_became_divided_about_his_prophethood">আর যাদেরকে কিতাব দেয়া হয়েছিল তারা তো বিভক্ত হলো তাদের কাছে সুস্পষ্ট প্ৰমাণ আসার পর।</string>
+    <string name="even_though_they_were_only_commanded_to_worship_allah_alone_with_sincere_devotion_to_him_in_all_uprightness_establish_prayer_and_pay_alms_tax_that_is_the_upright_way">আর তাদেরকে কেবল এ নির্দেশই প্রদান করা হয়েছিল যে, তারা যেন আল্লাহর ইবাদত করে তাঁরই জন্য দ্বিনকে একনিষ্ঠ করে এবং সালাত কায়িম করে ও জাকাত প্ৰদান করে। আর এটাই সঠিক দ্বিন।</string>
+    <string name="indeed_those_who_disbelieve_from_the_people_of_the_book_and_the_polytheists_will_be_in_the_fire_of_hell_to_stay_there_forever_they_are_the_worst_of_all_beings">নিশ্চয় কিতাবিদের মধ্যে যারা কুফরি করেছে তারা এবং মুশরিকরা জাহান্নামের আগুনে স্থায়ীভাবে অবস্থান করবে; তারাই সৃষ্টির অধ্যম।</string>
+    <string name="indeed_those_who_believe_and_do_good_they_are_the_best_of_all_beings">নিশ্চয় যারা ইমান এনেছে এবং সৎ কাজ করেছে, তারাই সৃষ্টির শ্ৰেষ্ঠ।</string>
+    <string name="their_reward_with_their_lord_will_be_gardens_of_eternity_under_which_rivers_flow_to_stay_there_for_ever_and_ever_allah_is_pleased_with_them_and_they_are_pleased_with_him_this_is_only_for_those_in_awe_of_their_lord">তাদের রবের কাছে আছে তাদের পুরস্কার; স্থায়ী জান্নাত, যার নিচে নদী প্রবাহিত, সেখানে তারা চিরস্থায়ী হবে। আল্লাহ তাদের প্রতি সন্তুষ্ট এবং তারাও তাঁর প্রতি সস্তুষ্ট। এটি তার জন্য, যে তার রবকে ভয় করে।</string>
+
+    <!--99-->
+    <string name="when_the_earth_is_shaken_in_its_ultimate_quaking">যখন প্ৰবল কম্পনে জমিন প্ৰকম্পিত করা হবে</string>
+    <string name="and_when_the_earth_throws_out_all_its_contents">আর জমিন তার ভার বের করে দেবে,</string>
+    <string name="and_humanity_cries_what_is_wrong_with_it">আর মানুষ বলবে, এর কী হলো?</string>
+    <string name="on_that_day_the_earth_will_recount_everything">সেদিন জমিন তার বৃত্তান্ত বর্ণনা করবে,</string>
+    <string name="having_been_inspired_by_your_lord_to_do_so">কারণ, আপনার রব তাকে নির্দেশ দিয়েছেন,</string>
+    <string name="on_that_day_people_will_proceed_in_separate_groups1_to_be_shown_the_consequences_of_their_deeds">সেদিন মানুষ ভিন্ন ভিন্ন দলে বের হবে, যাতে তাদেরকে তাদের কৃতকর্ম দেখানো যায়,</string>
+    <string name="so_whoever_does_an_atom_s_weight_of_good_will_see_it">কেউ অণু পরিমাণ সৎ কাজ করলে সে তা দেখবে।</string>
+    <string name="and_whoever_does_an_atom_s_weight_of_evil_will_see_it">আর কেউ অণু পরিমাণ অসৎ কাজ করলে সে তাও দেখবে।</string>
+
+
+    <!--100-->
+    <string name="by_the_galloping_panting_horses">শপথ ঊর্ধ্বশ্বাসে ধাবমান অশ্বরাজির,</string>
+    <string name="striking_sparks_of_fire_with_their_hoofs">অতঃপর যারা ক্ষুরের আঘাতে অগ্নি-স্ফুলিঙ্গ বিচ্ছুরিত করে,</string>
+    <string name="launching_raids_at_dawn">অতঃপর যারা অভিযান করে প্রভাতকালে,</string>
+    <string name="stirring_up_clouds_of_dust">ফলে তারা তা দ্বারা ধূলি উৎক্ষিপ্ত করে;</string>
+    <string name="and_penetrating_into_the_heart_of_enemy_lines">অতঃপর তা দ্বারা শত্রুদলের অভ্যন্তরে ঢুকে পড়ে।</string>
+    <string name="surely_humankind_is_ungrateful_to_their_lord">নিশ্চয় মানুষ তার রবের প্রতি বড়ই অকৃতজ্ঞ</string>
+    <string name="and_they_certainly_attest_to_this">আর নিশ্চয় সে এ বিষয়ে সাক্ষী,</string>
+    <string name="and_they_are_truly_extreme_in_their_love_of_worldly_gains">আর নিশ্চয় সে ধন-সম্পদের আসক্তিতে প্রবল।</string>
+    <string name="do_they_not_know_that_when_the_contents_of_the_graves_will_be_spilled_out">তবে কি সে জানে না যখন কবরে যা আছে তা উত্থিত হবে,</string>
+    <string name="and_the_secrets_of_the_hearts_will_be_laid_bare">আর অন্তরে যা আছে তা প্ৰকাশ করা হবে?</string>
+    <string name="surely_their_lord_is_all_aware_of_them_on_that_day">নিশ্চয় তাদের রব সেদিন তাদের ব্যাপারে সবিশেষ অবহিত।</string>
+
+
+    <!--101-->
+    <string name="the_striking_disaster">ভীতিপ্ৰদ মহাবিপদ</string>
+    <string name="what_is_the_striking_disaster">ভীতিপ্ৰদ মহাবিপদ কী?</string>
+    <string name="and_what_will_make_you_realize_what_the_striking_disaster_is">আর ভীতিপ্ৰদ মহাবিপদ সম্পর্কে আপনাকে কীসে জানাবে?</string>
+    <string name="it_is_the_day_people_will_be_like_scattered_moths">সেদিন মানুষ হবে বিক্ষিপ্ত পতঙ্গের মতো</string>
+    <string name="and_the_mountains_will_be_like_carded_wool">আর পর্বতসমূহ হবে ধুনিত রঙিন পশমের মতো।</string>
+    <string name="so_as_for_those_whose_scale_is_heavy_with_good_deeds">অতঃপর যার পাল্লাসমূহ ভারী হবে</string>
+    <string name="they_will_be_in_a_life_of_bliss">সে তো থাকবে সন্তোষজনক জীবনে।</string>
+    <string name="and_as_for_those_whose_scale_is_light">আর যার পাল্লাসমূহ হালকা হবে</string>
+    <string name="their_home_will_be_the_abyss">তার স্থান হবে হাওয়িয়াহ</string>
+    <string name="and_what_will_make_you_realize_what_that_is">আর আপনাকে কীসে জানাবে সেটা কী?</string>
+    <string name="it_is_a_scorching_fire">অত্যন্ত উত্তপ্ত আগুন।</string>
+
+
+    <!--102-->
+    <string name="competition_for_more_gains_diverts_you_from_allah">তোমাদেরকে মোহাচ্ছন্ন রাখে প্রাচুর্যের প্রতিযোগিতা</string>
+    <string name="until_you_end_up_in_your_graves_1">যতক্ষণ না তোমরা কবরে উপনীত হও।</string>
+    <string name="but_no_you_will_soon_come_to_know">কখনো নয়, তোমরা শীঘ্রই জানতে পারবে</string>
+    <string name="again_no_you_will_soon_come_to_know">তারপর, কখনো নয়, তোমরা শীঘ্রই জানতে পারবে;</string>
+    <string name="indeed_if_you_were_to_know_your_fate_with_certainty_you_would_have_acted_differently">কখনো নয়! যদি তোমরা নিশ্চিত জ্ঞানে জ্ঞানী হতে—</string>
+    <string name="but_you_will_surely_see_the_hellfire">অবশ্যই তোমরা জাহান্নাম দেখবে;</string>
+    <string name="again_you_will_surely_see_it_with_the_eye_of_certainty">তারপর অবশ্যই তোমরা তা দেখবে চাক্ষুষ প্রত্যয়ে</string>
+    <string name="then_on_that_day_you_will_definitely_be_questioned_about_your_worldly_pleasures"> তারপর অবশ্যই সেদিন তোমাদেরকে নিয়ামত সম্পর্কে প্রশ্ন করা হবে।</string>
+
+
+    <!--103-->
+    <string name="by_the_passage_of_time">সময়ের শপথ</string>
+    <string name="surely_humanity_is_in_grave_loss">নিশ্চয় মানুষ ক্ষতির মাঝে নিপতিত</string>
+    <string name="except_those_who_have_faith_do_good_and_urge_each_other_to_the_truth_and_urge_each_other_to_perseverance">কিন্তু তারা নয়, যারা ইমান এনেছে এবং সৎ কাজ করেছে আর পরস্পরকে উপদেশ দিয়েছে হকের এবং উপদেশ দিয়েছে ধৈর্যের।</string>
+
+
+    <!--104-->
+    <string name="woe_to_every_backbiter_slanderer">দুর্ভোগ প্রত্যেকের, যে পিছনে ও সামনে লোকের নিন্দা করে</string>
+    <string name="who_amasses_wealth_greedily_and_counts_it_repeatedly">যে সম্পদ জমায় ও তা বার বার গণনা করে</string>
+    <string name="thinking_that_their_wealth_will_make_them_immortal">সে ধারণা করে যে, তার অর্থ তাকে অমর করে রাখবে</string>
+    <string name="not_at_all_such_a_person_will_certainly_be_tossed_into_the_crusher">কখনো না, সে অবশ্যই নিক্ষিপ্ত হবে হুতামায়</string>
+    <string name="and_what_will_make_you_realize_what_the_crusher_is">আর আপনাকে কীসে জানাবে হুতামা কী?</string>
+    <string name="it_is_allah_s_kindled_fire">এটা আল্লাহর প্রজ্বলিত আগুন</string>
+    <string name="which_rages_over_the_hearts">যা হৃদয়কে গ্ৰাস করবে;</string>
+    <string name="it_will_be_sealed_over_them">নিশ্চয় এটা তাদেরকে পরিবেষ্টন করে রাখবে।</string>
+    <string name="tightly_secured_with_long_braces">দীর্ঘায়িত স্তম্ভসমূহে।</string>
+
+
+    <!--105-->
+    <string name="have_you_not_seen_o_prophet_how_your_lord_dealt_with_the_army_of_the_elephant"> আপনি কি দেখেননি আপনার রব হাতির অধিপতিদের প্রতি কী করেছিলেন?</string>
+    <string name="did_he_not_frustrate_their_scheme">তিনি কি তাদের কৌশল ব্যর্থতায় পর্যবসিত করে দেননি?</string>
+    <string name="for_he_sent_against_them_flocks_of_birds">আর তাদের বিরুদ্ধে তিনি ঝাঁকে ঝাঁকে পাখি পাঠান</string>
+    <string name="that_pelted_them_with_stones_of_baked_clay">যারা তাদের ওপর শক্ত পোড়ামাটির কঙ্কর নিক্ষেপ করে।</string>
+    <string name="leaving_them_like_chewed_up_straw">অতঃপর তিনি তাদেরকে ভক্ষিত তৃণসদৃশ করেন।</string>
+
+
+    <!--106-->
+    <string name="at_least_for_the_favour_of_making_quraysh_habitually_secure">কুরাইশের আসক্তির কারণে,</string>
+    <string name="secure_in_their_trading_caravan_to_yemen_in_the_winter_and_syria_in_the_summer"> তাদের আসক্তি আছে শীত ও গ্ৰীষ্মে সফরের</string>
+    <string name="let_them_worship_the_lord_of_this_sacred_house">অতএব, তারা ইবাদাত করুক এ ঘরের রবের</string>
+    <string name="who_has_fed_them_against_hunger_and_made_them_secure_against_fear">যিনি তাদেরকে ক্ষুধায় খাদ্য দিয়েছেন এবং ভীতি থেকে তাদেরকে নিরাপদ করেছেন।</string>
+
+
+    <!--107-->
+    <string name="have_you_seen_the_one_who_denies_the_final_judgment">আপনি কি দেখেছেন তাকে, যে দ্বিনকে অস্বীকার করে?</string>
+    <string name="that_is_the_one_who_repulses_the_orphan">সে তো সে-ই, যে এতিমকে রূঢ়ভাবে তাড়িয়ে দেয়।</string>
+    <string name="and_does_not_encourage_the_feeding_of_the_poor">আর সে উদ্বুদ্ধ করে না মিসকিনদের খাদ্যদানে।</string>
+    <string name="so_woe_to_those_hypocrites_who_pray"> কাজেই দুর্ভোগ সে সালাত আদায়কারীদের,</string>
+    <string name="yet_are_unmindful_of_their_prayers">যারা তাদের সালাত সম্বন্ধে উদাসীন,</string>
+    <string name="those_who_only_show_off">যারা লোক দেখানোর জন্য তা করে,</string>
+    <string name="and_refuse_to_give_even_the_simplest_aid">এবং গৃহস্থালীর প্রয়োজনীয় ছোটখাট সাহায্য দানে বিরত থাকে।</string>
+
+
+    <!--108-->
+    <string name="indeed_we_have_granted_you_o_prophet_abundant_goodness">নিশ্চয় আমরা আপনাকে কাউসার দান করেছি।</string>
+    <string name="so_pray_and_sacrifice_to_your_lord_alone">কাজেই আপনি আপনার রবের উদ্দেশ্যে সালাত আদায় করুন এবং কুরবানি করুন।</string>
+    <string name="only_the_one_who_hates_you_is_truly_cut_off_from_any_goodness">নিশ্চয় আপনার প্রতি বিদ্বেষ পোষণকারীই তো নির্বংশ।</string>
+
+
+    <!--109-->
+    <string name="say_o_prophet_o_you_disbelievers">বলুন, হে কাফিররা,</string>
+    <string name="i_do_not_worship_what_you_worship">আমি তার ইবাদাত করি না যার ইবাদাত তোমরা করো,</string>
+    <string name="nor_do_you_worship_what_i_worship">এবং তোমরাও তাঁর ইবাদতকারী নও যাঁর ইবাদত আমি করি,</string>
+    <string name="i_will_never_worship_what_you_worship">এবং আমি ইবাদতকারী নই তার যার ইবাদাত তোমরা করে আসছ।</string>
+    <string name="nor_will_you_ever_worship_what_i_worship">এবং তোমরাও তাঁর ইবাদতকারী হবে না যাঁর ইবাদত আমি করি,</string>
+    <string name="you_have_your_way_and_i_have_my_way">তোমাদের দ্বিন তোমাদের, আর আমার দ্বিন আমার।</string>
+
+
+    <!--110-->
+    <string name="when_allah_s_ultimate_help_comes_and_the_victory_over_mecca_is_achieved">যখন আসবে আল্লাহর সাহায্য ও বিজয়</string>
+    <string name="and_you_o_prophet_see_the_people_embracing_allah_s_way_in_crowds">আর আপনি মানুষকে দলে দলে আল্লাহর দ্বিনে প্রবেশ করতে দেখবেন,</string>
+    <string name="then_glorify_the_praises_of_your_lord_and_seek_his_forgiveness_for_certainly_he_is_ever_accepting_of_repentance">তখন আপনি আপনার রবের প্ৰশংসাসহ তাঁর পবিত্রতা ও মহিমা ঘোষণা করুন এবং তাঁর কাছে ক্ষমা প্রার্থনা করুন; নিশ্চয় তিনি তাওবা কবুলকারী।</string>
+
+
+    <!--111-->
+    <string name="may_the_hands_of_abu_lahab_perish_and_he_himself_perish">ধ্বংস হোক আবু লাহাবের দুহাত এবং ধ্বংস হয়েছে সে নিজেও।</string>
+    <string name="neither_his_wealth_nor_worldly_gains_will_benefit_him">তার ধন-সম্পদ ও তার উপার্জন তার কোনো কাজে আসেনি।</string>
+    <string name="he_will_burn_in_a_flaming_fire">অচিরে সে দগ্ধ হবে লেলিহান আগুনে,</string>
+    <string name="and_so_will_his_wife_the_carrier_of_thorny_kindling_1">আর তার স্ত্রীও; যে ইন্ধন বহন করে,</string>
+    <string name="around_her_neck_will_be_a_rope_of_palm_fibre_1">তার গলায় খেজুর আঁশের পাকানো রশি।</string>
+
+
+    <!--112-->
+    <string name="say_o_prophet_he_is_allah_one_and_indivisible">বলুন, তিনি আল্লাহ, এক-অদ্বিতীয়,</string>
+    <string name="allah_the_sustainer_needed_by_all"> তিনি কারো মুখাপেক্ষী নন, সকলেই তাঁর মুখাপেক্ষী;</string>
+    <string name="he_has_never_had_offspring_nor_was_he_born">তিনি কাউকে জন্ম দেননি এবং তাঁকেও জন্ম দেয়া হয়নি,</string>
+    <string name="and_there_is_none_comparable_to_him">এবং তাঁর সমতুল্য কেউই নেই।</string>
+
+
+    <!--113-->
+    <string name="say_o_prophet_he_is_allah_one_and_indivisible_113">বলুন, আমি আশ্রয় প্রার্থনা করছি ঊষার রবের</string>
+    <string name="from_the_evil_of_whatever_he_has_created">তিনি যা সৃষ্টি করেছেন তার অনিষ্ট হতে,</string>
+    <string name="and_from_the_evil_of_the_night_when_it_grows_dark">আর অনিষ্ট হতে রাতের অন্ধকারের, যখন তা গভীর হয়,</string>
+    <string name="and_from_the_evil_of_those_witches_casting_spells_by_blowing_onto_knots">আর অনিষ্ট হতে সমস্ত নারীদের, যারা গিরায় ফুঁ দেয়,</string>
+    <string name="and_from_the_evil_of_an_envier_when_they_envy">আর অনিষ্ট হতে হিংসুকের, যখন সে হিংসা করে।</string>
+
+
+    <!--114-->
+    <string name="say_o_prophet_i_seek_refuge_in_the_lord_of_humankind">বলুন, আমি আশ্রয় প্রার্থনা করছি মানুষের রবের,</string>
+    <string name="the_master_of_humankind">মানুষের অধিপতির,</string>
+    <string name="the_god_of_humankind">মানুষের ইলাহের কাছে,</string>
+    <string name="from_the_evil_of_the_lurking_whisperer">আত্মগোপনকারী কুমন্ত্রণাদাতার অনিষ্ট হতে,</string>
+    <string name="who_whispers_into_the_hearts_of_humankind">যে কুমন্ত্রণা দেয় মানুষের অন্তরে,</string>
+    <string name="from_among_jinn_and_humankind">জিনের এবং মানুষের মধ্য থেকে।</string>
+
+
+    <string name="qibla_compass">কিবলা কম্পাস</string>
+    <string name="notificaiton">নোটিফিকেশন</string>
+    <string name="ON">চালু করুন</string>
+    <string name="OFF">বন্ধ করুন</string>
+    <string name="dua_">দুআ</string>
+    <string name="quran_">কুরআন</string>
+    <string name="facing_qibla_message">এখন আপনি কিবলামুখি</string>
+    <string name="the_quarn_juz_30">কুরআন [ত্রিশতম পারা]</string>
+    <string name="no_connection">ইন্টারনেট নেই</string>
+    <string name="check_your_internet_connection">ইন্টারনেট চালু করুন</string>
+    <string name="please_enter_a_city_name">অন্তত একটি শহরের নাম দিন</string>
+    <string name="loading">একটু অপেক্ষা করুন…</string>
+    <string name="prayer_time_template">%s ওয়াক্ত %s বাকি</string>
+
+    <string name="press_back_again_to_exit">বের হবার জন্য আবার চাপুন</string>
+    <string name="dhuha">দুহা</string>
+    <string name="forbidden_time_sunrise">নিষিদ্ধ সময় (সূর্যোদয়)</string>
+    <string name="forbidden_time_zawaal">নিষিদ্ধ সময় (জাওয়াল)</string>
+    <string name="forbidden_time_sunset">নিষিদ্ধ সময় (সূর্যাস্ত)</string>
+    <string name="notification_text_template">%1$s ওয়াক্ত %2$s %3$s বাকি (আনুমানিক)</string>
+
+</resources>
+
